@@ -18,6 +18,17 @@ function showSnackbar(text) {
   }, 2000);
 }
 
+function loadTx(address, txHash, network) {
+	var provierNetwork = 'homestead'
+	if (network) {
+		providerNetwork = network
+	}
+	const provider = ethers.getDefaultProvider(network)
+	provider.getTransaction(txHash).then((tx) => {
+		console.log(tx)
+	})
+}
+
 
 function onMetaMaskConnected(account) {
 	console.log("Connected to MetaMask", account)
@@ -54,11 +65,25 @@ function onClickMetaMask() {
 }
 
 function showResult(txObj) {
-	var networkName = ""
+	var networkName = null
 	if (txObj.chainId !== 1) {
 		networkName = ethers.providers.getNetwork(txObj.chainId).name
 	}
-	const etherScanUrl = `https://${networkName}.etherscan.io/tx/${txObj.hash}`
+
+	const receiver = $('#input-eth-address').val()
+	var shareUrl = `./result.html?a=${receiver}&t=${txObj.hash}`
+	if (networkName) {
+		shareUrl = shareUrl + `&n=${networkName}`
+	}
+	$('#result-share-link').attr({
+		href: shareUrl
+	})
+
+	var etherScanUrl = `https://etherscan.io/tx/${txObj.hash}`
+	if (networkName) {
+		etherScanUrl = `https://${networkName}.etherscan.io/tx/${txObj.hash}`	
+	}
+
 	$('#result-etherscan-link').attr({
 		href: etherScanUrl
 	})
