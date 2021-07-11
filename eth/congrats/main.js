@@ -53,6 +53,18 @@ function onClickMetaMask() {
 	})
 }
 
+function showResult(txObj) {
+	var networkName = ""
+	if (txObj.chainId !== 1) {
+		networkName = ethers.providers.getNetwork(txObj.chainId).name
+	}
+	const etherScanUrl = `https://${networkName}.etherscan.io/tx/${txObj.hash}`
+	$('#result-etherscan-link').attr({
+		href: etherScanUrl
+	})
+	$('#result-modal').modal('show')
+}
+
 async function sendCongrats(provider, sender, receiver, message, ether) {
 	const tx = {}
 	tx.from = sender
@@ -68,6 +80,7 @@ async function sendCongrats(provider, sender, receiver, message, ether) {
 	signer.sendTransaction(tx)
 	.then((txObj) => {
 		console.log(txObj)
+		showResult(txObj)
 	})
 
 }
