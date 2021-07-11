@@ -90,12 +90,12 @@ async function onClickSend() {
 		return
 	}
 
-	const receiver = $('#input-eth-address').val()
+	var receiver = $('#input-eth-address').val()
 
 	if (!ethers.utils.isAddress(receiver)) {
-		const address = await provider.getSigner().resolveName(receiver)
-		if (!ethers.utils.isAddress(address)) {
-			alert("Enter valid ether address")
+		receiver = await provider.getSigner().resolveName(receiver)
+		if (!ethers.utils.isAddress(receiver)) {
+			alert("Enter valid ETH address")
 			return
 		}
 	}
@@ -103,12 +103,12 @@ async function onClickSend() {
 	const message = $('#input-message').val()
 	const ether = $('#input-eth-val').val()
 
-	try {
-		sendCongrats(provider, sender, receiver, message, ether)
-	} catch (e) {
-		console.log(e)
-		alert(e.message)
+	if (isNaN(ether)) {
+		alert("Enter valid ETH value")
+		return
 	}
+
+	sendCongrats(provider, sender, receiver, message, ether)
 }
 
 function registerEthereumEvents() {
@@ -125,6 +125,12 @@ function registerEthereumEvents() {
 
 $(()=> {
 	console.log("on loaded")
+
+	const address = getUrlParam('a')
+	if (address) {
+		$('#input-eth-address').val(address)
+	}
+
 	if(!window.ethereum) {
 		return
 	}
