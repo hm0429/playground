@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>congra.eth</title>
+  <!-- jQuery -->
+  <script src="jquery-3.6.0.min.js"></script>
+  <!-- Bootstrap -->
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <script src="bootstrap.min.js"></script>  
+  <script src="popper.min.js"></script>  
+  <!-- ethers -->
+  <script src="ethers-5.1.umd.min.js"></script>
+  <!-- main -->
+  <link href="main.css" rel="stylesheet">
+  <script src="main.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-pink">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">congra.eth</a>
+    </div>
+  </nav>
+
+  <div class="container-sm">
+    <div class="row justify-content-md-center">
+      <div class="col-sm-6">
+        <p class="mt-3">congra.eth - (Probably) the easiest way to send congrats via the Ethereum network.</p>
+        <div class="card">
+          <div class="card-header bg-pink">
+            Send congrats
+          </div>
+          <div class="card-body">
+            <div id="main">
+              <div class="mt-3">
+                <label for="input-eth-address" class="form-label">Receiver ETH address</label>
+                <input type="text" class="form-control" id="input-eth-address" placeholder="0x">
+              </div>
+
+              <div class="mt-3">
+                <label for="input-message" class="form-label">Congratulatory message</label>
+                <input type="text" class="form-control" id="input-message" placeholder="Congrats!">
+              </div>
+
+              <div class="mt-3">
+                <label for="input-eth-val" class="form-label">Gift ether</label>
+                <div class="input-group mb-3">
+                  <input type="number" class="form-control" id="input-eth-val" placeholder="0.042">
+                  <span class="input-group-text">ETH</span>
+                </div>
+              </div>
+
+              <div id="container-metamask" class="mt-3">
+                <p>Connect to MetaMask to send message and ether.</p>
+                <div class="d-grid gap-2">
+                  <button class="btn btn-info" type="button" onclick="onClickMetaMask()">Connect to MetaMask</button>
+                </div>
+              </div>
+
+              <div class="mt-3 d-grid gap-2">
+                <button id="button-send" class="btn btn-outline-info" type="button" onclick="onClickSend()">Send</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div class="fixed-bottom">
+    <p class="d-flex justify-content-center mb-3">
+      Donations to&nbsp;<a href="?a=congra.eth">congra.eth</a>&nbsp;are welcome!
+    </p>
+  </div>
+
+  <div class="modal" id="result-modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-pink">
+          <h5 class="modal-title">Transaction has been sent.</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="result-modal-body">
+          <p><a id="result-share-link" target="_blank">Share tx result with your friends</a></p>
+          <p><a id="result-etherscan-link" target="_blank">See tx details on etherscan.io</a></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
