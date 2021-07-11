@@ -3,10 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>eth congrats</title>
+  <title>ETH congrats</title>
+  <!-- jQuery -->
+  <script src="jquery-3.6.0.min.js"></script>
   <!-- Bootstrap -->
   <link href="bootstrap.min.css" rel="stylesheet">
   <script src="bootstrap.min.js"></script>  
+  <script src="popper.min.js"></script>  
   <!-- ethers -->
   <script src="ethers-5.1.umd.min.js"></script>
   <!-- main -->
@@ -22,25 +25,34 @@
 
   <div class="container-md">
 
-    <div class="mt-3">
-      <label for="input-eth-address" class="form-label">Receiver ETH address</label>
-      <input type="text" class="form-control" id="input-eth-address" placeholder="0x">
+    <div class="mt-3 d-grid gap-2">
+      <p id="connect-metamask">Connect to MetaMask to send message and ether.</p>
+      <button id="button-metamask" class="btn btn-primary" type="button" onclick="onClickMetaMask()">Connect to MetaMask</button>
     </div>
 
-    <div class="mt-3">
-      <label for="input-message" class="form-label">Congratulatory message</label>
-      <input type="text" class="form-control" id="input-message" placeholder="Congrats!">
-    </div>
+    <div id="main">
+      <div class="mt-3">
+        <label for="input-eth-address" class="form-label">Receiver ETH address</label>
+        <input type="text" class="form-control" id="input-eth-address" placeholder="0x">
+      </div>
 
-    <div class="mt-3">
-      <label for="input-eth-val" class="form-label">Gift ether</label>
-      
-      <div class="input-group mb-3">
-        <input type="text" class="form-control" id="input-eth-val" placeholder="0.042">
-        <span class="input-group-text">ETH</span>
+      <div class="mt-3">
+        <label for="input-message" class="form-label">Congratulatory message</label>
+        <input type="text" class="form-control" id="input-message" placeholder="Congrats!">
+      </div>
+
+      <div class="mt-3">
+        <label for="input-eth-val" class="form-label">Gift ether</label>
+        <div class="input-group mb-3">
+          <input type="number" class="form-control" id="input-eth-val" placeholder="0.042">
+          <span class="input-group-text">ETH</span>
+        </div>
+      </div>
+
+      <div class="mt-3 d-grid gap-2">
+        <button id="button-send" class="btn btn-outline-primary" type="button" onclick="onClickSend()">Send</button>
       </div>
     </div>
-
   </div>
 
 </body>
