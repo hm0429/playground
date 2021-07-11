@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>ETH congrats</title>
+  <title>congra.eth</title>
   <!-- jQuery -->
   <script src="jquery-3.6.0.min.js"></script>
   <!-- Bootstrap -->
@@ -19,18 +19,13 @@
 <body>
   <nav class="navbar navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">ETH Congrats</a>
+      <a class="navbar-brand" href="#">congra.eth</a>
     </div>
   </nav>
 
   <div class="container-md">
 
-    <p class="mt-3">(Probably) the easiest way to send congrats on the Ethereum network.</p>
-
-    <div class="mt-3 d-grid gap-2">
-      <p id="connect-metamask">Connect to MetaMask to send message and ether.</p>
-      <button id="button-metamask" class="btn btn-primary" type="button" onclick="onClickMetaMask()">Connect to MetaMask</button>
-    </div>
+    <p class="mt-3">(Probably) the easiest way to send congrats via the Ethereum network.</p>
 
     <div id="main">
       <div class="mt-3">
@@ -51,11 +46,42 @@
         </div>
       </div>
 
+      <div id="container-metamask" class="mt-3">
+        <p>Connect to MetaMask to send message and ether.</p>
+        <div class="d-grid gap-2">
+          <button class="btn btn-primary" type="button" onclick="onClickMetaMask()">Connect to MetaMask</button>
+        </div>
+      </div>
+
       <div class="mt-3 d-grid gap-2">
         <button id="button-send" class="btn btn-outline-primary" type="button" onclick="onClickSend()">Send</button>
       </div>
     </div>
   </div>
+
+  <!-- footer -->
+  <div class="fixed-bottom">
+    <p class="d-flex justify-content-center mb-3">
+      Donations to&nbsp;<a href="?a=congra.eth">congra.eth</a>&nbsp;is welcome!
+    </p>
+  </div>
+
+  <div class="modal" id="result-modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Transaction has been sent.</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="result-modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
 </body>
 </html>

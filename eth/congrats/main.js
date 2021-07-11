@@ -21,17 +21,15 @@ function showSnackbar(text) {
 
 function onMetaMaskConnected(account) {
 	console.log("Connected to MetaMask", account)
-	$('#connect-metamask').hide()
-	$('#button-metamask').hide()
-	$('#main').show()
+	$('#container-metamask').hide()
+	$('#button-send').show()
 	showSnackbar("Connected to MetaMask")
 }
 
 function onMetaMaskDisconnected() {
 	console.log("Disconnected from MetaMask")
-	$('#connect-metamask').show()
-	$('#button-metamask').show()
-	$('#main').hide()
+	$('#container-metamask').show()
+	$('#button-send').hide()
 	showSnackbar("Disconnected from MetaMask")
 }
 
