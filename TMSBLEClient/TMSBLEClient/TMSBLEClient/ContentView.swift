@@ -162,6 +162,7 @@ struct ContentView: View {
     
     func deleteFiles(at offsets: IndexSet) {
         bleManager.audioFiles.remove(atOffsets: offsets)
+        bleManager.saveFiles()  // Persist changes after deletion
     }
 }
 

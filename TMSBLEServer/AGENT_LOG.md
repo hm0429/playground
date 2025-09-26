@@ -1117,3 +1117,4717 @@
 [2025-09-26T17:19:33.269Z] Notified STATUS: type=0x10, fileId=1758907171
 [2025-09-26T17:19:43.273Z] File added: 20250927021931.mp3 (ID: 1758907181)
 [2025-09-26T17:19:43.274Z] Notified STATUS: type=0x10, fileId=1758907181
+[2025-09-26T17:43:18.678Z] File added: 20250927024306.mp3 (ID: 1758908596)
+[2025-09-26T17:43:18.679Z] Notified STATUS: type=0x10, fileId=1758908596
+[2025-09-26T17:43:28.613Z] File added: 20250927024316.mp3 (ID: 1758908606)
+[2025-09-26T17:43:28.614Z] Notified STATUS: type=0x10, fileId=1758908606
+[2025-09-26T17:43:38.632Z] File added: 20250927024326.mp3 (ID: 1758908616)
+[2025-09-26T17:43:38.633Z] Notified STATUS: type=0x10, fileId=1758908616
+[2025-09-26T17:43:48.677Z] File added: 20250927024336.mp3 (ID: 1758908626)
+[2025-09-26T17:43:48.678Z] Notified STATUS: type=0x10, fileId=1758908626
+[2025-09-26T17:43:58.673Z] File added: 20250927024346.mp3 (ID: 1758908636)
+[2025-09-26T17:43:58.673Z] Notified STATUS: type=0x10, fileId=1758908636
+[2025-09-26T17:44:08.685Z] File added: 20250927024356.mp3 (ID: 1758908646)
+[2025-09-26T17:44:08.686Z] Notified STATUS: type=0x10, fileId=1758908646
+[2025-09-26T17:44:18.686Z] File added: 20250927024406.mp3 (ID: 1758908656)
+[2025-09-26T17:44:18.686Z] Notified STATUS: type=0x10, fileId=1758908656
+[2025-09-26T17:44:28.685Z] File added: 20250927024416.mp3 (ID: 1758908666)
+[2025-09-26T17:44:28.686Z] Notified STATUS: type=0x10, fileId=1758908666
+[2025-09-26T17:44:38.692Z] File added: 20250927024426.mp3 (ID: 1758908676)
+[2025-09-26T17:44:38.692Z] Notified STATUS: type=0x10, fileId=1758908676
+[2025-09-26T17:44:48.661Z] File added: 20250927024436.mp3 (ID: 1758908686)
+[2025-09-26T17:44:48.662Z] Notified STATUS: type=0x10, fileId=1758908686
+[2025-09-26T17:44:58.671Z] File added: 20250927024446.mp3 (ID: 1758908696)
+[2025-09-26T17:44:58.672Z] Notified STATUS: type=0x10, fileId=1758908696
+[2025-09-26T17:45:08.685Z] File added: 20250927024456.mp3 (ID: 1758908706)
+[2025-09-26T17:45:08.688Z] Notified STATUS: type=0x10, fileId=1758908706
+[2025-09-26T17:45:09.657Z] Central unsubscribed from STATUS notifications
+[2025-09-26T17:45:09.658Z] Central unsubscribed from DATA_TRANSFER notifications
+[2025-09-26T17:45:18.683Z] File added: 20250927024506.mp3 (ID: 1758908716)
+[2025-09-26T17:45:28.692Z] File added: 20250927024516.mp3 (ID: 1758908726)
+[2025-09-26T17:45:38.685Z] File added: 20250927024526.mp3 (ID: 1758908736)
+[2025-09-26T17:45:48.691Z] File added: 20250927024536.mp3 (ID: 1758908746)
+[2025-09-26T17:45:58.688Z] File added: 20250927024546.mp3 (ID: 1758908756)
+[2025-09-26T17:46:03.200Z] Central subscribed to STATUS notifications
+[2025-09-26T17:46:03.319Z] Central subscribed to DATA_TRANSFER notifications
+[2025-09-26T17:46:04.429Z] Received CONTROL command: 0x2, ID: 0, SEQ: 0
+[2025-09-26T17:46:04.430Z] Auto transfer mode enabled
+[2025-09-26T17:46:04.430Z] Auto-transferring file: 1758907221
+[2025-09-26T17:46:04.431Z] Starting transfer: fileId=1758907221, size=133100, chunks=267
+[2025-09-26T17:46:04.482Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:46:04.694Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:46:04.902Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:46:05.114Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:46:05.326Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:46:05.537Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:46:05.748Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:46:05.959Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:46:06.170Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:46:06.383Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:46:06.594Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:46:06.805Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:46:07.017Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:46:07.228Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:46:07.440Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:46:07.650Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:46:07.859Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:46:08.072Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:46:08.284Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:46:08.494Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:46:08.578Z] File added: 20250927024556.mp3 (ID: 1758908766)
+[2025-09-26T17:46:08.578Z] Notified STATUS: type=0x10, fileId=1758908766
+[2025-09-26T17:46:08.704Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:46:08.916Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:46:09.127Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:46:09.337Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:46:09.549Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:46:09.760Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:46:09.972Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:46:10.120Z] Transfer completed: fileId=1758907221
+[2025-09-26T17:46:10.120Z] Transfer successful: 1758907221
+[2025-09-26T17:46:10.191Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:46:10.193Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927022011.mp3
+[2025-09-26T17:46:10.193Z] Notified STATUS: type=0x11, fileId=1758907221
+[2025-09-26T17:46:11.121Z] Auto-transferring file: 1758907231
+[2025-09-26T17:46:11.123Z] Starting transfer: fileId=1758907231, size=133100, chunks=267
+[2025-09-26T17:46:11.174Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:46:11.387Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:46:11.598Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:46:11.811Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:46:12.021Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:46:12.232Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:46:12.443Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:46:12.654Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:46:12.865Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:46:13.077Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:46:13.288Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:46:13.499Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:46:13.710Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:46:13.921Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:46:14.133Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:46:14.343Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:46:14.554Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:46:14.766Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:46:14.976Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:46:15.188Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:46:15.400Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:46:15.611Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:46:15.824Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:46:16.034Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:46:16.246Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:46:16.458Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:46:16.671Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:46:16.817Z] Transfer completed: fileId=1758907231
+[2025-09-26T17:46:16.817Z] Transfer successful: 1758907231
+[2025-09-26T17:46:17.181Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:46:17.181Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927022021.mp3
+[2025-09-26T17:46:17.182Z] Notified STATUS: type=0x11, fileId=1758907231
+[2025-09-26T17:46:17.818Z] Auto-transferring file: 1758907241
+[2025-09-26T17:46:17.819Z] Starting transfer: fileId=1758907241, size=133100, chunks=267
+[2025-09-26T17:46:17.869Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:46:18.081Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:46:18.292Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:46:18.504Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:46:18.590Z] File added: 20250927024606.mp3 (ID: 1758908776)
+[2025-09-26T17:46:18.590Z] Notified STATUS: type=0x10, fileId=1758908776
+[2025-09-26T17:46:18.714Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:46:18.924Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:46:19.136Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:46:19.347Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:46:19.557Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:46:19.764Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:46:19.975Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:46:20.186Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:46:20.396Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:46:20.608Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:46:20.820Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:46:21.033Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:46:21.244Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:46:21.457Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:46:21.668Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:46:21.879Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:46:22.089Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:46:22.300Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:46:22.512Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:46:22.721Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:46:22.933Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:46:23.144Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:46:23.354Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:46:23.502Z] Transfer completed: fileId=1758907241
+[2025-09-26T17:46:23.502Z] Transfer successful: 1758907241
+[2025-09-26T17:46:23.632Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:46:23.632Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927022031.mp3
+[2025-09-26T17:46:23.632Z] Notified STATUS: type=0x11, fileId=1758907241
+[2025-09-26T17:46:24.440Z] Received CONTROL command: 0x1, ID: 0, SEQ: 0
+[2025-09-26T17:46:24.440Z] File not found for ID: 1758907231
+[2025-09-26T17:46:24.504Z] Auto-transferring file: 1758907251
+[2025-09-26T17:46:24.505Z] Starting transfer: fileId=1758907251, size=133100, chunks=267
+[2025-09-26T17:46:24.557Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:46:24.766Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:46:24.976Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:46:25.076Z] Received CONTROL command: 0x1, ID: 0, SEQ: 0
+[2025-09-26T17:46:25.076Z] File not found for ID: 1758907241
+[2025-09-26T17:46:25.187Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:46:25.397Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:46:25.463Z] Received CONTROL command: 0x1, ID: 0, SEQ: 0
+[2025-09-26T17:46:25.463Z] File not found for ID: 1758907241
+[2025-09-26T17:46:25.609Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:46:25.821Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:46:25.884Z] Received CONTROL command: 0x1, ID: 0, SEQ: 0
+[2025-09-26T17:46:25.884Z] File not found for ID: 1758907241
+[2025-09-26T17:46:26.032Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:46:26.242Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:46:26.452Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:46:26.664Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:46:26.872Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:46:27.083Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:46:27.294Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:46:27.504Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:46:27.717Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:46:27.927Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:46:28.137Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:46:28.349Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:46:28.560Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:46:28.577Z] File added: 20250927024616.mp3 (ID: 1758908786)
+[2025-09-26T17:46:28.577Z] Notified STATUS: type=0x10, fileId=1758908786
+[2025-09-26T17:46:28.771Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:46:28.982Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:46:29.192Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:46:29.404Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:46:29.614Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:46:29.825Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:46:30.036Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:46:30.184Z] Transfer completed: fileId=1758907251
+[2025-09-26T17:46:30.184Z] Transfer successful: 1758907251
+[2025-09-26T17:46:30.441Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:46:30.442Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927022041.mp3
+[2025-09-26T17:46:30.442Z] Notified STATUS: type=0x11, fileId=1758907251
+[2025-09-26T17:46:31.186Z] Auto-transferring file: 1758907261
+[2025-09-26T17:46:31.187Z] Starting transfer: fileId=1758907261, size=133100, chunks=267
+[2025-09-26T17:46:31.238Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:46:31.448Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:46:31.660Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:46:31.873Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:46:32.085Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:46:32.297Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:46:32.508Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:46:32.721Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:46:32.933Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:46:33.143Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:46:33.353Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:46:33.563Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:46:33.772Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:46:33.982Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:46:34.193Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:46:34.404Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:46:34.616Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:46:34.826Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:46:35.037Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:46:35.248Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:46:35.362Z] Received CONTROL command: 0x3, ID: 0, SEQ: 0
+[2025-09-26T17:46:35.362Z] Auto transfer mode disabled
+[2025-09-26T17:46:35.460Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:46:35.668Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:46:35.879Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:46:36.090Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:46:36.301Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:46:36.513Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:46:36.723Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:46:36.869Z] Transfer completed: fileId=1758907261
+[2025-09-26T17:46:36.869Z] Transfer successful: 1758907261
+[2025-09-26T17:46:37.282Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:46:37.282Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927022051.mp3
+[2025-09-26T17:46:37.283Z] Notified STATUS: type=0x11, fileId=1758907261
+[2025-09-26T17:46:38.647Z] File added: 20250927024626.mp3 (ID: 1758908796)
+[2025-09-26T17:46:38.648Z] Notified STATUS: type=0x10, fileId=1758908796
+[2025-09-26T17:46:41.990Z] Central unsubscribed from STATUS notifications
+[2025-09-26T17:46:42.058Z] Central unsubscribed from DATA_TRANSFER notifications
+[2025-09-26T17:46:48.675Z] File added: 20250927024636.mp3 (ID: 1758908806)
+[2025-09-26T17:46:58.693Z] File added: 20250927024646.mp3 (ID: 1758908816)
+[2025-09-26T17:47:08.695Z] File added: 20250927024656.mp3 (ID: 1758908826)
+[2025-09-26T17:47:18.695Z] File added: 20250927024706.mp3 (ID: 1758908836)
+[2025-09-26T17:47:28.707Z] File added: 20250927024716.mp3 (ID: 1758908846)
+[2025-09-26T17:47:38.706Z] File added: 20250927024726.mp3 (ID: 1758908856)
+[2025-09-26T17:47:48.698Z] File added: 20250927024736.mp3 (ID: 1758908866)
+[2025-09-26T17:47:58.594Z] File added: 20250927024746.mp3 (ID: 1758908876)
+[2025-09-26T17:48:08.700Z] File added: 20250927024756.mp3 (ID: 1758908886)
+[2025-09-26T17:48:18.661Z] File added: 20250927024806.mp3 (ID: 1758908896)
+[2025-09-26T17:48:28.668Z] File added: 20250927024816.mp3 (ID: 1758908906)
+[2025-09-26T17:48:38.704Z] File added: 20250927024826.mp3 (ID: 1758908916)
+[2025-09-26T17:48:48.670Z] File added: 20250927024836.mp3 (ID: 1758908926)
+[2025-09-26T17:48:56.556Z] File added: 20250927024846.mp3 (ID: 1758908934)
+[2025-09-26T17:49:06.553Z] File added: 20250927024854.mp3 (ID: 1758908944)
+[2025-09-26T17:49:16.415Z] Central subscribed to STATUS notifications
+[2025-09-26T17:49:16.534Z] Central subscribed to DATA_TRANSFER notifications
+[2025-09-26T17:49:16.558Z] File added: 20250927024904.mp3 (ID: 1758908954)
+[2025-09-26T17:49:16.558Z] Notified STATUS: type=0x10, fileId=1758908954
+[2025-09-26T17:49:16.596Z] Received CONTROL command: 0x2, ID: 0, SEQ: 0
+[2025-09-26T17:49:16.596Z] Auto transfer mode enabled
+[2025-09-26T17:49:16.597Z] Auto-transferring file: 1758907271
+[2025-09-26T17:49:16.597Z] Starting transfer: fileId=1758907271, size=133100, chunks=267
+[2025-09-26T17:49:16.648Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:49:16.859Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:49:17.069Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:49:17.279Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:49:17.490Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:49:17.700Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:49:17.912Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:49:18.124Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:49:18.335Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:49:18.545Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:49:18.759Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:49:18.971Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:49:19.181Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:49:19.396Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:49:19.607Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:49:19.818Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:49:20.029Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:49:20.241Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:49:20.452Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:49:20.664Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:49:20.876Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:49:21.088Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:49:21.300Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:49:21.513Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:49:21.725Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:49:21.934Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:49:22.146Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:49:22.294Z] Transfer completed: fileId=1758907271
+[2025-09-26T17:49:22.294Z] Transfer successful: 1758907271
+[2025-09-26T17:49:22.595Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:49:22.595Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927022101.mp3
+[2025-09-26T17:49:22.595Z] Notified STATUS: type=0x11, fileId=1758907271
+[2025-09-26T17:49:23.296Z] Auto-transferring file: 1758907281
+[2025-09-26T17:49:23.296Z] Starting transfer: fileId=1758907281, size=133100, chunks=267
+[2025-09-26T17:49:23.348Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:49:23.559Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:49:23.771Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:49:23.983Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:49:24.194Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:49:24.406Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:49:24.616Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:49:24.828Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:49:25.040Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:49:25.252Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:49:25.463Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:49:25.673Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:49:25.882Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:49:26.094Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:49:26.305Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:49:26.517Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:49:26.537Z] File added: 20250927024914.mp3 (ID: 1758908964)
+[2025-09-26T17:49:26.537Z] Notified STATUS: type=0x10, fileId=1758908964
+[2025-09-26T17:49:26.728Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:49:26.940Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:49:27.152Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:49:27.365Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:49:27.575Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:49:27.784Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:49:27.994Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:49:28.206Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:49:28.418Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:49:28.630Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:49:28.842Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:49:28.990Z] Transfer completed: fileId=1758907281
+[2025-09-26T17:49:28.990Z] Transfer successful: 1758907281
+[2025-09-26T17:49:29.196Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:49:29.196Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927022111.mp3
+[2025-09-26T17:49:29.197Z] Notified STATUS: type=0x11, fileId=1758907281
+[2025-09-26T17:49:29.991Z] Auto-transferring file: 1758907291
+[2025-09-26T17:49:29.993Z] Starting transfer: fileId=1758907291, size=133100, chunks=267
+[2025-09-26T17:49:30.045Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:49:30.257Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:49:30.467Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:49:30.679Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:49:30.890Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:49:31.102Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:49:31.312Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:49:31.523Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:49:31.734Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:49:31.946Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:49:32.155Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:49:32.366Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:49:32.577Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:49:32.788Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:49:33.000Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:49:33.209Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:49:33.419Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:49:33.629Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:49:33.840Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:49:34.052Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:49:34.263Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:49:34.474Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:49:34.685Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:49:34.896Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:49:35.108Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:49:35.319Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:49:35.528Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:49:35.677Z] Transfer completed: fileId=1758907291
+[2025-09-26T17:49:35.677Z] Transfer successful: 1758907291
+[2025-09-26T17:49:36.216Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:49:36.217Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927022121.mp3
+[2025-09-26T17:49:36.217Z] Notified STATUS: type=0x11, fileId=1758907291
+[2025-09-26T17:49:36.451Z] File added: 20250927024924.mp3 (ID: 1758908974)
+[2025-09-26T17:49:36.451Z] Notified STATUS: type=0x10, fileId=1758908974
+[2025-09-26T17:49:36.678Z] Auto-transferring file: 1758907301
+[2025-09-26T17:49:36.678Z] Starting transfer: fileId=1758907301, size=133100, chunks=267
+[2025-09-26T17:49:36.730Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:49:36.940Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:49:37.151Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:49:37.361Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:49:37.452Z] Transfer already in progress for ID: 1758907301
+[2025-09-26T17:49:37.574Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:49:37.784Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:49:37.995Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:49:38.206Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:49:38.417Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:49:38.626Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:49:38.837Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:49:39.049Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:49:39.262Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:49:39.473Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:49:39.683Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:49:39.892Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:49:40.102Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:49:40.313Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:49:40.523Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:49:40.734Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:49:40.948Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:49:41.158Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:49:41.368Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:49:41.580Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:49:41.793Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:49:42.002Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:49:42.215Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:49:42.362Z] Transfer completed: fileId=1758907301
+[2025-09-26T17:49:42.362Z] Transfer successful: 1758907301
+[2025-09-26T17:49:43.364Z] Auto-transferring file: 1758907301
+[2025-09-26T17:49:43.365Z] Starting transfer: fileId=1758907301, size=133100, chunks=267
+[2025-09-26T17:49:43.415Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:49:43.627Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:49:43.839Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:49:44.050Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:49:44.261Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:49:44.472Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:49:44.683Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:49:44.894Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:49:45.105Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:49:45.316Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:49:45.526Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:49:45.735Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:49:45.945Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:49:46.155Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:49:46.368Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:49:46.449Z] File added: 20250927024934.mp3 (ID: 1758908984)
+[2025-09-26T17:49:46.449Z] Notified STATUS: type=0x10, fileId=1758908984
+[2025-09-26T17:49:46.577Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:49:46.790Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:49:46.999Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:49:47.210Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:49:47.420Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:49:47.634Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:49:47.846Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:49:48.056Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:49:48.266Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:49:48.478Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:49:48.690Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:49:48.902Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:49:49.050Z] Transfer completed: fileId=1758907301
+[2025-09-26T17:49:49.050Z] Transfer successful: 1758907301
+[2025-09-26T17:49:49.458Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:49:49.459Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927022131.mp3
+[2025-09-26T17:49:49.460Z] Notified STATUS: type=0x11, fileId=1758907301
+[2025-09-26T17:49:50.050Z] Auto-transferring file: 1758907311
+[2025-09-26T17:49:50.051Z] Starting transfer: fileId=1758907311, size=133100, chunks=267
+[2025-09-26T17:49:50.103Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:49:50.313Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:49:50.525Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:49:50.735Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:49:50.946Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:49:51.156Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:49:51.367Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:49:51.578Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:49:51.789Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:49:52.005Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:49:52.217Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:49:52.426Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:49:52.638Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:49:52.849Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:49:53.061Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:49:53.272Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:49:53.482Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:49:53.695Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:49:53.903Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:49:54.113Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:49:54.322Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:49:54.535Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:49:54.744Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:49:54.956Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:49:55.167Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:49:55.379Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:49:55.590Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:49:55.738Z] Transfer completed: fileId=1758907311
+[2025-09-26T17:49:55.738Z] Transfer successful: 1758907311
+[2025-09-26T17:49:55.966Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:49:55.967Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927022141.mp3
+[2025-09-26T17:49:55.967Z] Notified STATUS: type=0x11, fileId=1758907311
+[2025-09-26T17:49:56.556Z] File added: 20250927024944.mp3 (ID: 1758908994)
+[2025-09-26T17:49:56.556Z] Notified STATUS: type=0x10, fileId=1758908994
+[2025-09-26T17:49:56.740Z] Auto-transferring file: 1758907321
+[2025-09-26T17:49:56.740Z] Starting transfer: fileId=1758907321, size=133100, chunks=267
+[2025-09-26T17:49:56.792Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:49:57.003Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:49:57.214Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:49:57.426Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:49:57.558Z] Transfer already in progress for ID: 1758907321
+[2025-09-26T17:49:57.638Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:49:57.848Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:49:58.058Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:49:58.269Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:49:58.481Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:49:58.692Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:49:58.903Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:49:59.113Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:49:59.322Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:49:59.534Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:49:59.743Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:49:59.954Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:50:00.165Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:50:00.373Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:50:00.582Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:50:00.792Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:50:01.001Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:50:01.213Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:50:01.426Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:50:01.637Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:50:01.849Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:50:02.060Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:50:02.267Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:50:02.415Z] Transfer completed: fileId=1758907321
+[2025-09-26T17:50:02.415Z] Transfer successful: 1758907321
+[2025-09-26T17:50:02.688Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:50:02.689Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927022151.mp3
+[2025-09-26T17:50:02.689Z] Notified STATUS: type=0x11, fileId=1758907321
+[2025-09-26T17:50:03.415Z] Auto-transferring file: 1758907331
+[2025-09-26T17:50:03.415Z] Starting transfer: fileId=1758907331, size=133100, chunks=267
+[2025-09-26T17:50:03.467Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:50:03.677Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:50:03.888Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:50:04.099Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:50:04.310Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:50:04.521Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:50:04.731Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:50:04.941Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:50:05.152Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:50:05.362Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:50:05.574Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:50:05.786Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:50:05.999Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:50:06.210Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:50:06.423Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:50:06.545Z] File added: 20250927024954.mp3 (ID: 1758909004)
+[2025-09-26T17:50:06.545Z] Notified STATUS: type=0x10, fileId=1758909004
+[2025-09-26T17:50:06.634Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:50:06.851Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:50:07.062Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:50:07.272Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:50:07.483Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:50:07.694Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:50:07.905Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:50:08.115Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:50:08.326Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:50:08.537Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:50:08.748Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:50:08.959Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:50:09.106Z] Transfer completed: fileId=1758907331
+[2025-09-26T17:50:09.106Z] Transfer successful: 1758907331
+[2025-09-26T17:50:09.619Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:50:09.620Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927022201.mp3
+[2025-09-26T17:50:09.620Z] Notified STATUS: type=0x11, fileId=1758907331
+[2025-09-26T17:50:10.107Z] Auto-transferring file: 1758907341
+[2025-09-26T17:50:10.108Z] Starting transfer: fileId=1758907341, size=133100, chunks=267
+[2025-09-26T17:50:10.159Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:50:10.370Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:50:10.581Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:50:10.789Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:50:11.001Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:50:11.211Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:50:11.423Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:50:11.633Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:50:11.842Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:50:12.053Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:50:12.264Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:50:12.475Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:50:12.686Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:50:12.898Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:50:13.109Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:50:13.320Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:50:13.530Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:50:13.738Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:50:13.950Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:50:14.162Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:50:14.373Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:50:14.584Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:50:14.795Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:50:15.007Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:50:15.217Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:50:15.429Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:50:15.640Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:50:15.789Z] Transfer completed: fileId=1758907341
+[2025-09-26T17:50:15.789Z] Transfer successful: 1758907341
+[2025-09-26T17:50:16.219Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:50:16.219Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927022211.mp3
+[2025-09-26T17:50:16.219Z] Notified STATUS: type=0x11, fileId=1758907341
+[2025-09-26T17:50:16.499Z] File added: 20250927025004.mp3 (ID: 1758909014)
+[2025-09-26T17:50:16.499Z] Notified STATUS: type=0x10, fileId=1758909014
+[2025-09-26T17:50:16.790Z] Auto-transferring file: 1758907351
+[2025-09-26T17:50:16.790Z] Starting transfer: fileId=1758907351, size=133100, chunks=267
+[2025-09-26T17:50:16.842Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:50:17.051Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:50:17.263Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:50:17.475Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:50:17.500Z] Transfer already in progress for ID: 1758907351
+[2025-09-26T17:50:17.687Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:50:17.899Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:50:18.111Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:50:18.322Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:50:18.533Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:50:18.744Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:50:18.953Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:50:19.165Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:50:19.376Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:50:19.587Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:50:19.798Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:50:20.008Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:50:20.219Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:50:20.429Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:50:20.641Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:50:20.851Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:50:21.062Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:50:21.273Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:50:21.485Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:50:21.697Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:50:21.909Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:50:22.120Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:50:22.332Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:50:22.478Z] Transfer completed: fileId=1758907351
+[2025-09-26T17:50:22.479Z] Transfer successful: 1758907351
+[2025-09-26T17:50:22.849Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:50:22.850Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927022221.mp3
+[2025-09-26T17:50:22.850Z] Notified STATUS: type=0x11, fileId=1758907351
+[2025-09-26T17:50:23.480Z] Auto-transferring file: 1758907361
+[2025-09-26T17:50:23.480Z] Starting transfer: fileId=1758907361, size=133100, chunks=267
+[2025-09-26T17:50:23.531Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:50:23.741Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:50:23.951Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:50:24.163Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:50:24.375Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:50:24.585Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:50:24.797Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:50:25.008Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:50:25.220Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:50:25.432Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:50:25.642Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:50:25.853Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:50:26.064Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:50:26.275Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:50:26.485Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:50:26.507Z] File added: 20250927025014.mp3 (ID: 1758909024)
+[2025-09-26T17:50:26.507Z] Notified STATUS: type=0x10, fileId=1758909024
+[2025-09-26T17:50:26.697Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:50:26.910Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:50:27.121Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:50:27.334Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:50:27.546Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:50:27.757Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:50:27.969Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:50:28.180Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:50:28.391Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:50:28.605Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:50:28.816Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:50:29.028Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:50:29.175Z] Transfer completed: fileId=1758907361
+[2025-09-26T17:50:29.175Z] Transfer successful: 1758907361
+[2025-09-26T17:50:29.299Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:50:29.299Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927022231.mp3
+[2025-09-26T17:50:29.300Z] Notified STATUS: type=0x11, fileId=1758907361
+[2025-09-26T17:50:30.177Z] Auto-transferring file: 1758907371
+[2025-09-26T17:50:30.178Z] Starting transfer: fileId=1758907371, size=133100, chunks=267
+[2025-09-26T17:50:30.230Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:50:30.443Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:50:30.654Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:50:30.864Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:50:31.073Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:50:31.283Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:50:31.495Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:50:31.707Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:50:31.915Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:50:32.124Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:50:32.335Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:50:32.546Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:50:32.759Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:50:32.970Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:50:33.181Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:50:33.392Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:50:33.602Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:50:33.811Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:50:34.024Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:50:34.235Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:50:34.447Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:50:34.658Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:50:34.870Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:50:35.083Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:50:35.294Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:50:35.507Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:50:35.719Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:50:35.867Z] Transfer completed: fileId=1758907371
+[2025-09-26T17:50:35.867Z] Transfer successful: 1758907371
+[2025-09-26T17:50:35.929Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:50:35.932Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927022241.mp3
+[2025-09-26T17:50:35.933Z] Notified STATUS: type=0x11, fileId=1758907371
+[2025-09-26T17:50:36.552Z] File added: 20250927025024.mp3 (ID: 1758909034)
+[2025-09-26T17:50:36.552Z] Notified STATUS: type=0x10, fileId=1758909034
+[2025-09-26T17:50:36.869Z] Auto-transferring file: 1758907381
+[2025-09-26T17:50:36.869Z] Starting transfer: fileId=1758907381, size=133100, chunks=267
+[2025-09-26T17:50:36.921Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:50:37.130Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:50:37.343Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:50:37.553Z] Transfer already in progress for ID: 1758907381
+[2025-09-26T17:50:37.554Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:50:37.765Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:50:37.976Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:50:38.187Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:50:38.398Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:50:38.610Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:50:38.819Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:50:39.031Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:50:39.242Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:50:39.454Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:50:39.666Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:50:39.875Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:50:40.085Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:50:40.296Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:50:40.508Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:50:40.720Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:50:40.931Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:50:41.142Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:50:41.353Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:50:41.563Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:50:41.774Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:50:41.984Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:50:42.195Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:50:42.405Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:50:42.553Z] Transfer completed: fileId=1758907381
+[2025-09-26T17:50:42.553Z] Transfer successful: 1758907381
+[2025-09-26T17:50:42.679Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:50:42.680Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927022251.mp3
+[2025-09-26T17:50:42.680Z] Notified STATUS: type=0x11, fileId=1758907381
+[2025-09-26T17:50:43.554Z] Auto-transferring file: 1758907391
+[2025-09-26T17:50:43.554Z] Starting transfer: fileId=1758907391, size=133100, chunks=267
+[2025-09-26T17:50:43.605Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:50:43.817Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:50:44.030Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:50:44.243Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:50:44.455Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:50:44.667Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:50:44.878Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:50:45.089Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:50:45.301Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:50:45.512Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:50:45.722Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:50:45.934Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:50:46.145Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:50:46.356Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:50:46.558Z] File added: 20250927025034.mp3 (ID: 1758909044)
+[2025-09-26T17:50:46.558Z] Notified STATUS: type=0x10, fileId=1758909044
+[2025-09-26T17:50:46.567Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:50:46.779Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:50:46.991Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:50:47.205Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:50:47.417Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:50:47.627Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:50:47.838Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:50:48.049Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:50:48.260Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:50:48.471Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:50:48.684Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:50:48.895Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:50:49.102Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:50:49.250Z] Transfer completed: fileId=1758907391
+[2025-09-26T17:50:49.251Z] Transfer successful: 1758907391
+[2025-09-26T17:50:49.279Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:50:49.279Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927022301.mp3
+[2025-09-26T17:50:49.279Z] Notified STATUS: type=0x11, fileId=1758907391
+[2025-09-26T17:50:50.252Z] Auto-transferring file: 1758907401
+[2025-09-26T17:50:50.252Z] Starting transfer: fileId=1758907401, size=133100, chunks=267
+[2025-09-26T17:50:50.303Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:50:50.514Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:50:50.724Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:50:50.935Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:50:51.144Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:50:51.355Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:50:51.567Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:50:51.778Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:50:51.988Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:50:52.198Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:50:52.408Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:50:52.618Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:50:52.831Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:50:53.041Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:50:53.254Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:50:53.464Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:50:53.675Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:50:53.886Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:50:54.095Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:50:54.307Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:50:54.518Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:50:54.727Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:50:54.939Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:50:55.149Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:50:55.360Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:50:55.571Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:50:55.782Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:50:55.930Z] Transfer completed: fileId=1758907401
+[2025-09-26T17:50:55.930Z] Transfer successful: 1758907401
+[2025-09-26T17:50:56.390Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:50:56.390Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927022311.mp3
+[2025-09-26T17:50:56.391Z] Notified STATUS: type=0x11, fileId=1758907401
+[2025-09-26T17:50:56.455Z] File added: 20250927025044.mp3 (ID: 1758909054)
+[2025-09-26T17:50:56.456Z] Notified STATUS: type=0x10, fileId=1758909054
+[2025-09-26T17:50:56.931Z] Auto-transferring file: 1758907411
+[2025-09-26T17:50:56.932Z] Starting transfer: fileId=1758907411, size=133100, chunks=267
+[2025-09-26T17:50:56.983Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:50:57.190Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:50:57.401Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:50:57.457Z] Transfer already in progress for ID: 1758907411
+[2025-09-26T17:50:57.612Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:50:57.823Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:50:58.033Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:50:58.245Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:50:58.458Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:50:58.668Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:50:58.879Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:50:59.091Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:50:59.301Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:50:59.512Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:50:59.722Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:50:59.933Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:51:00.147Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:51:00.356Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:51:00.569Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:51:00.780Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:51:00.991Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:51:01.202Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:51:01.413Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:51:01.624Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:51:01.834Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:51:02.044Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:51:02.253Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:51:02.462Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:51:02.610Z] Transfer completed: fileId=1758907411
+[2025-09-26T17:51:02.610Z] Transfer successful: 1758907411
+[2025-09-26T17:51:02.868Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:51:02.868Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927022321.mp3
+[2025-09-26T17:51:02.868Z] Notified STATUS: type=0x11, fileId=1758907411
+[2025-09-26T17:51:03.611Z] Auto-transferring file: 1758907421
+[2025-09-26T17:51:03.612Z] Starting transfer: fileId=1758907421, size=133100, chunks=267
+[2025-09-26T17:51:03.663Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:51:03.873Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:51:04.085Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:51:04.296Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:51:04.506Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:51:04.716Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:51:04.927Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:51:05.137Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:51:05.348Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:51:05.559Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:51:05.770Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:51:05.980Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:51:06.193Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:51:06.402Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:51:06.560Z] File added: 20250927025054.mp3 (ID: 1758909064)
+[2025-09-26T17:51:06.561Z] Notified STATUS: type=0x10, fileId=1758909064
+[2025-09-26T17:51:06.614Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:51:06.827Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:51:07.037Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:51:07.248Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:51:07.459Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:51:07.671Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:51:07.881Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:51:08.092Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:51:08.303Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:51:08.514Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:51:08.722Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:51:08.932Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:51:09.144Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:51:09.292Z] Transfer completed: fileId=1758907421
+[2025-09-26T17:51:09.292Z] Transfer successful: 1758907421
+[2025-09-26T17:51:09.499Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:51:09.500Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927022331.mp3
+[2025-09-26T17:51:09.500Z] Notified STATUS: type=0x11, fileId=1758907421
+[2025-09-26T17:51:10.293Z] Auto-transferring file: 1758907431
+[2025-09-26T17:51:10.294Z] Starting transfer: fileId=1758907431, size=133100, chunks=267
+[2025-09-26T17:51:10.345Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:51:10.557Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:51:10.768Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:51:10.978Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:51:11.189Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:51:11.401Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:51:11.609Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:51:11.820Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:51:12.032Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:51:12.244Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:51:12.455Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:51:12.666Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:51:12.877Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:51:13.087Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:51:13.298Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:51:13.508Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:51:13.719Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:51:13.929Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:51:14.142Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:51:14.354Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:51:14.564Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:51:14.773Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:51:14.985Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:51:15.193Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:51:15.404Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:51:15.614Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:51:15.825Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:51:15.974Z] Transfer completed: fileId=1758907431
+[2025-09-26T17:51:15.974Z] Transfer successful: 1758907431
+[2025-09-26T17:51:16.130Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:51:16.130Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927022341.mp3
+[2025-09-26T17:51:16.130Z] Notified STATUS: type=0x11, fileId=1758907431
+[2025-09-26T17:51:16.481Z] File added: 20250927025104.mp3 (ID: 1758909074)
+[2025-09-26T17:51:16.482Z] Notified STATUS: type=0x10, fileId=1758909074
+[2025-09-26T17:51:16.975Z] Auto-transferring file: 1758907441
+[2025-09-26T17:51:16.975Z] Starting transfer: fileId=1758907441, size=133100, chunks=267
+[2025-09-26T17:51:17.027Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:51:17.236Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:51:17.449Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:51:17.483Z] Transfer already in progress for ID: 1758907441
+[2025-09-26T17:51:17.660Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:51:17.871Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:51:18.082Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:51:18.292Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:51:18.503Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:51:18.712Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:51:18.922Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:51:19.134Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:51:19.348Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:51:19.559Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:51:19.771Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:51:19.981Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:51:20.192Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:51:20.404Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:51:20.616Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:51:20.826Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:51:21.039Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:51:21.250Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:51:21.461Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:51:21.671Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:51:21.879Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:51:22.091Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:51:22.302Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:51:22.514Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:51:22.662Z] Transfer completed: fileId=1758907441
+[2025-09-26T17:51:22.662Z] Transfer successful: 1758907441
+[2025-09-26T17:51:23.120Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:51:23.120Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927022351.mp3
+[2025-09-26T17:51:23.120Z] Notified STATUS: type=0x11, fileId=1758907441
+[2025-09-26T17:51:23.662Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:23.662Z] Starting transfer: fileId=1758907451, size=133100, chunks=267
+[2025-09-26T17:51:23.713Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:51:23.924Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:51:24.134Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:51:24.346Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:51:24.557Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:51:24.767Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:51:24.979Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:51:25.103Z] Central unsubscribed from STATUS notifications
+[2025-09-26T17:51:25.135Z] Central unsubscribed from DATA_TRANSFER notifications
+[2025-09-26T17:51:25.147Z] Error transferring file: this.updateValueCallback is not a function
+[2025-09-26T17:51:26.149Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:26.149Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:26.460Z] File added: 20250927025114.mp3 (ID: 1758909084)
+[2025-09-26T17:51:27.150Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:27.150Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:27.461Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:28.151Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:28.152Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:28.462Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:28.462Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:29.153Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:29.153Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:29.464Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:29.464Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:30.154Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:30.155Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:30.465Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:30.465Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:31.156Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:31.156Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:31.466Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:31.466Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:32.158Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:32.158Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:32.468Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:32.468Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:33.159Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:33.159Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:33.469Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:33.469Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:34.162Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:34.162Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:34.470Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:34.470Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:35.163Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:35.163Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:35.471Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:35.471Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:36.164Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:36.164Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:36.471Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:36.472Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:36.566Z] File added: 20250927025124.mp3 (ID: 1758909094)
+[2025-09-26T17:51:37.165Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:37.165Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:37.473Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:37.473Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:37.567Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:38.167Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:38.167Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:38.474Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:38.474Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:38.569Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:38.569Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:39.170Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:39.170Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:39.476Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:39.476Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:39.570Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:39.571Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:40.171Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:40.171Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:40.477Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:40.477Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:40.573Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:40.573Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:41.172Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:41.172Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:41.478Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:41.478Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:41.574Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:41.574Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:42.173Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:42.173Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:42.479Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:42.479Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:42.575Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:42.575Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:43.174Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:43.174Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:43.481Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:43.481Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:43.576Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:43.576Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:44.175Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:44.175Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:44.482Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:44.483Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:44.577Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:44.577Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:45.175Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:45.176Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:45.483Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:45.484Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:45.578Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:45.578Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:46.177Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:46.178Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:46.485Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:46.485Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:46.511Z] File added: 20250927025134.mp3 (ID: 1758909104)
+[2025-09-26T17:51:46.580Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:46.580Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:47.180Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:47.180Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:47.486Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:47.486Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:47.513Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:47.581Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:47.581Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:48.181Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:48.181Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:48.487Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:48.487Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:48.514Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:48.515Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:48.582Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:48.582Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:49.182Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:49.183Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:49.489Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:49.489Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:49.515Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:49.515Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:49.584Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:49.584Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:50.184Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:50.184Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:50.490Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:50.490Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:50.516Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:50.516Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:50.586Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:50.586Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:51.186Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:51.187Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:51.491Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:51.491Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:51.517Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:51.518Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:51.587Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:51.587Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:52.189Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:52.189Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:52.493Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:52.493Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:52.519Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:52.519Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:52.588Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:52.588Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:53.190Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:53.190Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:53.494Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:53.494Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:53.521Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:53.521Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:53.589Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:53.589Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:54.191Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:54.192Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:54.495Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:54.495Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:54.522Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:54.522Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:54.590Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:54.591Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:55.192Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:55.192Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:55.496Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:55.496Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:55.523Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:55.524Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:55.592Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:55.592Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:56.194Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:56.194Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:56.498Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:56.498Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:56.524Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:56.524Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:56.554Z] File added: 20250927025144.mp3 (ID: 1758909114)
+[2025-09-26T17:51:56.593Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:56.593Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:57.195Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:57.195Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:57.499Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:57.499Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:57.526Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:57.526Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:57.555Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:57.594Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:57.594Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:58.196Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:58.196Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:58.500Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:58.500Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:58.527Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:58.527Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:58.556Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:58.556Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:58.595Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:58.596Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:59.199Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:59.199Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:59.503Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:59.503Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:59.528Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:59.529Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:59.558Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:59.558Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:51:59.597Z] Auto-transferring file: 1758907451
+[2025-09-26T17:51:59.597Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:00.200Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:00.200Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:00.504Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:00.505Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:00.529Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:00.529Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:00.559Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:00.560Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:00.597Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:00.597Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:01.202Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:01.202Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:01.506Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:01.506Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:01.530Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:01.530Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:01.560Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:01.560Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:01.598Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:01.599Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:02.204Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:02.204Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:02.509Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:02.509Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:02.531Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:02.531Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:02.561Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:02.561Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:02.600Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:02.600Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:03.206Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:03.206Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:03.511Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:03.511Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:03.532Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:03.533Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:03.563Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:03.563Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:03.601Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:03.601Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:04.207Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:04.207Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:04.512Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:04.512Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:04.533Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:04.533Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:04.565Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:04.565Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:04.601Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:04.601Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:05.208Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:05.209Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:05.514Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:05.514Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:05.534Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:05.534Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:05.567Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:05.567Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:05.602Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:05.602Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:06.210Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:06.211Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:06.515Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:06.516Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:06.534Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:06.534Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:06.534Z] File added: 20250927025154.mp3 (ID: 1758909124)
+[2025-09-26T17:52:06.568Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:06.568Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:06.603Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:06.603Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:07.211Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:07.211Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:07.518Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:07.518Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:07.535Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:07.535Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:07.535Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:07.570Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:07.570Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:07.604Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:07.604Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:08.211Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:08.211Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:08.519Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:08.519Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:08.537Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:08.537Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:08.537Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:08.537Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:08.571Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:08.571Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:08.605Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:08.605Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:09.213Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:09.213Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:09.520Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:09.520Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:09.539Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:09.539Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:09.539Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:09.539Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:09.572Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:09.572Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:09.607Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:09.607Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:10.215Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:10.215Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:10.521Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:10.522Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:10.540Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:10.540Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:10.540Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:10.540Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:10.572Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:10.573Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:10.608Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:10.608Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:11.217Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:11.217Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:11.524Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:11.524Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:11.541Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:11.541Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:11.541Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:11.542Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:11.574Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:11.574Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:11.609Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:11.609Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:12.218Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:12.218Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:12.525Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:12.525Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:12.543Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:12.543Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:12.543Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:12.543Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:12.575Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:12.575Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:12.610Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:12.610Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:13.219Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:13.219Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:13.526Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:13.526Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:13.544Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:13.544Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:13.544Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:13.544Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:13.576Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:13.576Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:13.611Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:13.611Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:14.219Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:14.220Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:14.527Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:14.527Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:14.545Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:14.545Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:14.545Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:14.545Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:14.577Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:14.577Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:14.612Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:14.613Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:15.221Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:15.221Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:15.528Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:15.528Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:15.546Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:15.546Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:15.546Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:15.546Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:15.578Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:15.579Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:15.614Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:15.614Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:16.223Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:16.223Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:16.530Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:16.530Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:16.547Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:16.547Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:16.547Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:16.547Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:16.551Z] File added: 20250927025204.mp3 (ID: 1758909134)
+[2025-09-26T17:52:16.579Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:16.579Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:16.615Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:16.615Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:17.224Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:17.224Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:17.531Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:17.531Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:17.549Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:17.549Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:17.549Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:17.549Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:17.551Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:17.581Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:17.581Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:17.617Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:17.617Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:18.227Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:18.227Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:18.532Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:18.533Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:18.550Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:18.550Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:18.550Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:18.550Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:18.551Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:18.552Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:18.581Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:18.581Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:18.618Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:18.618Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:19.228Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:19.228Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:19.534Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:19.534Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:19.551Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:19.551Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:19.552Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:19.552Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:19.552Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:19.552Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:19.582Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:19.582Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:19.619Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:19.619Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:20.229Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:20.230Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:20.535Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:20.536Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:20.552Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:20.552Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:20.552Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:20.552Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:20.552Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:20.552Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:20.583Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:20.583Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:20.621Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:20.621Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:21.232Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:21.232Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:21.538Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:21.538Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:21.553Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:21.553Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:21.553Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:21.553Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:21.553Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:21.553Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:21.584Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:21.585Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:21.622Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:21.622Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:22.233Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:22.233Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:22.538Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:22.539Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:22.554Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:22.554Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:22.554Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:22.554Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:22.554Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:22.554Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:22.585Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:22.585Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:22.623Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:22.623Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:23.234Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:23.235Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:23.539Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:23.539Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:23.556Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:23.556Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:23.556Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:23.556Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:23.556Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:23.556Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:23.586Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:23.586Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:23.624Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:23.625Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:24.236Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:24.236Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:24.540Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:24.540Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:24.557Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:24.557Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:24.557Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:24.557Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:24.557Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:24.557Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:24.587Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:24.587Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:24.625Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:24.626Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:25.238Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:25.238Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:25.541Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:25.542Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:25.558Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:25.558Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:25.558Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:25.558Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:25.558Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:25.558Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:25.588Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:25.589Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:25.627Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:25.627Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:26.239Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:26.239Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:26.543Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:26.544Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:26.559Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:26.559Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:26.559Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:26.559Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:26.559Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:26.559Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:26.568Z] File added: 20250927025214.mp3 (ID: 1758909144)
+[2025-09-26T17:52:26.590Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:26.590Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:26.629Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:26.629Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:27.240Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:27.240Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:27.544Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:27.544Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:27.561Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:27.561Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:27.561Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:27.561Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:27.561Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:27.561Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:27.569Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:27.590Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:27.590Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:27.630Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:27.631Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:28.241Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:28.242Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:28.546Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:28.546Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:28.562Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:28.562Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:28.562Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:28.562Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:28.563Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:28.563Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:28.570Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:28.571Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:28.592Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:28.592Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:28.631Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:28.631Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:29.243Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:29.243Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:29.548Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:29.548Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:29.563Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:29.563Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:29.563Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:29.563Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:29.563Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:29.564Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:29.571Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:29.572Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:29.593Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:29.593Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:29.632Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:29.633Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:30.244Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:30.244Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:30.549Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:30.549Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:30.565Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:30.565Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:30.565Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:30.565Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:30.565Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:30.565Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:30.572Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:30.572Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:30.595Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:30.595Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:30.633Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:30.633Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:31.245Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:31.245Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:31.550Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:31.550Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:31.566Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:31.566Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:31.566Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:31.566Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:31.566Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:31.566Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:31.571Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:31.572Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:31.597Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:31.597Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:31.634Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:31.634Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:32.247Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:32.247Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:32.551Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:32.551Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:32.567Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:32.567Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:32.567Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:32.567Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:32.567Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:32.567Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:32.571Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:32.572Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:32.599Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:32.599Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:32.635Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:32.635Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:33.248Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:33.248Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:33.552Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:33.552Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:33.567Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:33.567Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:33.567Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:33.567Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:33.567Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:33.567Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:33.572Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:33.572Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:33.600Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:33.600Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:33.636Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:33.636Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:34.249Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:34.249Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:34.553Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:34.553Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:34.568Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:34.569Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:34.569Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:34.569Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:34.569Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:34.569Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:34.572Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:34.572Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:34.601Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:34.601Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:34.637Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:34.638Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:35.250Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:35.251Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:35.554Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:35.555Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:35.570Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:35.570Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:35.570Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:35.570Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:35.570Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:35.570Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:35.572Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:35.572Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:35.602Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:35.603Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:35.639Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:35.639Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:36.253Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:36.253Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:36.557Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:36.557Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:36.571Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:36.571Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:36.571Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:36.571Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:36.571Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:36.571Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:36.571Z] File added: 20250927025224.mp3 (ID: 1758909154)
+[2025-09-26T17:52:36.573Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:36.573Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:36.604Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:36.604Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:36.640Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:36.640Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:37.254Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:37.254Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:37.558Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:37.558Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:37.573Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:37.573Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:37.573Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:37.573Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:37.573Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:37.573Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:37.573Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:37.573Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:37.573Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:37.605Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:37.605Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:37.641Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:37.642Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:38.255Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:38.256Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:38.559Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:38.560Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:38.573Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:38.573Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:38.573Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:38.573Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:38.573Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:38.573Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:38.573Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:38.573Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:38.574Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:38.574Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:38.607Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:38.607Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:38.642Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:38.642Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:39.257Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:39.258Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:39.561Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:39.561Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:39.575Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:39.575Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:39.575Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:39.575Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:39.575Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:39.575Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:39.575Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:39.575Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:39.575Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:39.575Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:39.607Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:39.607Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:39.644Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:39.644Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:40.260Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:40.260Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:40.562Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:40.562Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:40.575Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:40.576Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:40.576Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:40.576Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:40.576Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:40.576Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:40.576Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:40.576Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:40.576Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:40.576Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:40.608Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:40.608Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:40.645Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:40.645Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:41.262Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:41.262Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:41.563Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:41.564Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:41.576Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:41.576Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:41.576Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:41.576Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:41.576Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:41.576Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:41.576Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:41.576Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:41.576Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:41.576Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:41.610Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:41.610Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:41.646Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:41.646Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:42.263Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:42.264Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:42.565Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:42.565Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:42.578Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:42.578Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:42.578Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:42.578Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:42.578Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:42.578Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:42.578Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:42.578Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:42.578Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:42.578Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:42.610Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:42.611Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:42.648Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:42.648Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:43.266Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:43.266Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:43.567Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:43.567Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:43.579Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:43.580Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:43.580Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:43.580Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:43.580Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:43.580Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:43.580Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:43.580Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:43.580Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:43.580Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:43.610Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:43.610Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:43.649Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:43.649Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:44.267Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:44.267Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:44.568Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:44.568Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:44.581Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:44.581Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:44.581Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:44.581Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:44.581Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:44.581Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:44.581Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:44.581Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:44.581Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:44.581Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:44.611Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:44.612Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:44.651Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:44.651Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:45.268Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:45.268Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:45.568Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:45.568Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:45.583Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:45.583Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:45.583Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:45.583Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:45.583Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:45.583Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:45.583Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:45.583Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:45.583Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:45.583Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:45.612Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:45.612Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:45.652Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:45.652Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:46.270Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:46.270Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:46.569Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:46.570Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:46.573Z] File added: 20250927025234.mp3 (ID: 1758909164)
+[2025-09-26T17:52:46.584Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:46.584Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:46.584Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:46.584Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:46.584Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:46.584Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:46.584Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:46.584Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:46.584Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:46.584Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:46.613Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:46.613Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:46.652Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:46.653Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:47.272Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:47.272Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:47.571Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:47.572Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:47.573Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:47.583Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:47.584Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:47.585Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:47.585Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:47.585Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:47.585Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:47.585Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:47.585Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:47.585Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:47.585Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:47.614Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:47.614Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:47.653Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:47.654Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:48.274Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:48.274Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:48.573Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:48.573Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:48.573Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:48.573Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:48.584Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:48.584Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:48.586Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:48.586Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:48.586Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:48.586Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:48.586Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:48.586Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:48.586Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:48.586Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:48.616Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:48.616Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:48.654Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:48.654Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:49.275Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:49.275Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:49.574Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:49.575Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:49.575Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:49.575Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:49.585Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:49.585Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:49.586Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:49.587Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:49.587Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:49.587Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:49.587Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:49.587Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:49.587Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:49.587Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:49.617Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:49.617Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:49.655Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:49.656Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:50.276Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:50.276Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:50.576Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:50.576Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:50.576Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:50.576Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:50.586Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:50.587Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:50.587Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:50.587Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:50.587Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:50.587Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:50.588Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:50.588Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:50.588Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:50.588Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:50.618Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:50.618Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:50.656Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:50.656Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:51.277Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:51.277Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:51.577Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:51.578Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:51.578Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:51.578Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:51.587Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:51.587Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:51.587Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:51.587Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:51.587Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:51.587Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:51.589Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:51.589Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:51.589Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:51.589Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:51.620Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:51.620Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:51.658Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:51.658Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:52.279Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:52.279Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:52.580Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:52.580Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:52.580Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:52.580Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:52.587Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:52.587Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:52.588Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:52.588Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:52.588Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:52.588Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:52.589Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:52.589Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:52.589Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:52.589Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:52.621Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:52.621Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:52.659Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:52.659Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:53.281Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:53.281Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:53.581Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:53.582Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:53.582Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:53.582Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:53.587Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:53.587Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:53.587Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:53.588Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:53.588Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:53.588Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:53.590Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:53.590Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:53.590Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:53.590Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:53.622Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:53.622Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:53.661Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:53.661Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:54.283Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:54.283Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:54.583Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:54.583Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:54.583Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:54.583Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:54.588Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:54.588Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:54.588Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:54.588Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:54.588Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:54.588Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:54.591Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:54.591Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:54.591Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:54.591Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:54.623Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:54.623Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:54.661Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:54.662Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:55.285Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:55.285Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:55.585Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:55.585Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:55.585Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:55.585Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:55.589Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:55.589Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:55.589Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:55.589Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:55.589Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:55.589Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:55.591Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:55.591Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:55.592Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:55.592Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:55.625Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:55.625Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:55.662Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:55.662Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:56.286Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:56.287Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:56.471Z] File added: 20250927025244.mp3 (ID: 1758909174)
+[2025-09-26T17:52:56.587Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:56.587Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:56.587Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:56.587Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:56.590Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:56.590Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:56.590Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:56.590Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:56.590Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:56.590Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:56.591Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:56.591Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:56.591Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:56.591Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:56.627Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:56.627Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:56.664Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:56.664Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:57.289Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:57.289Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:57.472Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:57.589Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:57.589Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:57.589Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:57.589Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:57.590Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:57.590Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:57.590Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:57.590Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:57.591Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:57.591Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:57.592Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:57.592Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:57.592Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:57.592Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:57.627Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:57.628Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:57.666Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:57.666Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:58.290Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:58.290Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:58.474Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:58.474Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:58.591Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:58.591Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:58.591Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:58.591Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:58.591Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:58.591Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:58.591Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:58.591Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:58.592Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:58.592Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:58.593Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:58.593Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:58.593Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:58.593Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:58.628Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:58.628Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:58.667Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:58.667Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:59.291Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:59.292Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:59.476Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:59.476Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:59.592Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:59.593Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:59.593Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:59.593Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:59.593Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:59.593Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:59.593Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:59.593Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:59.593Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:59.593Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:59.595Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:59.595Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:59.595Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:59.595Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:59.630Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:59.630Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:52:59.669Z] Auto-transferring file: 1758907451
+[2025-09-26T17:52:59.669Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:00.293Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:00.293Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:00.477Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:00.477Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:00.594Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:00.594Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:00.595Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:00.595Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:00.595Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:00.595Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:00.595Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:00.595Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:00.595Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:00.595Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:00.595Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:00.595Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:00.596Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:00.596Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:00.631Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:00.631Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:00.671Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:00.671Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:01.295Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:01.295Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:01.478Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:01.479Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:01.595Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:01.595Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:01.596Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:01.596Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:01.596Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:01.596Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:01.596Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:01.596Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:01.596Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:01.596Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:01.596Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:01.596Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:01.597Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:01.597Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:01.632Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:01.632Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:01.672Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:01.672Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:02.296Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:02.296Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:02.480Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:02.480Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:02.596Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:02.596Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:02.597Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:02.597Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:02.597Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:02.597Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:02.597Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:02.597Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:02.597Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:02.597Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:02.597Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:02.597Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:02.598Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:02.599Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:02.631Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:02.632Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:02.674Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:02.674Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:03.297Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:03.298Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:03.482Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:03.483Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:03.597Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:03.597Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:03.597Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:03.598Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:03.598Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:03.598Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:03.598Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:03.598Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:03.598Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:03.598Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:03.598Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:03.598Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:03.598Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:03.598Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:03.632Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:03.632Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:03.675Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:03.676Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:04.299Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:04.300Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:04.483Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:04.483Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:04.598Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:04.598Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:04.599Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:04.599Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:04.599Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:04.599Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:04.599Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:04.599Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:04.599Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:04.599Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:04.599Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:04.599Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:04.599Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:04.599Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:04.633Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:04.634Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:04.677Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:04.677Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:05.301Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:05.301Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:05.484Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:05.485Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:05.600Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:05.600Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:05.600Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:05.600Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:05.600Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:05.600Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:05.600Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:05.600Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:05.600Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:05.600Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:05.600Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:05.601Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:05.601Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:05.601Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:05.634Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:05.634Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:05.679Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:05.679Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:06.303Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:06.303Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:06.473Z] File added: 20250927025254.mp3 (ID: 1758909184)
+[2025-09-26T17:53:06.486Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:06.488Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:06.601Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:06.602Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:06.602Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:06.602Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:06.602Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:06.602Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:06.602Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:06.602Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:06.602Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:06.602Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:06.602Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:06.602Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:06.602Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:06.602Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:06.635Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:06.636Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:06.679Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:06.679Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:07.304Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:07.305Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:07.474Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:07.489Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:07.489Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:07.603Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:07.603Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:07.603Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:07.603Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:07.603Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:07.603Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:07.603Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:07.603Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:07.603Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:07.603Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:07.604Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:07.604Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:07.604Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:07.604Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:07.637Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:07.637Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:07.680Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:07.680Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:08.307Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:08.307Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:08.476Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:08.476Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:08.490Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:08.490Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:08.605Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:08.605Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:08.605Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:08.605Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:08.605Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:08.605Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:08.605Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:08.605Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:08.605Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:08.606Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:08.606Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:08.606Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:08.606Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:08.606Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:08.639Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:08.639Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:08.680Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:08.680Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:09.308Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:09.308Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:09.478Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:09.478Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:09.491Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:09.491Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:09.606Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:09.606Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:09.607Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:09.607Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:09.607Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:09.607Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:09.607Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:09.607Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:09.607Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:09.607Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:09.607Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:09.607Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:09.607Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:09.607Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:09.641Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:09.641Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:09.681Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:09.681Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:10.308Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:10.309Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:10.480Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:10.480Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:10.492Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:10.492Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:10.608Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:10.608Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:10.608Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:10.608Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:10.608Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:10.608Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:10.608Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:10.608Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:10.608Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:10.608Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:10.608Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:10.609Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:10.609Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:10.609Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:10.641Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:10.641Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:10.682Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:10.683Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:11.311Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:11.311Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:11.481Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:11.482Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:11.493Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:11.493Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:11.609Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:11.610Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:11.610Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:11.610Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:11.610Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:11.610Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:11.610Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:11.610Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:11.610Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:11.610Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:11.610Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:11.610Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:11.610Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:11.611Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:11.643Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:11.643Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:11.683Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:11.683Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:12.312Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:12.313Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:12.483Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:12.484Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:12.495Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:12.495Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:12.610Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:12.611Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:12.611Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:12.611Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:12.611Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:12.611Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:12.611Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:12.611Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:12.611Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:12.611Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:12.611Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:12.611Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:12.611Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:12.611Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:12.645Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:12.645Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:12.685Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:12.685Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:13.314Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:13.314Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:13.485Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:13.485Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:13.496Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:13.496Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:13.611Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:13.612Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:13.612Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:13.612Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:13.612Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:13.612Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:13.612Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:13.612Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:13.612Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:13.612Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:13.612Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:13.612Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:13.612Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:13.612Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:13.645Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:13.645Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:13.686Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:13.687Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:14.316Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:14.316Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:14.487Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:14.487Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:14.498Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:14.498Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:14.614Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:14.614Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:14.614Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:14.614Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:14.614Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:14.614Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:14.614Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:14.614Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:14.614Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:14.614Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:14.615Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:14.615Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:14.615Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:14.615Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:14.647Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:14.647Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:14.687Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:14.687Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:15.317Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:15.317Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:15.487Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:15.488Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:15.499Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:15.499Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:15.616Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:15.616Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:15.616Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:15.616Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:15.616Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:15.616Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:15.616Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:15.616Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:15.616Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:15.617Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:15.617Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:15.617Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:15.617Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:15.617Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:15.649Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:15.649Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:15.688Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:15.688Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:16.318Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:16.319Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:16.488Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:16.489Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:16.501Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:16.501Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:16.578Z] File added: 20250927025304.mp3 (ID: 1758909194)
+[2025-09-26T17:53:16.618Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:16.618Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:16.618Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:16.618Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:16.618Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:16.618Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:16.618Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:16.618Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:16.618Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:16.618Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:16.618Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:16.619Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:16.619Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:16.619Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:16.651Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:16.651Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:16.689Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:16.689Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:17.319Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:17.320Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:17.488Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:17.488Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:17.502Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:17.502Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:17.579Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:17.618Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:17.619Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:17.619Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:17.619Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:17.619Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:17.619Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:17.619Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:17.619Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:17.619Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:17.619Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:17.619Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:17.619Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:17.619Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:17.619Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:17.651Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:17.651Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:17.690Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:17.690Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:18.321Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:18.322Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:18.489Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:18.489Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:18.502Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:18.502Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:18.580Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:18.581Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:18.618Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:18.619Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:18.619Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:18.619Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:18.619Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:18.619Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:18.619Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:18.619Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:18.619Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:18.619Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:18.619Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:18.619Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:18.619Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:18.619Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:18.652Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:18.652Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:18.691Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:18.691Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:19.323Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:19.324Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:19.490Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:19.490Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:19.504Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:19.504Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:19.583Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:19.583Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:19.619Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:19.619Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:19.619Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:19.619Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:19.620Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:19.620Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:19.620Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:19.620Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:19.620Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:19.620Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:19.620Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:19.620Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:19.620Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:19.620Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:19.654Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:19.654Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:19.692Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:19.692Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:20.325Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:20.325Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:20.492Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:20.492Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:20.504Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:20.504Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:20.585Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:20.585Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:20.620Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:20.620Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:20.620Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:20.620Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:20.620Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:20.620Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:20.621Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:20.621Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:20.621Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:20.621Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:20.621Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:20.621Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:20.621Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:20.621Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:20.656Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:20.656Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:20.693Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:20.693Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:21.326Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:21.326Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:21.494Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:21.494Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:21.506Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:21.506Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:21.587Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:21.587Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:21.621Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:21.622Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:21.622Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:21.622Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:21.622Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:21.622Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:21.622Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:21.622Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:21.622Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:21.622Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:21.622Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:21.622Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:21.622Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:21.622Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:21.657Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:21.657Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:21.694Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:21.695Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:22.327Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:22.328Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:22.496Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:22.496Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:22.506Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:22.506Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:22.589Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:22.589Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:22.623Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:22.623Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:22.623Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:22.623Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:22.623Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:22.623Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:22.623Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:22.623Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:22.623Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:22.623Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:22.623Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:22.623Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:22.623Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:22.623Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:22.659Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:22.659Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:22.695Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:22.695Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:23.329Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:23.329Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:23.498Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:23.498Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:23.507Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:23.507Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:23.591Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:23.591Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:23.622Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:23.623Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:23.624Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:23.624Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:23.624Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:23.624Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:23.624Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:23.624Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:23.624Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:23.624Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:23.625Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:23.625Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:23.625Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:23.625Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:23.661Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:23.661Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:23.696Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:23.696Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:24.330Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:24.331Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:24.500Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:24.500Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:24.509Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:24.509Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:24.593Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:24.593Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:24.624Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:24.624Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:24.625Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:24.625Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:24.625Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:24.625Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:24.625Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:24.625Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:24.625Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:24.625Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:24.625Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:24.625Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:24.625Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:24.625Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:24.662Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:24.662Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:24.696Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:24.696Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:25.331Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:25.332Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:25.500Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:25.501Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:25.511Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:25.511Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:25.594Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:25.595Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:25.625Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:25.625Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:25.625Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:25.625Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:25.625Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:25.625Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:25.625Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:25.625Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:25.625Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:25.625Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:25.626Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:25.626Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:25.626Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:25.626Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:25.663Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:25.663Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:25.697Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:25.697Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:26.333Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:26.333Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:26.501Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:26.501Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:26.513Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:26.513Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:26.581Z] File added: 20250927025314.mp3 (ID: 1758909204)
+[2025-09-26T17:53:26.595Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:26.595Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:26.626Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:26.626Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:26.627Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:26.627Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:26.627Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:26.627Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:26.627Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:26.627Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:26.627Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:26.627Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:26.627Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:26.627Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:26.627Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:26.627Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:26.665Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:26.665Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:26.698Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:26.699Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:27.334Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:27.334Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:27.503Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:27.503Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:27.514Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:27.514Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:27.583Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:27.596Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:27.596Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:27.628Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:27.628Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:27.628Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:27.628Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:27.628Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:27.628Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:27.628Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:27.628Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:27.628Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:27.628Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:27.628Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:27.628Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:27.628Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:27.628Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:27.666Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:27.667Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:27.699Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:27.700Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:28.335Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:28.335Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:28.503Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:28.503Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:28.515Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:28.515Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:28.585Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:28.585Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:28.597Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:28.597Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:28.628Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:28.628Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:28.628Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:28.629Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:28.629Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:28.629Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:28.629Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:28.629Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:28.629Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:28.629Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:28.629Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:28.629Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:28.629Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:28.629Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:28.668Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:28.668Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:28.700Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:28.700Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:29.337Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:29.337Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:29.504Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:29.505Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:29.515Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:29.515Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:29.586Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:29.587Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:29.598Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:29.598Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:29.629Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:29.629Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:29.629Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:29.629Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:29.630Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:29.630Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:29.630Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:29.630Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:29.630Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:29.630Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:29.630Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:29.630Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:29.630Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:29.630Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:29.670Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:29.670Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:29.701Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:29.702Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:30.339Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:30.339Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:30.507Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:30.507Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:30.516Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:30.516Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:30.588Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:30.588Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:30.599Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:30.599Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:30.631Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:30.631Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:30.631Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:30.631Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:30.631Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:30.631Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:30.631Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:30.631Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:30.631Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:30.631Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:30.631Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:30.631Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:30.631Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:30.631Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:30.671Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:30.672Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:30.703Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:30.703Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:31.341Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:31.341Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:31.509Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:31.509Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:31.517Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:31.517Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:31.590Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:31.590Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:31.600Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:31.601Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:31.631Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:31.631Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:31.631Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:31.631Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:31.631Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:31.631Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:31.631Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:31.631Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:31.631Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:31.631Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:31.631Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:31.631Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:31.631Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:31.631Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:31.672Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:31.673Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:31.704Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:31.704Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:32.342Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:32.343Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:32.511Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:32.511Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:32.518Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:32.518Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:32.591Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:32.591Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:32.602Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:32.602Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:32.633Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:32.633Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:32.633Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:32.633Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:32.633Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:32.633Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:32.633Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:32.633Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:32.633Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:32.633Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:32.633Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:32.633Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:32.633Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:32.633Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:32.674Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:32.674Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:32.704Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:32.704Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:33.344Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:33.344Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:33.513Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:33.513Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:33.519Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:33.519Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:33.593Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:33.593Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:33.603Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:33.603Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:33.634Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:33.634Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:33.634Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:33.634Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:33.634Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:33.634Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:33.634Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:33.634Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:33.634Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:33.635Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:33.635Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:33.635Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:33.635Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:33.635Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:33.675Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:33.675Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:33.705Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:33.705Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:34.346Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:34.346Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:34.514Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:34.515Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:34.519Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:34.519Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:34.595Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:34.595Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:34.603Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:34.603Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:34.635Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:34.635Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:34.635Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:34.635Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:34.635Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:34.635Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:34.635Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:34.635Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:34.635Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:34.635Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:34.635Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:34.635Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:34.635Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:34.636Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:34.676Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:34.676Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:34.706Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:34.707Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:35.348Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:35.348Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:35.515Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:35.515Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:35.520Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:35.520Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:35.595Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:35.596Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:35.604Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:35.604Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:35.636Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:35.636Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:35.637Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:35.637Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:35.637Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:35.637Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:35.637Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:35.637Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:35.637Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:35.637Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:35.637Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:35.637Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:35.637Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:35.637Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:35.677Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:35.677Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:35.708Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:35.708Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:36.349Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:36.349Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:36.517Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:36.517Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:36.521Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:36.521Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:36.591Z] File added: 20250927025324.mp3 (ID: 1758909214)
+[2025-09-26T17:53:36.596Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:36.596Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:36.606Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:36.606Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:36.637Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:36.637Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:36.637Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:36.637Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:36.637Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:36.638Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:36.638Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:36.638Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:36.638Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:36.638Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:36.638Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:36.638Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:36.638Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:36.638Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:36.679Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:36.679Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:36.709Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:36.709Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:37.350Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:37.351Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:37.518Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:37.518Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:37.521Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:37.521Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:37.592Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:37.596Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:37.596Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:37.607Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:37.608Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:37.639Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:37.639Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:37.639Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:37.639Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:37.639Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:37.639Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:37.639Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:37.639Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:37.639Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:37.639Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:37.639Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:37.639Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:37.639Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:37.639Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:37.680Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:37.680Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:37.710Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:37.710Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:38.351Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:38.352Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:38.519Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:38.520Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:38.521Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:38.521Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:38.593Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:38.594Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:38.597Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:38.597Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:38.609Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:38.609Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:38.639Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:38.639Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:38.639Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:38.639Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:38.640Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:38.640Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:38.640Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:38.640Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:38.640Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:38.640Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:38.640Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:38.640Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:38.640Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:38.640Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:38.681Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:38.681Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:38.711Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:38.711Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:39.353Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:39.354Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:39.519Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:39.520Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:39.522Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:39.522Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:39.595Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:39.596Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:39.598Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:39.598Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:39.609Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:39.609Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:39.641Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:39.641Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:39.641Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:39.641Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:39.641Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:39.641Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:39.641Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:39.641Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:39.641Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:39.641Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:39.641Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:39.641Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:39.641Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:39.641Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:39.683Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:39.683Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:39.713Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:39.713Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:40.356Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:40.356Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:40.520Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:40.521Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:40.523Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:40.523Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:40.598Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:40.598Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:40.598Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:40.598Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:40.610Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:40.611Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:40.642Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:40.642Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:40.642Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:40.642Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:40.642Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:40.642Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:40.642Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:40.642Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:40.642Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:40.642Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:40.642Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:40.642Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:40.642Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:40.642Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:40.683Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:40.683Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:40.715Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:40.715Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:41.357Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:41.358Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:41.521Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:41.521Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:41.524Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:41.524Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:41.599Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:41.599Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:41.600Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:41.600Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:41.612Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:41.612Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:41.642Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:41.642Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:41.643Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:41.643Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:41.643Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:41.643Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:41.643Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:41.643Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:41.643Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:41.643Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:41.643Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:41.643Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:41.643Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:41.643Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:41.684Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:41.684Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:41.715Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:41.716Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:42.359Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:42.360Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:42.522Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:42.523Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:42.525Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:42.525Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:42.600Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:42.601Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:42.601Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:42.601Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:42.613Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:42.613Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:42.642Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:42.643Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:42.643Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:42.643Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:42.643Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:42.643Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:42.644Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:42.644Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:42.644Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:42.644Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:42.644Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:42.644Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:42.644Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:42.644Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:42.685Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:42.685Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:42.716Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:42.717Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:43.361Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:43.361Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:43.523Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:43.523Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:43.526Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:43.526Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:43.601Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:43.601Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:43.602Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:43.602Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:43.615Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:43.615Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:43.643Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:43.643Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:43.643Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:43.643Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:43.643Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:43.643Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:43.645Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:43.645Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:43.645Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:43.645Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:43.645Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:43.645Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:43.645Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:43.645Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:43.686Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:43.687Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:43.718Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:43.718Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:44.363Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:44.363Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:44.524Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:44.524Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:44.527Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:44.527Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:44.603Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:44.603Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:44.603Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:44.603Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:44.616Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:44.616Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:44.645Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:44.645Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:44.645Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:44.645Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:44.645Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:44.645Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:44.645Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:44.645Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:44.645Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:44.645Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:44.645Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:44.645Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:44.645Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:44.645Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:44.687Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:44.688Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:44.720Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:44.720Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:45.364Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:45.364Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:45.525Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:45.526Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:45.528Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:45.528Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:45.604Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:45.605Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:45.605Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:45.605Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:45.615Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:45.616Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:45.646Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:45.646Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:45.646Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:45.646Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:45.646Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:45.646Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:45.646Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:45.646Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:45.646Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:45.646Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:45.646Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:45.646Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:45.646Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:45.646Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:45.689Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:45.689Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:45.722Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:45.722Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:46.366Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:46.366Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:46.527Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:46.527Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:46.528Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:46.528Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:46.581Z] File added: 20250927025334.mp3 (ID: 1758909224)
+[2025-09-26T17:53:46.606Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:46.606Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:46.606Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:46.606Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:46.617Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:46.617Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:46.646Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:46.646Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:46.646Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:46.646Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:46.646Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:46.646Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:46.646Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:46.646Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:46.646Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:46.646Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:46.646Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:46.646Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:46.647Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:46.647Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:46.690Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:46.690Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:46.724Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:46.724Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:47.368Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:47.368Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:47.529Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:47.529Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:47.529Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:47.529Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:47.582Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:47.607Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:47.607Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:47.607Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:47.607Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:47.619Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:47.619Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:47.647Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:47.647Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:47.647Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:47.647Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:47.647Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:47.647Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:47.647Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:47.647Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:47.647Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:47.647Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:47.647Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:47.648Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:47.648Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:47.648Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:47.691Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:47.691Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:47.725Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:47.725Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:48.369Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:48.370Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:48.531Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:48.531Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:48.531Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:48.531Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:48.583Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:48.583Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:48.607Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:48.607Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:48.607Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:48.607Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:48.620Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:48.620Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:48.649Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:48.649Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:48.649Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:48.649Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:48.649Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:48.649Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:48.650Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:48.650Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:48.650Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:48.650Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:48.650Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:48.650Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:48.650Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:48.650Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:48.692Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:48.692Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:48.727Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:48.727Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:49.371Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:49.372Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:49.531Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:49.531Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:49.532Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:49.532Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:49.585Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:49.585Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:49.608Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:49.609Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:49.609Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:49.609Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:49.621Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:49.622Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:49.650Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:49.650Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:49.650Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:49.650Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:49.650Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:49.650Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:49.651Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:49.651Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:49.651Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:49.651Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:49.651Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:49.651Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:49.651Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:49.651Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:49.693Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:49.693Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:49.729Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:49.729Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:50.372Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:50.373Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:50.532Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:50.532Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:50.533Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:50.533Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:50.587Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:50.587Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:50.609Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:50.609Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:50.610Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:50.610Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:50.624Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:50.624Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:50.652Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:50.652Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:50.652Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:50.652Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:50.652Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:50.652Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:50.652Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:50.652Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:50.653Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:50.653Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:50.653Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:50.653Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:50.653Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:50.653Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:50.694Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:50.694Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:50.729Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:50.729Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:51.375Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:51.375Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:51.533Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:51.533Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:51.533Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:51.533Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:51.588Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:51.589Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:51.611Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:51.611Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:51.611Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:51.611Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:51.625Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:51.625Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:51.653Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:51.653Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:51.653Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:51.654Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:51.654Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:51.654Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:51.654Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:51.654Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:51.654Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:51.654Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:51.654Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:51.654Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:51.654Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:51.654Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:51.696Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:51.696Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:51.730Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:51.730Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:52.376Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:52.376Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:52.535Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:52.535Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:52.535Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:52.535Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:52.589Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:52.589Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:52.612Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:52.612Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:52.612Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:52.612Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:52.627Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:52.627Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:52.654Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:52.654Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:52.655Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:52.655Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:52.655Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:52.655Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:52.655Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:52.655Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:52.655Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:52.655Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:52.655Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:52.655Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:52.655Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:52.655Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:52.698Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:52.698Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:52.731Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:52.731Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:53.377Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:53.377Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:53.536Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:53.537Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:53.537Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:53.537Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:53.590Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:53.590Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:53.612Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:53.613Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:53.613Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:53.613Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:53.629Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:53.629Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:53.655Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:53.655Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:53.655Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:53.656Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:53.656Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:53.656Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:53.656Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:53.656Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:53.656Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:53.656Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:53.656Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:53.656Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:53.656Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:53.656Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:53.700Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:53.700Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:53.733Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:53.733Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:54.379Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:54.379Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:54.537Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:54.538Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:54.538Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:54.538Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:54.592Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:54.592Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:54.614Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:54.614Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:54.614Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:54.614Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:54.629Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:54.630Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:54.657Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:54.657Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:54.657Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:54.657Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:54.657Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:54.657Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:54.657Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:54.657Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:54.657Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:54.657Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:54.657Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:54.657Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:54.657Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:54.657Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:54.701Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:54.701Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:54.735Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:54.735Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:55.380Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:55.380Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:55.539Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:55.540Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:55.540Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:55.540Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:55.592Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:55.592Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:55.615Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:55.615Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:55.616Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:55.616Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:55.631Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:55.631Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:55.657Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:55.657Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:55.658Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:55.658Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:55.658Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:55.658Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:55.658Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:55.658Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:55.658Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:55.658Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:55.658Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:55.658Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:55.658Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:55.658Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:55.702Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:55.702Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:55.735Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:55.736Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:56.381Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:56.381Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:56.541Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:56.541Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:56.541Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:56.541Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:56.585Z] File added: 20250927025344.mp3 (ID: 1758909234)
+[2025-09-26T17:53:56.593Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:56.593Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:56.617Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:56.617Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:56.617Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:56.617Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:56.634Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:56.634Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:56.658Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:56.658Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:56.659Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:56.659Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:56.659Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:56.659Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:56.659Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:56.659Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:56.659Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:56.659Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:56.659Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:56.659Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:56.659Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:56.659Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:56.704Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:56.704Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:56.737Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:56.737Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:57.383Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:57.383Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:57.543Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:57.543Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:57.543Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:57.543Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:57.586Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:57.594Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:57.595Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:57.618Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:57.618Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:57.618Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:57.619Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:57.636Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:57.636Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:57.659Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:57.659Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:57.659Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:57.660Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:57.660Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:57.660Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:57.660Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:57.660Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:57.660Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:57.660Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:57.660Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:57.660Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:57.660Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:57.660Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:57.704Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:57.704Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:57.738Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:57.738Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:58.384Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:58.385Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:58.544Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:58.545Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:58.545Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:58.545Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:58.588Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:58.588Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:58.595Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:58.595Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:58.620Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:58.620Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:58.620Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:58.620Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:58.636Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:58.637Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:58.661Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:58.661Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:58.661Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:58.661Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:58.661Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:58.662Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:58.662Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:58.662Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:58.662Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:58.662Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:58.662Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:58.662Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:58.662Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:58.662Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:58.706Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:58.706Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:58.739Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:58.740Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:59.386Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:59.388Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:59.546Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:59.546Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:59.546Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:59.546Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:59.589Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:59.589Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:59.595Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:59.595Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:59.621Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:59.621Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:59.621Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:59.621Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:59.638Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:59.639Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:59.663Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:59.663Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:59.663Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:59.663Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:59.663Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:59.663Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:59.663Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:59.663Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:59.663Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:59.663Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:59.663Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:59.663Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:59.664Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:59.664Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:59.708Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:59.708Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:53:59.740Z] Auto-transferring file: 1758907451
+[2025-09-26T17:53:59.740Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:00.391Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:00.391Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:00.547Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:00.548Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:00.548Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:00.548Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:00.591Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:00.591Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:00.596Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:00.596Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:00.622Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:00.622Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:00.623Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:00.623Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:00.640Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:00.640Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:00.664Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:00.664Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:00.664Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:00.664Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:00.665Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:00.665Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:00.665Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:00.665Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:00.665Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:00.665Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:00.665Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:00.665Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:00.665Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:00.665Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:00.709Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:00.709Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:00.741Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:00.741Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:01.393Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:01.393Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:01.549Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:01.549Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:01.549Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:01.549Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:01.592Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:01.593Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:01.596Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:01.596Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:01.623Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:01.623Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:01.623Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:01.623Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:01.641Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:01.642Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:01.665Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:01.665Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:01.666Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:01.666Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:01.666Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:01.666Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:01.666Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:01.666Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:01.666Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:01.666Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:01.666Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:01.666Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:01.666Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:01.666Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:01.711Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:01.711Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:01.742Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:01.742Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:02.395Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:02.395Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:02.550Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:02.550Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:02.550Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:02.550Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:02.593Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:02.593Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:02.597Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:02.597Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:02.625Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:02.625Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:02.625Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:02.625Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:02.644Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:02.644Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:02.666Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:02.667Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:02.667Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:02.667Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:02.667Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:02.667Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:02.667Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:02.667Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:02.667Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:02.667Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:02.667Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:02.667Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:02.667Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:02.667Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:02.713Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:02.713Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:02.743Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:02.743Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:03.396Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:03.396Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:03.551Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:03.551Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:03.551Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:03.551Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:03.594Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:03.594Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:03.597Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:03.597Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:03.626Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:03.626Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:03.626Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:03.626Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:03.646Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:03.646Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:03.667Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:03.667Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:03.667Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:03.667Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:03.668Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:03.668Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:03.668Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:03.668Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:03.668Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:03.668Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:03.668Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:03.668Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:03.668Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:03.668Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:03.714Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:03.714Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:03.743Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:03.743Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:04.397Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:04.398Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:04.552Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:04.552Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:04.553Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:04.553Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:04.596Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:04.596Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:04.596Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:04.596Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:04.626Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:04.627Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:04.627Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:04.627Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:04.648Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:04.648Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:04.668Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:04.668Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:04.668Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:04.668Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:04.668Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:04.669Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:04.669Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:04.669Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:04.669Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:04.669Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:04.669Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:04.669Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:04.669Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:04.669Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:04.716Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:04.716Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:04.744Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:04.744Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:05.398Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:05.399Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:05.554Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:05.554Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:05.555Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:05.555Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:05.598Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:05.598Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:05.598Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:05.598Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:05.627Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:05.627Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:05.627Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:05.627Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:05.650Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:05.650Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:05.670Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:05.670Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:05.670Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:05.670Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:05.670Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:05.670Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:05.670Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:05.670Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:05.670Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:05.671Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:05.671Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:05.671Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:05.671Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:05.671Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:05.717Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:05.718Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:05.746Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:05.746Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:06.400Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:06.400Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:06.556Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:06.556Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:06.556Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:06.556Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:06.585Z] File added: 20250927025354.mp3 (ID: 1758909244)
+[2025-09-26T17:54:06.599Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:06.599Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:06.599Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:06.599Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:06.629Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:06.629Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:06.629Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:06.629Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:06.651Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:06.651Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:06.672Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:06.672Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:06.672Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:06.672Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:06.672Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:06.672Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:06.672Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:06.672Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:06.672Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:06.672Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:06.672Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:06.672Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:06.672Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:06.672Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:06.719Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:06.719Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:06.747Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:06.747Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:07.401Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:07.401Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:07.557Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:07.558Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:07.558Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:07.558Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:07.585Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:07.599Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:07.599Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:07.599Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:07.599Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:07.631Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:07.631Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:07.631Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:07.631Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:07.652Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:07.652Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:07.672Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:07.673Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:07.673Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:07.673Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:07.673Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:07.673Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:07.673Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:07.673Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:07.673Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:07.673Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:07.673Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:07.673Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:07.673Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:07.673Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:07.719Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:07.720Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:07.748Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:07.748Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:08.403Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:08.403Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:08.559Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:08.559Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:08.559Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:08.559Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:08.586Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:08.586Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:08.599Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:08.599Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:08.599Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:08.599Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:08.632Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:08.632Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:08.632Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:08.632Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:08.654Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:08.654Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:08.674Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:08.674Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:08.674Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:08.674Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:08.674Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:08.674Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:08.674Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:08.674Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:08.674Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:08.674Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:08.674Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:08.674Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:08.674Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:08.675Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:08.721Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:08.721Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:08.748Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:08.748Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:09.404Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:09.405Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:09.560Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:09.560Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:09.561Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:09.561Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:09.588Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:09.588Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:09.601Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:09.601Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:09.601Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:09.601Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:09.633Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:09.633Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:09.633Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:09.633Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:09.655Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:09.656Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:09.675Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:09.675Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:09.676Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:09.676Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:09.676Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:09.676Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:09.676Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:09.676Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:09.676Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:09.676Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:09.676Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:09.676Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:09.676Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:09.676Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:09.722Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:09.723Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:09.750Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:09.750Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:10.406Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:10.406Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:10.562Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:10.562Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:10.562Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:10.562Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:10.589Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:10.589Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:10.603Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:10.603Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:10.603Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:10.603Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:10.634Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:10.634Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:10.634Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:10.634Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:10.658Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:10.658Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:10.676Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:10.677Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:10.677Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:10.677Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:10.677Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:10.677Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:10.677Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:10.677Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:10.677Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:10.677Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:10.677Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:10.677Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:10.677Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:10.677Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:10.723Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:10.724Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:10.751Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:10.751Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:11.408Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:11.408Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:11.564Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:11.564Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:11.564Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:11.564Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:11.589Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:11.589Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:11.604Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:11.604Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:11.604Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:11.604Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:11.635Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:11.635Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:11.635Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:11.635Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:11.661Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:11.662Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:11.677Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:11.677Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:11.678Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:11.678Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:11.678Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:11.678Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:11.678Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:11.678Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:11.678Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:11.678Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:11.678Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:11.678Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:11.678Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:11.678Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:11.725Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:11.725Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:11.752Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:11.752Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:12.410Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:12.410Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:12.566Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:12.566Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:12.566Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:12.566Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:12.590Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:12.591Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:12.605Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:12.605Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:12.605Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:12.605Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:12.636Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:12.636Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:12.636Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:12.636Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:12.663Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:12.664Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:12.679Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:12.679Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:12.679Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:12.679Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:12.679Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:12.679Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:12.679Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:12.679Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:12.679Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:12.679Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:12.679Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:12.679Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:12.679Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:12.679Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:12.726Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:12.726Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:12.752Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:12.752Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:13.412Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:13.412Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:13.568Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:13.568Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:13.568Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:13.568Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:13.591Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:13.591Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:13.605Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:13.606Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:13.606Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:13.606Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:13.637Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:13.637Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:13.637Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:13.637Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:13.665Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:13.665Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:13.679Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:13.680Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:13.680Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:13.681Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:13.682Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:13.683Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:13.683Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:13.683Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:13.683Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:13.683Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:13.683Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:13.683Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:13.683Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:13.683Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:13.727Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:13.728Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:13.753Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:13.753Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:14.413Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:14.413Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:14.570Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:14.570Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:14.570Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:14.570Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:14.592Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:14.592Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:14.606Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:14.607Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:14.607Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:14.607Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:14.638Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:14.638Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:14.638Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:14.638Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:14.666Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:14.666Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:14.682Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:14.682Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:14.682Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:14.682Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:14.684Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:14.684Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:14.684Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:14.684Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:14.684Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:14.684Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:14.684Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:14.685Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:14.685Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:14.685Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:14.729Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:14.729Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:14.753Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:14.753Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:15.415Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:15.415Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:15.570Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:15.571Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:15.571Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:15.571Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:15.593Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:15.594Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:15.608Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:15.608Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:15.608Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:15.608Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:15.638Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:15.638Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:15.638Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:15.638Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:15.667Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:15.667Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:15.684Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:15.684Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:15.684Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:15.684Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:15.684Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:15.684Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:15.684Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:15.684Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:15.686Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:15.686Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:15.686Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:15.686Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:15.686Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:15.686Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:15.731Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:15.731Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:15.754Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:15.755Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:16.417Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:16.417Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:16.572Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:16.572Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:16.572Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:16.572Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:16.583Z] File added: 20250927025404.mp3 (ID: 1758909254)
+[2025-09-26T17:54:16.594Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:16.594Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:16.609Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:16.609Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:16.609Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:16.609Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:16.640Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:16.640Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:16.640Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:16.640Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:16.668Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:16.668Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:16.685Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:16.685Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:16.685Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:16.685Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:16.685Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:16.685Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:16.685Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:16.685Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:16.687Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:16.687Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:16.687Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:16.687Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:16.687Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:16.687Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:16.733Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:16.733Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:16.755Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:16.756Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:17.418Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:17.419Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:17.572Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:17.572Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:17.573Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:17.573Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:17.585Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:17.595Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:17.595Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:17.609Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:17.609Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:17.609Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:17.609Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:17.640Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:17.641Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:17.641Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:17.641Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:17.669Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:17.670Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:17.685Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:17.686Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:17.686Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:17.687Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:17.688Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:17.688Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:17.689Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:17.689Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:17.690Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:17.690Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:17.690Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:17.690Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:17.691Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:17.691Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:17.735Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:17.735Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:17.757Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:17.757Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:18.420Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:18.420Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:18.574Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:18.574Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:18.574Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:18.574Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:18.585Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:18.585Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:18.596Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:18.597Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:18.610Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:18.610Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:18.610Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:18.610Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:18.641Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:18.642Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:18.642Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:18.642Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:18.671Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:18.671Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:18.688Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:18.688Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:18.688Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:18.688Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:18.689Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:18.689Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:18.690Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:18.690Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:18.691Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:18.691Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:18.691Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:18.691Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:18.691Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:18.691Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:18.735Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:18.736Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:18.758Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:18.758Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:19.422Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:19.422Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:19.575Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:19.575Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:19.575Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:19.575Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:19.585Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:19.585Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:19.598Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:19.598Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:19.612Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:19.612Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:19.612Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:19.612Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:19.643Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:19.643Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:19.643Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:19.643Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:19.672Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:19.672Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:19.690Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:19.691Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:19.691Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:19.691Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:19.692Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:19.692Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:19.693Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:19.693Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:19.693Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:19.694Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:19.694Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:19.694Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:19.694Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:19.694Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:19.737Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:19.737Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:19.758Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:19.758Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:20.423Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:20.424Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:20.575Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:20.575Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:20.576Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:20.576Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:20.587Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:20.587Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:20.598Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:20.598Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:20.612Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:20.612Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:20.612Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:20.613Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:20.644Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:20.644Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:20.644Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:20.644Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:20.673Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:20.674Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:20.692Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:20.692Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:20.692Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:20.692Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:20.692Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:20.692Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:20.693Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:20.694Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:20.694Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:20.694Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:20.694Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:20.694Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:20.694Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:20.694Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:20.739Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:20.739Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:20.759Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:20.759Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:21.424Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:21.425Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:21.577Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:21.577Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:21.577Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:21.577Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:21.587Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:21.587Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:21.600Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:21.600Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:21.614Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:21.614Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:21.614Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:21.614Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:21.644Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:21.644Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:21.644Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:21.644Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:21.676Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:21.676Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:21.692Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:21.693Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:21.693Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:21.693Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:21.693Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:21.693Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:21.694Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:21.694Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:21.694Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:21.694Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:21.694Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:21.694Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:21.694Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:21.694Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:21.740Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:21.741Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:21.761Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:21.761Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:22.426Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:22.426Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:22.579Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:22.579Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:22.579Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:22.579Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:22.588Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:22.588Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:22.601Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:22.601Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:22.615Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:22.615Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:22.615Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:22.615Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:22.645Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:22.645Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:22.645Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:22.645Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:22.678Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:22.678Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:22.694Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:22.694Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:22.694Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:22.694Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:22.695Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:22.695Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:22.696Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:22.696Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:22.696Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:22.696Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:22.696Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:22.696Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:22.696Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:22.696Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:22.741Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:22.741Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:22.762Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:22.762Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:23.428Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:23.428Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:23.581Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:23.581Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:23.581Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:23.581Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:23.589Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:23.590Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:23.602Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:23.602Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:23.616Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:23.616Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:23.616Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:23.616Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:23.647Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:23.647Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:23.647Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:23.647Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:23.678Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:23.679Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:23.696Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:23.696Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:23.696Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:23.696Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:23.696Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:23.696Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:23.696Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:23.696Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:23.696Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:23.696Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:23.696Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:23.696Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:23.698Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:23.698Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:23.743Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:23.743Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:23.762Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:23.762Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:24.430Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:24.430Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:24.583Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:24.583Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:24.583Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:24.584Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:24.590Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:24.591Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:24.602Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:24.602Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:24.616Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:24.616Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:24.616Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:24.616Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:24.648Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:24.649Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:24.649Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:24.649Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:24.680Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:24.680Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:24.697Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:24.697Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:24.697Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:24.697Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:24.697Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:24.697Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:24.697Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:24.697Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:24.697Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:24.697Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:24.697Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:24.697Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:24.699Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:24.699Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:24.743Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:24.743Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:24.763Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:24.763Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:25.432Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:25.432Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:25.584Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:25.584Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:25.585Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:25.585Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:25.591Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:25.592Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:25.604Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:25.604Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:25.618Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:25.618Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:25.618Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:25.618Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:25.649Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:25.649Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:25.649Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:25.649Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:25.680Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:25.680Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:25.699Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:25.699Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:25.699Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:25.699Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:25.699Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:25.699Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:25.699Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:25.699Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:25.699Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:25.699Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:25.699Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:25.699Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:25.699Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:25.699Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:25.745Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:25.745Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:25.763Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:25.764Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:26.434Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:26.434Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:26.584Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:26.584Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:26.585Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:26.585Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:26.585Z] File added: 20250927025414.mp3 (ID: 1758909264)
+[2025-09-26T17:54:26.593Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:26.593Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:26.605Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:26.605Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:26.619Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:26.619Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:26.619Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:26.619Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:26.650Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:26.651Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:26.651Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:26.651Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:26.682Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:26.682Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:26.699Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:26.700Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:26.700Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:26.700Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:26.700Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:26.700Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:26.700Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:26.700Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:26.700Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:26.700Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:26.700Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:26.700Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:26.700Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:26.700Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:26.746Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:26.746Z] No subscriber for DATA_TRANSFER
+[2025-09-26T17:54:26.765Z] Auto-transferring file: 1758907451
+[2025-09-26T17:54:26.765Z] No subscriber for DATA_TRANSFER

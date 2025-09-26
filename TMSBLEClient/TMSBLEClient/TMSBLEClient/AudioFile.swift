@@ -15,18 +15,36 @@ class AudioFile: NSObject, NSCoding, Identifiable {
         super.init()
     }
     
-    // NSCoding
+    // NSCoding - Using more robust encoding/decoding
     func encode(with coder: NSCoder) {
-        coder.encode(fileId, forKey: "fileId")
+        // Encode UInt32 as NSNumber to avoid type issues
+        coder.encode(NSNumber(value: fileId), forKey: "fileId")
         coder.encode(data, forKey: "data")
-        coder.encode(fileSize, forKey: "fileSize")
+        coder.encode(NSNumber(value: fileSize), forKey: "fileSize")
         coder.encode(timestamp, forKey: "timestamp")
     }
     
     required init?(coder: NSCoder) {
-        self.fileId = UInt32(coder.decodeInteger(forKey: "fileId"))
+        // Decode using NSNumber for better compatibility
+        if let fileIdNumber = coder.decodeObject(forKey: "fileId") as? NSNumber {
+            self.fileId = fileIdNumber.uint32Value
+        } else {
+            self.fileId = 0
+        }
+        
+        // Decode data first
         self.data = coder.decodeObject(forKey: "data") as? Data ?? Data()
-        self.fileSize = coder.decodeInteger(forKey: "fileSize")
+        
+        // Try to decode fileSize, fallback to actual data size
+        if let fileSizeNumber = coder.decodeObject(forKey: "fileSize") as? NSNumber {
+            let decodedSize = fileSizeNumber.intValue
+            // Use actual data size if decoded size is 0 or doesn't match
+            self.fileSize = (decodedSize > 0) ? decodedSize : self.data.count
+        } else {
+            // If no fileSize stored, use actual data size
+            self.fileSize = self.data.count
+        }
+        
         self.timestamp = coder.decodeObject(forKey: "timestamp") as? Date ?? Date()
         super.init()
     }

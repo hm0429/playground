@@ -59,6 +59,7 @@ class BLEManager: NSObject, ObservableObject {
     
     override init() {
         super.init()
+        print("🚀 Initializing BLEManager...")
         centralManager = CBCentralManager(delegate: self, queue: nil)
         loadSavedFiles()
     }
@@ -212,11 +213,17 @@ class BLEManager: NSObject, ObservableObject {
                             timestamp: Date()
                         )
                         
-                        audioFiles.append(audioFile)
-                        saveFiles()
-                        activeTransfer = nil
+                        // Check for duplicates before adding
+                        if !audioFiles.contains(where: { $0.fileId == transfer.fileId }) {
+                            audioFiles.append(audioFile)
+                            audioFiles.sort { $0.fileId > $1.fileId } // Sort by newest first
+                            saveFiles()
+                            print("Transfer complete and saved: \(formatFileId(transfer.fileId))")
+                        } else {
+                            print("Transfer complete but file already exists: \(formatFileId(transfer.fileId))")
+                        }
                         
-                        print("Transfer complete: \(formatFileId(transfer.fileId))")
+                        activeTransfer = nil
                         
                         // Send completion acknowledgment
                         requestFileCompletion(fileId: transfer.fileId)
@@ -239,15 +246,36 @@ class BLEManager: NSObject, ObservableObject {
         peripheral?.writeValue(packet, for: characteristic, type: .withResponse)
     }
     
-    private func saveFiles() {
+    func saveFiles() {
         let documentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
         let archiveURL = documentsDirectory.appendingPathComponent("audioFiles.archive")
         
         do {
+            // Create documents directory if it doesn't exist
+            try FileManager.default.createDirectory(at: documentsDirectory, withIntermediateDirectories: true, attributes: nil)
+            
             let data = try NSKeyedArchiver.archivedData(withRootObject: audioFiles, requiringSecureCoding: false)
-            try data.write(to: archiveURL)
+            try data.write(to: archiveURL, options: .atomic)  // Use atomic write for safety
+            
+            // Calculate total size using actual data size
+            let totalSize = audioFiles.reduce(0) { $0 + $1.data.count }
+            let sizeInMB = Double(totalSize) / 1024.0 / 1024.0
+            
+            print("✅ Saved \(audioFiles.count) audio files to persistent storage")
+            print("  Path: \(archiveURL.path)")
+            print("  Total size: \(String(format: "%.2f", sizeInMB)) MB (actual data)")
+            
+            // Log individual file sizes for debugging
+            for file in audioFiles.prefix(3) {  // Show first 3 files
+                let fileSizeKB = Double(file.data.count) / 1024.0
+                print("  - \(formatFileId(file.fileId)): \(String(format: "%.2f", fileSizeKB)) KB")
+            }
+            if audioFiles.count > 3 {
+                print("  ... and \(audioFiles.count - 3) more files")
+            }
         } catch {
-            print("Failed to save files: \(error)")
+            print("❌ Failed to save files: \(error)")
+            print("  Path: \(archiveURL.path)")
         }
     }
     
@@ -255,9 +283,52 @@ class BLEManager: NSObject, ObservableObject {
         let documentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
         let archiveURL = documentsDirectory.appendingPathComponent("audioFiles.archive")
         
-        if let data = try? Data(contentsOf: archiveURL),
-           let files = try? NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(data) as? [AudioFile] {
-            audioFiles = files
+        do {
+            if FileManager.default.fileExists(atPath: archiveURL.path) {
+                let data = try Data(contentsOf: archiveURL)
+                if let files = try NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(data) as? [AudioFile] {
+                    audioFiles = files
+                    audioFiles.sort { $0.fileId > $1.fileId } // Sort by newest first
+                    
+                    // Calculate total size and verify data integrity
+                    var totalSize = 0
+                    for file in audioFiles {
+                        let actualDataSize = file.data.count
+                        let storedSize = file.fileSize
+                        totalSize += actualDataSize
+                        
+                        // Log any size mismatches
+                        if actualDataSize != storedSize {
+                            print("⚠️ Size mismatch for file \(formatFileId(file.fileId)):")
+                            print("   Stored size: \(storedSize), Actual data size: \(actualDataSize)")
+                        }
+                    }
+                    
+                    let sizeInMB = Double(totalSize) / 1024.0 / 1024.0
+                    
+                    print("✅ Loaded \(audioFiles.count) audio files from persistent storage")
+                    print("  Path: \(archiveURL.path)")
+                    print("  Total size: \(String(format: "%.2f", sizeInMB)) MB (based on actual data)")
+                } else {
+                    print("⚠️ Failed to decode audio files from archive")
+                    audioFiles = []
+                }
+            } else {
+                print("ℹ️ No saved audio files found at: \(archiveURL.path)")
+                audioFiles = []
+            }
+        } catch let error as NSError {
+            print("❌ Error loading saved files: \(error)")
+            print("  Path: \(archiveURL.path)")
+            
+            // If decoding failed due to format change, clear the old file
+            if error.code == 4864 { // NSKeyedUnarchiveInvalidArchiveError
+                print("🔄 Clearing corrupted archive file...")
+                try? FileManager.default.removeItem(at: archiveURL)
+                print("  Old archive removed. Starting with empty file list.")
+            }
+            
+            audioFiles = []
         }
     }
 }

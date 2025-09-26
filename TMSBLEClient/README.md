@@ -68,9 +68,24 @@ The app communicates with TMS BLE Server using the following characteristics:
 4. Client acknowledges completion via CONTROL
 5. Server deletes file after successful transfer
 
-## File Storage
+## File Storage & Persistence
 
-Received files are stored in the app's Documents directory and persist across app launches.
+### Storage Location
+- Audio files are stored in the app's Documents directory
+- Archive file: `Documents/audioFiles.archive`
+- Files persist across app launches
+
+### Automatic Saving
+Files are automatically saved when:
+- New file transfer completes
+- File is deleted from the list
+- App goes to background or becomes inactive
+
+### Data Safety
+- Atomic file writes prevent corruption
+- Duplicate prevention on file reception
+- Automatic sorting (newest files first)
+- Detailed logging of save/load operations with file sizes
 
 ## Permissions
 
