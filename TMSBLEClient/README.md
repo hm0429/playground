@@ -8,6 +8,8 @@ iOS application for receiving and playing audio files from TMS BLE Server via Bl
 - **Auto Transfer**: Automatically receives new audio files when they become available
 - **Audio Playback**: Play received MP3 files directly in the app
 - **File Management**: View list of received files with metadata
+  - File IDs displayed in YYYYMMDDHHMMSS format (converted from Unix timestamp)
+  - File size and timestamp information
 - **Persistent Storage**: Saves received files for offline playback
 
 ## Requirements
