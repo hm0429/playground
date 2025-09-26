@@ -121,3 +121,963 @@
 [2025-09-26T17:06:53.184Z] Notified STATUS: type=0x10, fileId=1758906411
 [2025-09-26T17:07:03.196Z] File added: 20250927020651.mp3 (ID: 1758906421)
 [2025-09-26T17:07:03.197Z] Notified STATUS: type=0x10, fileId=1758906421
+[2025-09-26T17:07:13.174Z] File added: 20250927020701.mp3 (ID: 1758906431)
+[2025-09-26T17:07:13.174Z] Notified STATUS: type=0x10, fileId=1758906431
+[2025-09-26T17:07:23.181Z] File added: 20250927020711.mp3 (ID: 1758906441)
+[2025-09-26T17:07:23.181Z] Notified STATUS: type=0x10, fileId=1758906441
+[2025-09-26T17:07:33.189Z] File added: 20250927020721.mp3 (ID: 1758906451)
+[2025-09-26T17:07:33.190Z] Notified STATUS: type=0x10, fileId=1758906451
+[2025-09-26T17:07:43.188Z] File added: 20250927020731.mp3 (ID: 1758906461)
+[2025-09-26T17:07:43.189Z] Notified STATUS: type=0x10, fileId=1758906461
+[2025-09-26T17:07:53.200Z] File added: 20250927020741.mp3 (ID: 1758906471)
+[2025-09-26T17:07:53.201Z] Notified STATUS: type=0x10, fileId=1758906471
+[2025-09-26T17:08:03.204Z] File added: 20250927020751.mp3 (ID: 1758906481)
+[2025-09-26T17:08:03.204Z] Notified STATUS: type=0x10, fileId=1758906481
+[2025-09-26T17:08:13.088Z] File added: 20250927020801.mp3 (ID: 1758906491)
+[2025-09-26T17:08:13.089Z] Notified STATUS: type=0x10, fileId=1758906491
+[2025-09-26T17:08:19.590Z] Central unsubscribed from STATUS notifications
+[2025-09-26T17:08:23.092Z] File added: 20250927020811.mp3 (ID: 1758906501)
+[2025-09-26T17:08:33.194Z] File added: 20250927020821.mp3 (ID: 1758906511)
+[2025-09-26T17:08:43.102Z] File added: 20250927020831.mp3 (ID: 1758906521)
+[2025-09-26T17:08:53.198Z] File added: 20250927020841.mp3 (ID: 1758906531)
+[2025-09-26T17:09:03.214Z] File added: 20250927020851.mp3 (ID: 1758906541)
+[2025-09-26T17:09:13.119Z] File added: 20250927020901.mp3 (ID: 1758906551)
+[2025-09-26T17:09:23.215Z] File added: 20250927020911.mp3 (ID: 1758906561)
+[2025-09-26T17:09:33.219Z] File added: 20250927020921.mp3 (ID: 1758906571)
+[2025-09-26T17:09:43.202Z] File added: 20250927020931.mp3 (ID: 1758906581)
+[2025-09-26T17:09:53.218Z] File added: 20250927020941.mp3 (ID: 1758906591)
+[2025-09-26T17:10:03.211Z] File added: 20250927020951.mp3 (ID: 1758906601)
+[2025-09-26T17:10:13.215Z] File added: 20250927021001.mp3 (ID: 1758906611)
+[2025-09-26T17:10:23.199Z] File added: 20250927021011.mp3 (ID: 1758906621)
+[2025-09-26T17:10:33.217Z] File added: 20250927021021.mp3 (ID: 1758906631)
+[2025-09-26T17:10:43.220Z] File added: 20250927021031.mp3 (ID: 1758906641)
+[2025-09-26T17:10:53.212Z] File added: 20250927021041.mp3 (ID: 1758906651)
+[2025-09-26T17:11:03.222Z] File added: 20250927021051.mp3 (ID: 1758906661)
+[2025-09-26T17:11:13.224Z] File added: 20250927021101.mp3 (ID: 1758906671)
+[2025-09-26T17:11:23.198Z] File added: 20250927021111.mp3 (ID: 1758906681)
+[2025-09-26T17:11:33.212Z] File added: 20250927021121.mp3 (ID: 1758906691)
+[2025-09-26T17:11:43.219Z] File added: 20250927021131.mp3 (ID: 1758906701)
+[2025-09-26T17:11:46.935Z] Shutting down BLE server...
+[2025-09-26T17:11:48.006Z] BLE Server started
+[2025-09-26T17:11:48.008Z] Found existing file: 20250926192833.mp3 (ID: 1758882519)
+[2025-09-26T17:11:48.008Z] Found existing file: 20250926192839.mp3 (ID: 1758882524)
+[2025-09-26T17:11:48.008Z] Found existing file: 20250926192844.mp3 (ID: 1758882529)
+[2025-09-26T17:11:48.008Z] Found existing file: 20250926192849.mp3 (ID: 1758882534)
+[2025-09-26T17:11:48.008Z] Found existing file: 20250926192854.mp3 (ID: 1758882539)
+[2025-09-26T17:11:48.008Z] Found existing file: 20250926192859.mp3 (ID: 1758882544)
+[2025-09-26T17:11:48.008Z] Found existing file: 20250926192904.mp3 (ID: 1758882549)
+[2025-09-26T17:11:48.009Z] Found existing file: 20250926192909.mp3 (ID: 1758882552)
+[2025-09-26T17:11:48.009Z] Found existing file: 20250927010654.mp3 (ID: 1758902826)
+[2025-09-26T17:11:48.009Z] Found existing file: 20250927010706.mp3 (ID: 1758902836)
+[2025-09-26T17:11:48.009Z] Found existing file: 20250927010716.mp3 (ID: 1758902846)
+[2025-09-26T17:11:48.009Z] Found existing file: 20250927010726.mp3 (ID: 1758902856)
+[2025-09-26T17:11:48.009Z] Found existing file: 20250927010736.mp3 (ID: 1758902866)
+[2025-09-26T17:11:48.009Z] Found existing file: 20250927010746.mp3 (ID: 1758902876)
+[2025-09-26T17:11:48.009Z] Found existing file: 20250927010756.mp3 (ID: 1758902881)
+[2025-09-26T17:11:48.009Z] Found existing file: 20250927020310.mp3 (ID: 1758906201)
+[2025-09-26T17:11:48.009Z] Found existing file: 20250927020321.mp3 (ID: 1758906211)
+[2025-09-26T17:11:48.009Z] Found existing file: 20250927020331.mp3 (ID: 1758906221)
+[2025-09-26T17:11:48.009Z] Found existing file: 20250927020341.mp3 (ID: 1758906231)
+[2025-09-26T17:11:48.009Z] Found existing file: 20250927020351.mp3 (ID: 1758906241)
+[2025-09-26T17:11:48.009Z] Found existing file: 20250927020401.mp3 (ID: 1758906251)
+[2025-09-26T17:11:48.010Z] Found existing file: 20250927020411.mp3 (ID: 1758906261)
+[2025-09-26T17:11:48.010Z] Found existing file: 20250927020421.mp3 (ID: 1758906271)
+[2025-09-26T17:11:48.010Z] Found existing file: 20250927020431.mp3 (ID: 1758906281)
+[2025-09-26T17:11:48.010Z] Found existing file: 20250927020441.mp3 (ID: 1758906291)
+[2025-09-26T17:11:48.010Z] Found existing file: 20250927020451.mp3 (ID: 1758906301)
+[2025-09-26T17:11:48.010Z] Found existing file: 20250927020501.mp3 (ID: 1758906311)
+[2025-09-26T17:11:48.010Z] Found existing file: 20250927020511.mp3 (ID: 1758906321)
+[2025-09-26T17:11:48.010Z] Found existing file: 20250927020521.mp3 (ID: 1758906331)
+[2025-09-26T17:11:48.010Z] Found existing file: 20250927020531.mp3 (ID: 1758906341)
+[2025-09-26T17:11:48.010Z] Found existing file: 20250927020541.mp3 (ID: 1758906351)
+[2025-09-26T17:11:48.010Z] Found existing file: 20250927020551.mp3 (ID: 1758906361)
+[2025-09-26T17:11:48.010Z] Found existing file: 20250927020601.mp3 (ID: 1758906371)
+[2025-09-26T17:11:48.010Z] Found existing file: 20250927020611.mp3 (ID: 1758906381)
+[2025-09-26T17:11:48.010Z] Found existing file: 20250927020621.mp3 (ID: 1758906391)
+[2025-09-26T17:11:48.010Z] Found existing file: 20250927020631.mp3 (ID: 1758906401)
+[2025-09-26T17:11:48.010Z] Found existing file: 20250927020641.mp3 (ID: 1758906411)
+[2025-09-26T17:11:48.010Z] Found existing file: 20250927020651.mp3 (ID: 1758906421)
+[2025-09-26T17:11:48.010Z] Found existing file: 20250927020701.mp3 (ID: 1758906431)
+[2025-09-26T17:11:48.010Z] Found existing file: 20250927020711.mp3 (ID: 1758906441)
+[2025-09-26T17:11:48.010Z] Found existing file: 20250927020721.mp3 (ID: 1758906451)
+[2025-09-26T17:11:48.010Z] Found existing file: 20250927020731.mp3 (ID: 1758906461)
+[2025-09-26T17:11:48.010Z] Found existing file: 20250927020741.mp3 (ID: 1758906471)
+[2025-09-26T17:11:48.010Z] Found existing file: 20250927020751.mp3 (ID: 1758906481)
+[2025-09-26T17:11:48.011Z] Found existing file: 20250927020801.mp3 (ID: 1758906491)
+[2025-09-26T17:11:48.011Z] Found existing file: 20250927020811.mp3 (ID: 1758906501)
+[2025-09-26T17:11:48.011Z] Found existing file: 20250927020821.mp3 (ID: 1758906511)
+[2025-09-26T17:11:48.011Z] Found existing file: 20250927020831.mp3 (ID: 1758906521)
+[2025-09-26T17:11:48.011Z] Found existing file: 20250927020841.mp3 (ID: 1758906531)
+[2025-09-26T17:11:48.011Z] Found existing file: 20250927020851.mp3 (ID: 1758906541)
+[2025-09-26T17:11:48.011Z] Found existing file: 20250927020901.mp3 (ID: 1758906551)
+[2025-09-26T17:11:48.011Z] Found existing file: 20250927020911.mp3 (ID: 1758906561)
+[2025-09-26T17:11:48.011Z] Found existing file: 20250927020921.mp3 (ID: 1758906571)
+[2025-09-26T17:11:48.011Z] Found existing file: 20250927020931.mp3 (ID: 1758906581)
+[2025-09-26T17:11:48.011Z] Found existing file: 20250927020941.mp3 (ID: 1758906591)
+[2025-09-26T17:11:48.011Z] Found existing file: 20250927020951.mp3 (ID: 1758906601)
+[2025-09-26T17:11:48.011Z] Found existing file: 20250927021001.mp3 (ID: 1758906611)
+[2025-09-26T17:11:48.011Z] Found existing file: 20250927021011.mp3 (ID: 1758906621)
+[2025-09-26T17:11:48.011Z] Found existing file: 20250927021021.mp3 (ID: 1758906631)
+[2025-09-26T17:11:48.011Z] Found existing file: 20250927021031.mp3 (ID: 1758906641)
+[2025-09-26T17:11:48.011Z] Found existing file: 20250927021041.mp3 (ID: 1758906651)
+[2025-09-26T17:11:48.011Z] Found existing file: 20250927021051.mp3 (ID: 1758906661)
+[2025-09-26T17:11:48.011Z] Found existing file: 20250927021101.mp3 (ID: 1758906671)
+[2025-09-26T17:11:48.011Z] Found existing file: 20250927021111.mp3 (ID: 1758906681)
+[2025-09-26T17:11:48.011Z] Found existing file: 20250927021121.mp3 (ID: 1758906691)
+[2025-09-26T17:11:48.011Z] Found existing file: 20250927021131.mp3 (ID: 1758906701)
+[2025-09-26T17:11:48.012Z] Monitoring directory: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio
+[2025-09-26T17:11:48.012Z] TMS BLE Server initialized
+[2025-09-26T17:11:48.012Z] Service UUID: 572542C4-2198-4D1E-9820-1FEAEA1BB9D0
+[2025-09-26T17:11:48.012Z] Watching: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio
+[2025-09-26T17:11:48.014Z] File added: 20250926192833.mp3 (ID: 1758882519)
+[2025-09-26T17:11:48.014Z] File added: 20250926192839.mp3 (ID: 1758882524)
+[2025-09-26T17:11:48.014Z] File added: 20250926192844.mp3 (ID: 1758882529)
+[2025-09-26T17:11:48.014Z] File added: 20250926192849.mp3 (ID: 1758882534)
+[2025-09-26T17:11:48.014Z] File added: 20250926192854.mp3 (ID: 1758882539)
+[2025-09-26T17:11:48.014Z] File added: 20250926192859.mp3 (ID: 1758882544)
+[2025-09-26T17:11:48.014Z] File added: 20250926192904.mp3 (ID: 1758882549)
+[2025-09-26T17:11:48.015Z] File added: 20250926192909.mp3 (ID: 1758882552)
+[2025-09-26T17:11:48.015Z] File added: 20250927010654.mp3 (ID: 1758902826)
+[2025-09-26T17:11:48.015Z] File added: 20250927010706.mp3 (ID: 1758902836)
+[2025-09-26T17:11:48.015Z] File added: 20250927010716.mp3 (ID: 1758902846)
+[2025-09-26T17:11:48.015Z] File added: 20250927010726.mp3 (ID: 1758902856)
+[2025-09-26T17:11:48.015Z] File added: 20250927010736.mp3 (ID: 1758902866)
+[2025-09-26T17:11:48.015Z] File added: 20250927010746.mp3 (ID: 1758902876)
+[2025-09-26T17:11:48.015Z] File added: 20250927010756.mp3 (ID: 1758902881)
+[2025-09-26T17:11:48.015Z] File added: 20250927020310.mp3 (ID: 1758906201)
+[2025-09-26T17:11:48.015Z] File added: 20250927020321.mp3 (ID: 1758906211)
+[2025-09-26T17:11:48.015Z] File added: 20250927020331.mp3 (ID: 1758906221)
+[2025-09-26T17:11:48.015Z] File added: 20250927020341.mp3 (ID: 1758906231)
+[2025-09-26T17:11:48.015Z] File added: 20250927020351.mp3 (ID: 1758906241)
+[2025-09-26T17:11:48.015Z] File added: 20250927020401.mp3 (ID: 1758906251)
+[2025-09-26T17:11:48.015Z] File added: 20250927020411.mp3 (ID: 1758906261)
+[2025-09-26T17:11:48.015Z] File added: 20250927020421.mp3 (ID: 1758906271)
+[2025-09-26T17:11:48.015Z] File added: 20250927020431.mp3 (ID: 1758906281)
+[2025-09-26T17:11:48.015Z] File added: 20250927020441.mp3 (ID: 1758906291)
+[2025-09-26T17:11:48.015Z] File added: 20250927020451.mp3 (ID: 1758906301)
+[2025-09-26T17:11:48.016Z] File added: 20250927020501.mp3 (ID: 1758906311)
+[2025-09-26T17:11:48.016Z] File added: 20250927020511.mp3 (ID: 1758906321)
+[2025-09-26T17:11:48.016Z] File added: 20250927020521.mp3 (ID: 1758906331)
+[2025-09-26T17:11:48.016Z] File added: 20250927020531.mp3 (ID: 1758906341)
+[2025-09-26T17:11:48.016Z] File added: 20250927020541.mp3 (ID: 1758906351)
+[2025-09-26T17:11:48.016Z] File added: 20250927020551.mp3 (ID: 1758906361)
+[2025-09-26T17:11:48.016Z] File added: 20250927020601.mp3 (ID: 1758906371)
+[2025-09-26T17:11:48.016Z] File added: 20250927020611.mp3 (ID: 1758906381)
+[2025-09-26T17:11:48.016Z] File added: 20250927020621.mp3 (ID: 1758906391)
+[2025-09-26T17:11:48.016Z] File added: 20250927020631.mp3 (ID: 1758906401)
+[2025-09-26T17:11:48.016Z] File added: 20250927020641.mp3 (ID: 1758906411)
+[2025-09-26T17:11:48.016Z] File added: 20250927020651.mp3 (ID: 1758906421)
+[2025-09-26T17:11:48.016Z] File added: 20250927020701.mp3 (ID: 1758906431)
+[2025-09-26T17:11:48.016Z] File added: 20250927020711.mp3 (ID: 1758906441)
+[2025-09-26T17:11:48.016Z] File added: 20250927020721.mp3 (ID: 1758906451)
+[2025-09-26T17:11:48.016Z] File added: 20250927020731.mp3 (ID: 1758906461)
+[2025-09-26T17:11:48.017Z] File added: 20250927020741.mp3 (ID: 1758906471)
+[2025-09-26T17:11:48.017Z] File added: 20250927020751.mp3 (ID: 1758906481)
+[2025-09-26T17:11:48.017Z] File added: 20250927020801.mp3 (ID: 1758906491)
+[2025-09-26T17:11:48.017Z] File added: 20250927020811.mp3 (ID: 1758906501)
+[2025-09-26T17:11:48.017Z] File added: 20250927020821.mp3 (ID: 1758906511)
+[2025-09-26T17:11:48.017Z] File added: 20250927020831.mp3 (ID: 1758906521)
+[2025-09-26T17:11:48.017Z] File added: 20250927020841.mp3 (ID: 1758906531)
+[2025-09-26T17:11:48.017Z] File added: 20250927020851.mp3 (ID: 1758906541)
+[2025-09-26T17:11:48.017Z] File added: 20250927020901.mp3 (ID: 1758906551)
+[2025-09-26T17:11:48.017Z] File added: 20250927020911.mp3 (ID: 1758906561)
+[2025-09-26T17:11:48.017Z] File added: 20250927020921.mp3 (ID: 1758906571)
+[2025-09-26T17:11:48.017Z] File added: 20250927020931.mp3 (ID: 1758906581)
+[2025-09-26T17:11:48.017Z] File added: 20250927020941.mp3 (ID: 1758906591)
+[2025-09-26T17:11:48.017Z] File added: 20250927020951.mp3 (ID: 1758906601)
+[2025-09-26T17:11:48.017Z] File added: 20250927021001.mp3 (ID: 1758906611)
+[2025-09-26T17:11:48.017Z] File added: 20250927021011.mp3 (ID: 1758906621)
+[2025-09-26T17:11:48.017Z] File added: 20250927021021.mp3 (ID: 1758906631)
+[2025-09-26T17:11:48.017Z] File added: 20250927021031.mp3 (ID: 1758906641)
+[2025-09-26T17:11:48.017Z] File added: 20250927021041.mp3 (ID: 1758906651)
+[2025-09-26T17:11:48.017Z] File added: 20250927021051.mp3 (ID: 1758906661)
+[2025-09-26T17:11:48.018Z] File added: 20250927021101.mp3 (ID: 1758906671)
+[2025-09-26T17:11:48.018Z] File added: 20250927021111.mp3 (ID: 1758906681)
+[2025-09-26T17:11:48.018Z] File added: 20250927021121.mp3 (ID: 1758906691)
+[2025-09-26T17:11:48.018Z] File added: 20250927021131.mp3 (ID: 1758906701)
+[2025-09-26T17:11:48.043Z] BLE state changed: poweredOn
+[2025-09-26T17:11:48.044Z] Advertising started: TMS BLE Audio Server
+[2025-09-26T17:11:53.230Z] File added: 20250927021141.mp3 (ID: 1758906711)
+[2025-09-26T17:12:03.230Z] File added: 20250927021151.mp3 (ID: 1758906721)
+[2025-09-26T17:12:13.224Z] File added: 20250927021201.mp3 (ID: 1758906731)
+[2025-09-26T17:12:23.231Z] File added: 20250927021211.mp3 (ID: 1758906741)
+[2025-09-26T17:12:28.706Z] Central subscribed to STATUS notifications
+[2025-09-26T17:12:28.826Z] Central subscribed to DATA_TRANSFER notifications
+[2025-09-26T17:12:33.220Z] File added: 20250927021221.mp3 (ID: 1758906751)
+[2025-09-26T17:12:33.221Z] Notified STATUS: type=0x10, fileId=1758906751
+[2025-09-26T17:12:40.678Z] Received CONTROL command: 0x2, ID: 0, SEQ: 0
+[2025-09-26T17:12:40.678Z] Auto transfer mode enabled
+[2025-09-26T17:12:40.679Z] Auto-transferring file: 1758882519
+[2025-09-26T17:12:40.682Z] Starting transfer: fileId=1758882519, size=75500, chunks=151
+[2025-09-26T17:12:40.736Z] Transfer progress: 1/151 chunks
+[2025-09-26T17:12:40.950Z] Transfer progress: 11/151 chunks
+[2025-09-26T17:12:41.161Z] Transfer progress: 21/151 chunks
+[2025-09-26T17:12:41.372Z] Transfer progress: 31/151 chunks
+[2025-09-26T17:12:41.582Z] Transfer progress: 41/151 chunks
+[2025-09-26T17:12:41.794Z] Transfer progress: 51/151 chunks
+[2025-09-26T17:12:42.005Z] Transfer progress: 61/151 chunks
+[2025-09-26T17:12:42.220Z] Transfer progress: 71/151 chunks
+[2025-09-26T17:12:42.431Z] Transfer progress: 81/151 chunks
+[2025-09-26T17:12:42.642Z] Transfer progress: 91/151 chunks
+[2025-09-26T17:12:42.854Z] Transfer progress: 101/151 chunks
+[2025-09-26T17:12:43.067Z] Transfer progress: 111/151 chunks
+[2025-09-26T17:12:43.224Z] File added: 20250927021231.mp3 (ID: 1758906761)
+[2025-09-26T17:12:43.224Z] Notified STATUS: type=0x10, fileId=1758906761
+[2025-09-26T17:12:43.279Z] Transfer progress: 121/151 chunks
+[2025-09-26T17:12:43.490Z] Transfer progress: 131/151 chunks
+[2025-09-26T17:12:43.702Z] Transfer progress: 141/151 chunks
+[2025-09-26T17:12:43.914Z] Transfer progress: 151/151 chunks
+[2025-09-26T17:12:43.935Z] Transfer completed: fileId=1758882519
+[2025-09-26T17:12:43.935Z] Transfer successful: 1758882519
+[2025-09-26T17:12:44.128Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:12:44.130Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250926192833.mp3
+[2025-09-26T17:12:44.130Z] Notified STATUS: type=0x11, fileId=1758882519
+[2025-09-26T17:12:44.937Z] Auto-transferring file: 1758882524
+[2025-09-26T17:12:44.938Z] Starting transfer: fileId=1758882524, size=59372, chunks=119
+[2025-09-26T17:12:44.990Z] Transfer progress: 1/119 chunks
+[2025-09-26T17:12:45.207Z] Transfer progress: 11/119 chunks
+[2025-09-26T17:12:45.418Z] Transfer progress: 21/119 chunks
+[2025-09-26T17:12:45.630Z] Transfer progress: 31/119 chunks
+[2025-09-26T17:12:45.840Z] Transfer progress: 41/119 chunks
+[2025-09-26T17:12:46.052Z] Transfer progress: 51/119 chunks
+[2025-09-26T17:12:46.264Z] Transfer progress: 61/119 chunks
+[2025-09-26T17:12:46.475Z] Transfer progress: 71/119 chunks
+[2025-09-26T17:12:46.687Z] Transfer progress: 81/119 chunks
+[2025-09-26T17:12:46.899Z] Transfer progress: 91/119 chunks
+[2025-09-26T17:12:47.112Z] Transfer progress: 101/119 chunks
+[2025-09-26T17:12:47.324Z] Transfer progress: 111/119 chunks
+[2025-09-26T17:12:47.513Z] Transfer completed: fileId=1758882524
+[2025-09-26T17:12:47.514Z] Transfer successful: 1758882524
+[2025-09-26T17:12:47.577Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:12:47.578Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250926192839.mp3
+[2025-09-26T17:12:47.578Z] Notified STATUS: type=0x11, fileId=1758882524
+[2025-09-26T17:12:48.515Z] Auto-transferring file: 1758882529
+[2025-09-26T17:12:48.517Z] Starting transfer: fileId=1758882529, size=59372, chunks=119
+[2025-09-26T17:12:48.569Z] Transfer progress: 1/119 chunks
+[2025-09-26T17:12:48.784Z] Transfer progress: 11/119 chunks
+[2025-09-26T17:12:48.998Z] Transfer progress: 21/119 chunks
+[2025-09-26T17:12:49.212Z] Transfer progress: 31/119 chunks
+[2025-09-26T17:12:49.423Z] Transfer progress: 41/119 chunks
+[2025-09-26T17:12:49.637Z] Transfer progress: 51/119 chunks
+[2025-09-26T17:12:49.846Z] Transfer progress: 61/119 chunks
+[2025-09-26T17:12:50.059Z] Transfer progress: 71/119 chunks
+[2025-09-26T17:12:50.270Z] Transfer progress: 81/119 chunks
+[2025-09-26T17:12:50.483Z] Transfer progress: 91/119 chunks
+[2025-09-26T17:12:50.694Z] Transfer progress: 101/119 chunks
+[2025-09-26T17:12:50.907Z] Transfer progress: 111/119 chunks
+[2025-09-26T17:12:51.099Z] Transfer completed: fileId=1758882529
+[2025-09-26T17:12:51.099Z] Transfer successful: 1758882529
+[2025-09-26T17:12:51.269Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:12:51.270Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250926192844.mp3
+[2025-09-26T17:12:51.270Z] Notified STATUS: type=0x11, fileId=1758882529
+[2025-09-26T17:12:52.101Z] Auto-transferring file: 1758882534
+[2025-09-26T17:12:52.103Z] Starting transfer: fileId=1758882534, size=59372, chunks=119
+[2025-09-26T17:12:52.155Z] Transfer progress: 1/119 chunks
+[2025-09-26T17:12:52.367Z] Transfer progress: 11/119 chunks
+[2025-09-26T17:12:52.579Z] Transfer progress: 21/119 chunks
+[2025-09-26T17:12:52.792Z] Transfer progress: 31/119 chunks
+[2025-09-26T17:12:53.009Z] Transfer progress: 41/119 chunks
+[2025-09-26T17:12:53.220Z] Transfer progress: 51/119 chunks
+[2025-09-26T17:12:53.228Z] File added: 20250927021241.mp3 (ID: 1758906771)
+[2025-09-26T17:12:53.228Z] Notified STATUS: type=0x10, fileId=1758906771
+[2025-09-26T17:12:53.434Z] Transfer progress: 61/119 chunks
+[2025-09-26T17:12:53.646Z] Transfer progress: 71/119 chunks
+[2025-09-26T17:12:53.857Z] Transfer progress: 81/119 chunks
+[2025-09-26T17:12:54.068Z] Transfer progress: 91/119 chunks
+[2025-09-26T17:12:54.281Z] Transfer progress: 101/119 chunks
+[2025-09-26T17:12:54.492Z] Transfer progress: 111/119 chunks
+[2025-09-26T17:12:54.685Z] Transfer completed: fileId=1758882534
+[2025-09-26T17:12:54.686Z] Transfer successful: 1758882534
+[2025-09-26T17:12:54.747Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:12:54.748Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250926192849.mp3
+[2025-09-26T17:12:54.748Z] Notified STATUS: type=0x11, fileId=1758882534
+[2025-09-26T17:12:55.687Z] Auto-transferring file: 1758882539
+[2025-09-26T17:12:55.689Z] Starting transfer: fileId=1758882539, size=59372, chunks=119
+[2025-09-26T17:12:55.740Z] Transfer progress: 1/119 chunks
+[2025-09-26T17:12:55.954Z] Transfer progress: 11/119 chunks
+[2025-09-26T17:12:56.167Z] Transfer progress: 21/119 chunks
+[2025-09-26T17:12:56.381Z] Transfer progress: 31/119 chunks
+[2025-09-26T17:12:56.592Z] Transfer progress: 41/119 chunks
+[2025-09-26T17:12:56.804Z] Transfer progress: 51/119 chunks
+[2025-09-26T17:12:57.013Z] Transfer progress: 61/119 chunks
+[2025-09-26T17:12:57.226Z] Transfer progress: 71/119 chunks
+[2025-09-26T17:12:57.433Z] Transfer progress: 81/119 chunks
+[2025-09-26T17:12:57.645Z] Transfer progress: 91/119 chunks
+[2025-09-26T17:12:57.860Z] Transfer progress: 101/119 chunks
+[2025-09-26T17:12:58.073Z] Transfer progress: 111/119 chunks
+[2025-09-26T17:12:58.263Z] Transfer completed: fileId=1758882539
+[2025-09-26T17:12:58.264Z] Transfer successful: 1758882539
+[2025-09-26T17:12:58.319Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:12:58.321Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250926192854.mp3
+[2025-09-26T17:12:58.321Z] Notified STATUS: type=0x11, fileId=1758882539
+[2025-09-26T17:12:59.265Z] Auto-transferring file: 1758882544
+[2025-09-26T17:12:59.266Z] Starting transfer: fileId=1758882544, size=59372, chunks=119
+[2025-09-26T17:12:59.317Z] Transfer progress: 1/119 chunks
+[2025-09-26T17:12:59.533Z] Transfer progress: 11/119 chunks
+[2025-09-26T17:12:59.746Z] Transfer progress: 21/119 chunks
+[2025-09-26T17:12:59.957Z] Transfer progress: 31/119 chunks
+[2025-09-26T17:13:00.175Z] Transfer progress: 41/119 chunks
+[2025-09-26T17:13:00.389Z] Transfer progress: 51/119 chunks
+[2025-09-26T17:13:00.599Z] Transfer progress: 61/119 chunks
+[2025-09-26T17:13:00.809Z] Transfer progress: 71/119 chunks
+[2025-09-26T17:13:01.023Z] Transfer progress: 81/119 chunks
+[2025-09-26T17:13:01.236Z] Transfer progress: 91/119 chunks
+[2025-09-26T17:13:01.450Z] Transfer progress: 101/119 chunks
+[2025-09-26T17:13:01.661Z] Transfer progress: 111/119 chunks
+[2025-09-26T17:13:01.852Z] Transfer completed: fileId=1758882544
+[2025-09-26T17:13:01.852Z] Transfer successful: 1758882544
+[2025-09-26T17:13:01.950Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:13:01.951Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250926192859.mp3
+[2025-09-26T17:13:01.952Z] Notified STATUS: type=0x11, fileId=1758882544
+[2025-09-26T17:13:02.854Z] Auto-transferring file: 1758882549
+[2025-09-26T17:13:02.856Z] Starting transfer: fileId=1758882549, size=59372, chunks=119
+[2025-09-26T17:13:02.908Z] Transfer progress: 1/119 chunks
+[2025-09-26T17:13:03.121Z] Transfer progress: 11/119 chunks
+[2025-09-26T17:13:03.154Z] File added: 20250927021251.mp3 (ID: 1758906781)
+[2025-09-26T17:13:03.154Z] Notified STATUS: type=0x10, fileId=1758906781
+[2025-09-26T17:13:03.332Z] Transfer progress: 21/119 chunks
+[2025-09-26T17:13:03.546Z] Transfer progress: 31/119 chunks
+[2025-09-26T17:13:03.763Z] Transfer progress: 41/119 chunks
+[2025-09-26T17:13:03.976Z] Transfer progress: 51/119 chunks
+[2025-09-26T17:13:04.186Z] Transfer progress: 61/119 chunks
+[2025-09-26T17:13:04.400Z] Transfer progress: 71/119 chunks
+[2025-09-26T17:13:04.613Z] Transfer progress: 81/119 chunks
+[2025-09-26T17:13:04.826Z] Transfer progress: 91/119 chunks
+[2025-09-26T17:13:05.036Z] Transfer progress: 101/119 chunks
+[2025-09-26T17:13:05.253Z] Transfer progress: 111/119 chunks
+[2025-09-26T17:13:05.444Z] Transfer completed: fileId=1758882549
+[2025-09-26T17:13:05.444Z] Transfer successful: 1758882549
+[2025-09-26T17:13:05.549Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:13:05.550Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250926192904.mp3
+[2025-09-26T17:13:05.550Z] Notified STATUS: type=0x11, fileId=1758882549
+[2025-09-26T17:13:06.446Z] Auto-transferring file: 1758882552
+[2025-09-26T17:13:06.447Z] Starting transfer: fileId=1758882552, size=26540, chunks=54
+[2025-09-26T17:13:06.499Z] Transfer progress: 1/54 chunks
+[2025-09-26T17:13:06.711Z] Transfer progress: 11/54 chunks
+[2025-09-26T17:13:06.923Z] Transfer progress: 21/54 chunks
+[2025-09-26T17:13:07.136Z] Transfer progress: 31/54 chunks
+[2025-09-26T17:13:07.349Z] Transfer progress: 41/54 chunks
+[2025-09-26T17:13:07.559Z] Transfer progress: 51/54 chunks
+[2025-09-26T17:13:07.645Z] Transfer completed: fileId=1758882552
+[2025-09-26T17:13:07.645Z] Transfer successful: 1758882552
+[2025-09-26T17:13:07.769Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:13:07.770Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250926192909.mp3
+[2025-09-26T17:13:07.770Z] Notified STATUS: type=0x11, fileId=1758882552
+[2025-09-26T17:13:08.646Z] Auto-transferring file: 1758902826
+[2025-09-26T17:13:08.648Z] Starting transfer: fileId=1758902826, size=149228, chunks=299
+[2025-09-26T17:13:08.700Z] Transfer progress: 1/299 chunks
+[2025-09-26T17:13:08.913Z] Transfer progress: 11/299 chunks
+[2025-09-26T17:13:09.127Z] Transfer progress: 21/299 chunks
+[2025-09-26T17:13:09.338Z] Transfer progress: 31/299 chunks
+[2025-09-26T17:13:09.557Z] Transfer progress: 41/299 chunks
+[2025-09-26T17:13:09.770Z] Transfer progress: 51/299 chunks
+[2025-09-26T17:13:09.984Z] Transfer progress: 61/299 chunks
+[2025-09-26T17:13:10.196Z] Transfer progress: 71/299 chunks
+[2025-09-26T17:13:10.409Z] Transfer progress: 81/299 chunks
+[2025-09-26T17:13:10.621Z] Transfer progress: 91/299 chunks
+[2025-09-26T17:13:10.833Z] Transfer progress: 101/299 chunks
+[2025-09-26T17:13:11.045Z] Transfer progress: 111/299 chunks
+[2025-09-26T17:13:11.258Z] Transfer progress: 121/299 chunks
+[2025-09-26T17:13:11.469Z] Transfer progress: 131/299 chunks
+[2025-09-26T17:13:11.682Z] Transfer progress: 141/299 chunks
+[2025-09-26T17:13:11.893Z] Transfer progress: 151/299 chunks
+[2025-09-26T17:13:12.107Z] Transfer progress: 161/299 chunks
+[2025-09-26T17:13:12.320Z] Transfer progress: 171/299 chunks
+[2025-09-26T17:13:12.532Z] Transfer progress: 181/299 chunks
+[2025-09-26T17:13:12.741Z] Transfer progress: 191/299 chunks
+[2025-09-26T17:13:12.953Z] Transfer progress: 201/299 chunks
+[2025-09-26T17:13:13.165Z] Transfer progress: 211/299 chunks
+[2025-09-26T17:13:13.178Z] File added: 20250927021301.mp3 (ID: 1758906791)
+[2025-09-26T17:13:13.178Z] Notified STATUS: type=0x10, fileId=1758906791
+[2025-09-26T17:13:13.377Z] Transfer progress: 221/299 chunks
+[2025-09-26T17:13:13.585Z] Transfer progress: 231/299 chunks
+[2025-09-26T17:13:13.798Z] Transfer progress: 241/299 chunks
+[2025-09-26T17:13:14.010Z] Transfer progress: 251/299 chunks
+[2025-09-26T17:13:14.221Z] Transfer progress: 261/299 chunks
+[2025-09-26T17:13:14.434Z] Transfer progress: 271/299 chunks
+[2025-09-26T17:13:14.650Z] Transfer progress: 281/299 chunks
+[2025-09-26T17:13:14.863Z] Transfer progress: 291/299 chunks
+[2025-09-26T17:13:15.058Z] Transfer completed: fileId=1758902826
+[2025-09-26T17:13:15.059Z] Transfer successful: 1758902826
+[2025-09-26T17:13:15.149Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:13:15.149Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927010654.mp3
+[2025-09-26T17:13:15.149Z] Notified STATUS: type=0x11, fileId=1758902826
+[2025-09-26T17:13:16.061Z] Auto-transferring file: 1758902836
+[2025-09-26T17:13:16.062Z] Starting transfer: fileId=1758902836, size=133100, chunks=267
+[2025-09-26T17:13:16.113Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:13:16.325Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:13:16.538Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:13:16.748Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:13:16.959Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:13:17.171Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:13:17.382Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:13:17.592Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:13:17.804Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:13:18.018Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:13:18.230Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:13:18.440Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:13:18.651Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:13:18.862Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:13:19.073Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:13:19.284Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:13:19.495Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:13:19.708Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:13:19.923Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:13:20.135Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:13:20.346Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:13:20.554Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:13:20.766Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:13:20.978Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:13:21.190Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:13:21.404Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:13:21.613Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:13:21.759Z] Transfer completed: fileId=1758902836
+[2025-09-26T17:13:21.760Z] Transfer successful: 1758902836
+[2025-09-26T17:13:21.808Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:13:21.808Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927010706.mp3
+[2025-09-26T17:13:21.809Z] Notified STATUS: type=0x11, fileId=1758902836
+[2025-09-26T17:13:22.761Z] Auto-transferring file: 1758902846
+[2025-09-26T17:13:22.762Z] Starting transfer: fileId=1758902846, size=133100, chunks=267
+[2025-09-26T17:13:22.813Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:13:23.028Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:13:23.231Z] File added: 20250927021311.mp3 (ID: 1758906801)
+[2025-09-26T17:13:23.231Z] Notified STATUS: type=0x10, fileId=1758906801
+[2025-09-26T17:13:23.240Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:13:23.453Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:13:23.663Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:13:23.877Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:13:24.094Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:13:24.305Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:13:24.516Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:13:24.731Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:13:24.948Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:13:25.161Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:13:25.373Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:13:25.585Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:13:25.796Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:13:26.009Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:13:26.221Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:13:26.438Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:13:26.648Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:13:26.861Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:13:27.071Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:13:27.283Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:13:27.496Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:13:27.709Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:13:27.921Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:13:28.136Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:13:28.349Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:13:28.496Z] Transfer completed: fileId=1758902846
+[2025-09-26T17:13:28.496Z] Transfer successful: 1758902846
+[2025-09-26T17:13:28.860Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:13:28.861Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927010716.mp3
+[2025-09-26T17:13:28.862Z] Notified STATUS: type=0x11, fileId=1758902846
+[2025-09-26T17:13:29.497Z] Auto-transferring file: 1758902856
+[2025-09-26T17:13:29.498Z] Starting transfer: fileId=1758902856, size=133100, chunks=267
+[2025-09-26T17:13:29.549Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:13:29.763Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:13:29.977Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:13:30.188Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:13:30.400Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:13:30.615Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:13:30.827Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:13:31.041Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:13:31.254Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:13:31.465Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:13:31.675Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:13:31.887Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:13:32.095Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:13:32.306Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:13:32.516Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:13:32.727Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:13:32.937Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:13:33.150Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:13:33.176Z] File added: 20250927021321.mp3 (ID: 1758906811)
+[2025-09-26T17:13:33.178Z] Notified STATUS: type=0x10, fileId=1758906811
+[2025-09-26T17:13:33.363Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:13:33.576Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:13:33.788Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:13:34.002Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:13:34.213Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:13:34.424Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:13:34.636Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:13:34.850Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:13:35.063Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:13:35.217Z] Transfer completed: fileId=1758902856
+[2025-09-26T17:13:35.217Z] Transfer successful: 1758902856
+[2025-09-26T17:13:35.279Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:13:35.280Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927010726.mp3
+[2025-09-26T17:13:35.280Z] Notified STATUS: type=0x11, fileId=1758902856
+[2025-09-26T17:13:36.218Z] Auto-transferring file: 1758902866
+[2025-09-26T17:13:36.218Z] Starting transfer: fileId=1758902866, size=133100, chunks=267
+[2025-09-26T17:13:36.270Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:13:36.482Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:13:36.696Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:13:36.907Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:13:37.117Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:13:37.327Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:13:37.538Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:13:37.749Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:13:37.960Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:13:38.172Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:13:38.387Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:13:38.602Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:13:38.814Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:13:39.026Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:13:39.240Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:13:39.457Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:13:39.667Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:13:39.880Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:13:40.092Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:13:40.307Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:13:40.520Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:13:40.731Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:13:40.945Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:13:41.156Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:13:41.366Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:13:41.578Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:13:41.791Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:13:41.938Z] Transfer completed: fileId=1758902866
+[2025-09-26T17:13:41.938Z] Transfer successful: 1758902866
+[2025-09-26T17:13:41.970Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:13:41.970Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927010736.mp3
+[2025-09-26T17:13:41.971Z] Notified STATUS: type=0x11, fileId=1758902866
+[2025-09-26T17:13:42.941Z] Auto-transferring file: 1758902876
+[2025-09-26T17:13:42.941Z] Starting transfer: fileId=1758902876, size=133100, chunks=267
+[2025-09-26T17:13:42.992Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:13:43.202Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:13:43.230Z] File added: 20250927021331.mp3 (ID: 1758906821)
+[2025-09-26T17:13:43.234Z] Notified STATUS: type=0x10, fileId=1758906821
+[2025-09-26T17:13:43.416Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:13:43.629Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:13:43.843Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:13:44.053Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:13:44.271Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:13:44.483Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:13:44.695Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:13:44.906Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:13:45.116Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:13:45.331Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:13:45.541Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:13:45.752Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:13:45.968Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:13:46.179Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:13:46.391Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:13:46.602Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:13:46.813Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:13:47.025Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:13:47.238Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:13:47.450Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:13:47.663Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:13:47.877Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:13:48.091Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:13:48.302Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:13:48.516Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:13:48.663Z] Transfer completed: fileId=1758902876
+[2025-09-26T17:13:48.663Z] Transfer successful: 1758902876
+[2025-09-26T17:13:48.748Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:13:48.749Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927010746.mp3
+[2025-09-26T17:13:48.749Z] Notified STATUS: type=0x11, fileId=1758902876
+[2025-09-26T17:13:49.665Z] Auto-transferring file: 1758902881
+[2025-09-26T17:13:49.667Z] Starting transfer: fileId=1758902881, size=63404, chunks=127
+[2025-09-26T17:13:49.718Z] Transfer progress: 1/127 chunks
+[2025-09-26T17:13:49.931Z] Transfer progress: 11/127 chunks
+[2025-09-26T17:13:50.144Z] Transfer progress: 21/127 chunks
+[2025-09-26T17:13:50.355Z] Transfer progress: 31/127 chunks
+[2025-09-26T17:13:50.568Z] Transfer progress: 41/127 chunks
+[2025-09-26T17:13:50.779Z] Transfer progress: 51/127 chunks
+[2025-09-26T17:13:50.990Z] Transfer progress: 61/127 chunks
+[2025-09-26T17:13:51.203Z] Transfer progress: 71/127 chunks
+[2025-09-26T17:13:51.412Z] Transfer progress: 81/127 chunks
+[2025-09-26T17:13:51.624Z] Transfer progress: 91/127 chunks
+[2025-09-26T17:13:51.835Z] Transfer progress: 101/127 chunks
+[2025-09-26T17:13:52.047Z] Transfer progress: 111/127 chunks
+[2025-09-26T17:13:52.259Z] Transfer progress: 121/127 chunks
+[2025-09-26T17:13:52.405Z] Transfer completed: fileId=1758902881
+[2025-09-26T17:13:52.405Z] Transfer successful: 1758902881
+[2025-09-26T17:13:52.438Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:13:52.438Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927010756.mp3
+[2025-09-26T17:13:52.438Z] Notified STATUS: type=0x11, fileId=1758902881
+[2025-09-26T17:13:53.229Z] File added: 20250927021341.mp3 (ID: 1758906831)
+[2025-09-26T17:13:53.230Z] Notified STATUS: type=0x10, fileId=1758906831
+[2025-09-26T17:13:53.406Z] Auto-transferring file: 1758906201
+[2025-09-26T17:13:53.407Z] Starting transfer: fileId=1758906201, size=149228, chunks=299
+[2025-09-26T17:13:53.458Z] Transfer progress: 1/299 chunks
+[2025-09-26T17:13:53.671Z] Transfer progress: 11/299 chunks
+[2025-09-26T17:13:53.884Z] Transfer progress: 21/299 chunks
+[2025-09-26T17:13:54.095Z] Transfer progress: 31/299 chunks
+[2025-09-26T17:13:54.232Z] Transfer already in progress for ID: 1758906201
+[2025-09-26T17:13:54.309Z] Transfer progress: 41/299 chunks
+[2025-09-26T17:13:54.522Z] Transfer progress: 51/299 chunks
+[2025-09-26T17:13:54.734Z] Transfer progress: 61/299 chunks
+[2025-09-26T17:13:54.945Z] Transfer progress: 71/299 chunks
+[2025-09-26T17:13:55.157Z] Transfer progress: 81/299 chunks
+[2025-09-26T17:13:55.370Z] Transfer progress: 91/299 chunks
+[2025-09-26T17:13:55.580Z] Transfer progress: 101/299 chunks
+[2025-09-26T17:13:55.792Z] Transfer progress: 111/299 chunks
+[2025-09-26T17:13:56.004Z] Transfer progress: 121/299 chunks
+[2025-09-26T17:13:56.217Z] Transfer progress: 131/299 chunks
+[2025-09-26T17:13:56.434Z] Transfer progress: 141/299 chunks
+[2025-09-26T17:13:56.643Z] Transfer progress: 151/299 chunks
+[2025-09-26T17:13:56.855Z] Transfer progress: 161/299 chunks
+[2025-09-26T17:13:57.067Z] Transfer progress: 171/299 chunks
+[2025-09-26T17:13:57.278Z] Transfer progress: 181/299 chunks
+[2025-09-26T17:13:57.488Z] Transfer progress: 191/299 chunks
+[2025-09-26T17:13:57.696Z] Transfer progress: 201/299 chunks
+[2025-09-26T17:13:57.909Z] Transfer progress: 211/299 chunks
+[2025-09-26T17:13:58.122Z] Transfer progress: 221/299 chunks
+[2025-09-26T17:13:58.330Z] Transfer progress: 231/299 chunks
+[2025-09-26T17:13:58.541Z] Transfer progress: 241/299 chunks
+[2025-09-26T17:13:58.753Z] Transfer progress: 251/299 chunks
+[2025-09-26T17:13:58.967Z] Transfer progress: 261/299 chunks
+[2025-09-26T17:13:59.179Z] Transfer progress: 271/299 chunks
+[2025-09-26T17:13:59.388Z] Transfer progress: 281/299 chunks
+[2025-09-26T17:13:59.601Z] Transfer progress: 291/299 chunks
+[2025-09-26T17:13:59.792Z] Transfer completed: fileId=1758906201
+[2025-09-26T17:13:59.792Z] Transfer successful: 1758906201
+[2025-09-26T17:13:59.940Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:13:59.941Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927020310.mp3
+[2025-09-26T17:13:59.941Z] Notified STATUS: type=0x11, fileId=1758906201
+[2025-09-26T17:14:00.794Z] Auto-transferring file: 1758906211
+[2025-09-26T17:14:00.795Z] Starting transfer: fileId=1758906211, size=133100, chunks=267
+[2025-09-26T17:14:00.847Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:14:01.060Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:14:01.271Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:14:01.480Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:14:01.692Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:14:01.901Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:14:02.110Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:14:02.321Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:14:02.533Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:14:02.747Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:14:02.960Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:14:03.172Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:14:03.192Z] File added: 20250927021351.mp3 (ID: 1758906841)
+[2025-09-26T17:14:03.193Z] Notified STATUS: type=0x10, fileId=1758906841
+[2025-09-26T17:14:03.384Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:14:03.596Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:14:03.807Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:14:04.018Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:14:04.230Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:14:04.441Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:14:04.652Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:14:04.864Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:14:05.076Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:14:05.286Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:14:05.500Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:14:05.713Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:14:05.923Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:14:06.136Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:14:06.346Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:14:06.495Z] Transfer completed: fileId=1758906211
+[2025-09-26T17:14:06.496Z] Transfer successful: 1758906211
+[2025-09-26T17:14:06.540Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:14:06.541Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927020321.mp3
+[2025-09-26T17:14:06.541Z] Notified STATUS: type=0x11, fileId=1758906211
+[2025-09-26T17:14:07.496Z] Auto-transferring file: 1758906221
+[2025-09-26T17:14:07.496Z] Starting transfer: fileId=1758906221, size=133100, chunks=267
+[2025-09-26T17:14:07.548Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:14:07.760Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:14:07.974Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:14:08.191Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:14:08.403Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:14:08.616Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:14:08.829Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:14:09.042Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:14:09.255Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:14:09.467Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:14:09.679Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:14:09.892Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:14:10.104Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:14:10.317Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:14:10.531Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:14:10.749Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:14:10.960Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:14:11.171Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:14:11.381Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:14:11.590Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:14:11.801Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:14:12.012Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:14:12.222Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:14:12.432Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:14:12.643Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:14:12.854Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:14:13.066Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:14:13.213Z] Transfer completed: fileId=1758906221
+[2025-09-26T17:14:13.213Z] Transfer successful: 1758906221
+[2025-09-26T17:14:13.232Z] File added: 20250927021401.mp3 (ID: 1758906851)
+[2025-09-26T17:14:13.233Z] Notified STATUS: type=0x10, fileId=1758906851
+[2025-09-26T17:14:13.319Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:14:13.320Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927020331.mp3
+[2025-09-26T17:14:13.321Z] Notified STATUS: type=0x11, fileId=1758906221
+[2025-09-26T17:14:14.215Z] Auto-transferring file: 1758906231
+[2025-09-26T17:14:14.215Z] Starting transfer: fileId=1758906231, size=133100, chunks=267
+[2025-09-26T17:14:14.233Z] Transfer already in progress for ID: 1758906231
+[2025-09-26T17:14:14.267Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:14:14.478Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:14:14.693Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:14:14.907Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:14:15.118Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:14:15.330Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:14:15.541Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:14:15.754Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:14:15.965Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:14:16.178Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:14:16.391Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:14:16.603Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:14:16.820Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:14:17.030Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:14:17.241Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:14:17.451Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:14:17.662Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:14:17.873Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:14:18.083Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:14:18.296Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:14:18.506Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:14:18.716Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:14:18.932Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:14:19.144Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:14:19.354Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:14:19.568Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:14:19.778Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:14:19.925Z] Transfer completed: fileId=1758906231
+[2025-09-26T17:14:19.927Z] Transfer successful: 1758906231
+[2025-09-26T17:14:20.369Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:14:20.370Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927020341.mp3
+[2025-09-26T17:14:20.370Z] Notified STATUS: type=0x11, fileId=1758906231
+[2025-09-26T17:14:20.928Z] Auto-transferring file: 1758906241
+[2025-09-26T17:14:20.930Z] Starting transfer: fileId=1758906241, size=133100, chunks=267
+[2025-09-26T17:14:20.981Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:14:21.190Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:14:21.400Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:14:21.611Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:14:21.820Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:14:22.030Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:14:22.242Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:14:22.453Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:14:22.665Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:14:22.875Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:14:23.087Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:14:23.221Z] File added: 20250927021411.mp3 (ID: 1758906861)
+[2025-09-26T17:14:23.221Z] Notified STATUS: type=0x10, fileId=1758906861
+[2025-09-26T17:14:23.298Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:14:23.509Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:14:23.720Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:14:23.929Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:14:24.143Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:14:24.355Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:14:24.567Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:14:24.779Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:14:24.992Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:14:25.204Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:14:25.415Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:14:25.629Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:14:25.840Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:14:26.054Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:14:26.266Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:14:26.476Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:14:26.625Z] Transfer completed: fileId=1758906241
+[2025-09-26T17:14:26.625Z] Transfer successful: 1758906241
+[2025-09-26T17:14:26.669Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:14:26.670Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927020351.mp3
+[2025-09-26T17:14:26.670Z] Notified STATUS: type=0x11, fileId=1758906241
+[2025-09-26T17:14:27.626Z] Auto-transferring file: 1758906251
+[2025-09-26T17:14:27.627Z] Starting transfer: fileId=1758906251, size=133100, chunks=267
+[2025-09-26T17:14:27.679Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:14:27.889Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:14:28.101Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:14:28.310Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:14:28.521Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:14:28.732Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:14:28.943Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:14:29.155Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:14:29.364Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:14:29.575Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:14:29.786Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:14:29.996Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:14:30.210Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:14:30.422Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:14:30.636Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:14:30.850Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:14:31.062Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:14:31.272Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:14:31.483Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:14:31.694Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:14:31.904Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:14:32.115Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:14:32.326Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:14:32.535Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:14:32.745Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:14:32.954Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:14:33.166Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:14:33.193Z] File added: 20250927021421.mp3 (ID: 1758906871)
+[2025-09-26T17:14:33.193Z] Notified STATUS: type=0x10, fileId=1758906871
+[2025-09-26T17:14:33.315Z] Transfer completed: fileId=1758906251
+[2025-09-26T17:14:33.315Z] Transfer successful: 1758906251
+[2025-09-26T17:14:33.449Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:14:33.450Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927020401.mp3
+[2025-09-26T17:14:33.450Z] Notified STATUS: type=0x11, fileId=1758906251
+[2025-09-26T17:14:34.316Z] Auto-transferring file: 1758906261
+[2025-09-26T17:14:34.317Z] Starting transfer: fileId=1758906261, size=133100, chunks=267
+[2025-09-26T17:14:34.368Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:14:34.580Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:14:34.791Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:14:35.002Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:14:35.212Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:14:35.423Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:14:35.633Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:14:35.843Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:14:36.055Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:14:36.265Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:14:36.476Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:14:36.688Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:14:36.901Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:14:37.112Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:14:37.321Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:14:37.535Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:14:37.749Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:14:37.961Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:14:38.172Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:14:38.385Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:14:38.598Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:14:38.808Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:14:39.021Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:14:39.233Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:14:39.445Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:14:39.656Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:14:39.868Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:14:40.017Z] Transfer completed: fileId=1758906261
+[2025-09-26T17:14:40.017Z] Transfer successful: 1758906261
+[2025-09-26T17:14:40.290Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:14:40.291Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927020411.mp3
+[2025-09-26T17:14:40.291Z] Notified STATUS: type=0x11, fileId=1758906261
+[2025-09-26T17:14:41.018Z] Auto-transferring file: 1758906271
+[2025-09-26T17:14:41.020Z] Starting transfer: fileId=1758906271, size=133100, chunks=267
+[2025-09-26T17:14:41.072Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:14:41.284Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:14:41.492Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:14:41.704Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:14:41.914Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:14:42.123Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:14:42.334Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:14:42.543Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:14:42.756Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:14:42.968Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:14:43.179Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:14:43.203Z] File added: 20250927021431.mp3 (ID: 1758906881)
+[2025-09-26T17:14:43.204Z] Notified STATUS: type=0x10, fileId=1758906881
+[2025-09-26T17:14:43.391Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:14:43.604Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:14:43.817Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:14:44.029Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:14:44.239Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:14:44.451Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:14:44.661Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:14:44.872Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:14:45.084Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:14:45.296Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:14:45.505Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:14:45.717Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:14:45.928Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:14:46.140Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:14:46.351Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:14:46.560Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:14:46.709Z] Transfer completed: fileId=1758906271
+[2025-09-26T17:14:46.710Z] Transfer successful: 1758906271
+[2025-09-26T17:14:46.919Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:14:46.921Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927020421.mp3
+[2025-09-26T17:14:46.921Z] Notified STATUS: type=0x11, fileId=1758906271
+[2025-09-26T17:14:47.711Z] Auto-transferring file: 1758906281
+[2025-09-26T17:14:47.712Z] Starting transfer: fileId=1758906281, size=133100, chunks=267
+[2025-09-26T17:14:47.765Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:14:47.980Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:14:48.190Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:14:48.401Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:14:48.615Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:14:48.826Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:14:49.038Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:14:49.250Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:14:49.461Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:14:49.674Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:14:49.884Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:14:50.093Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:14:50.304Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:14:50.519Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:14:50.730Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:14:50.947Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:14:51.157Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:14:51.367Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:14:51.577Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:14:51.789Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:14:52.000Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:14:52.231Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:14:52.441Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:14:52.655Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:14:52.869Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:14:53.080Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:14:53.240Z] File added: 20250927021441.mp3 (ID: 1758906891)
+[2025-09-26T17:14:53.240Z] Notified STATUS: type=0x10, fileId=1758906891
+[2025-09-26T17:14:53.292Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:14:53.440Z] Transfer completed: fileId=1758906281
+[2025-09-26T17:14:53.440Z] Transfer successful: 1758906281
+[2025-09-26T17:14:53.520Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:14:53.521Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927020431.mp3
+[2025-09-26T17:14:53.522Z] Notified STATUS: type=0x11, fileId=1758906281
+[2025-09-26T17:14:54.440Z] Auto-transferring file: 1758906291
+[2025-09-26T17:14:54.441Z] Starting transfer: fileId=1758906291, size=133100, chunks=267
+[2025-09-26T17:14:54.493Z] Transfer progress: 1/267 chunks
+[2025-09-26T17:14:54.510Z] Received CONTROL command: 0x3, ID: 0, SEQ: 0
+[2025-09-26T17:14:54.510Z] Auto transfer mode disabled
+[2025-09-26T17:14:54.705Z] Transfer progress: 11/267 chunks
+[2025-09-26T17:14:54.916Z] Transfer progress: 21/267 chunks
+[2025-09-26T17:14:55.127Z] Transfer progress: 31/267 chunks
+[2025-09-26T17:14:55.341Z] Transfer progress: 41/267 chunks
+[2025-09-26T17:14:55.556Z] Transfer progress: 51/267 chunks
+[2025-09-26T17:14:55.766Z] Transfer progress: 61/267 chunks
+[2025-09-26T17:14:55.978Z] Transfer progress: 71/267 chunks
+[2025-09-26T17:14:56.192Z] Transfer progress: 81/267 chunks
+[2025-09-26T17:14:56.404Z] Transfer progress: 91/267 chunks
+[2025-09-26T17:14:56.613Z] Transfer progress: 101/267 chunks
+[2025-09-26T17:14:56.824Z] Transfer progress: 111/267 chunks
+[2025-09-26T17:14:57.035Z] Transfer progress: 121/267 chunks
+[2025-09-26T17:14:57.246Z] Transfer progress: 131/267 chunks
+[2025-09-26T17:14:57.457Z] Transfer progress: 141/267 chunks
+[2025-09-26T17:14:57.668Z] Transfer progress: 151/267 chunks
+[2025-09-26T17:14:57.881Z] Transfer progress: 161/267 chunks
+[2025-09-26T17:14:58.094Z] Transfer progress: 171/267 chunks
+[2025-09-26T17:14:58.303Z] Transfer progress: 181/267 chunks
+[2025-09-26T17:14:58.517Z] Transfer progress: 191/267 chunks
+[2025-09-26T17:14:58.730Z] Transfer progress: 201/267 chunks
+[2025-09-26T17:14:58.944Z] Transfer progress: 211/267 chunks
+[2025-09-26T17:14:59.155Z] Transfer progress: 221/267 chunks
+[2025-09-26T17:14:59.367Z] Transfer progress: 231/267 chunks
+[2025-09-26T17:14:59.579Z] Transfer progress: 241/267 chunks
+[2025-09-26T17:14:59.793Z] Transfer progress: 251/267 chunks
+[2025-09-26T17:15:00.004Z] Transfer progress: 261/267 chunks
+[2025-09-26T17:15:00.151Z] Transfer completed: fileId=1758906291
+[2025-09-26T17:15:00.152Z] Transfer successful: 1758906291
+[2025-09-26T17:15:00.210Z] Received CONTROL command: 0x4, ID: 0, SEQ: 0
+[2025-09-26T17:15:00.211Z] File deleted after transfer: /Users/hide/Documents/GitHub/playground/TMSAudioRecorder/recorded_audio/20250927020441.mp3
+[2025-09-26T17:15:00.212Z] Notified STATUS: type=0x11, fileId=1758906291
+[2025-09-26T17:15:03.244Z] File added: 20250927021451.mp3 (ID: 1758906901)
+[2025-09-26T17:15:03.244Z] Notified STATUS: type=0x10, fileId=1758906901
+[2025-09-26T17:15:13.174Z] File added: 20250927021501.mp3 (ID: 1758906911)
+[2025-09-26T17:15:13.175Z] Notified STATUS: type=0x10, fileId=1758906911
+[2025-09-26T17:15:23.255Z] File added: 20250927021511.mp3 (ID: 1758906921)
+[2025-09-26T17:15:23.256Z] Notified STATUS: type=0x10, fileId=1758906921
+[2025-09-26T17:15:33.241Z] File added: 20250927021521.mp3 (ID: 1758906931)
+[2025-09-26T17:15:33.241Z] Notified STATUS: type=0x10, fileId=1758906931
+[2025-09-26T17:15:43.252Z] File added: 20250927021531.mp3 (ID: 1758906941)
+[2025-09-26T17:15:43.252Z] Notified STATUS: type=0x10, fileId=1758906941
+[2025-09-26T17:15:53.244Z] File added: 20250927021541.mp3 (ID: 1758906951)
+[2025-09-26T17:15:53.244Z] Notified STATUS: type=0x10, fileId=1758906951
+[2025-09-26T17:16:03.246Z] File added: 20250927021551.mp3 (ID: 1758906961)
+[2025-09-26T17:16:03.246Z] Notified STATUS: type=0x10, fileId=1758906961
+[2025-09-26T17:16:13.252Z] File added: 20250927021601.mp3 (ID: 1758906971)
+[2025-09-26T17:16:13.253Z] Notified STATUS: type=0x10, fileId=1758906971
+[2025-09-26T17:16:23.208Z] File added: 20250927021611.mp3 (ID: 1758906981)
+[2025-09-26T17:16:23.209Z] Notified STATUS: type=0x10, fileId=1758906981
+[2025-09-26T17:16:33.250Z] File added: 20250927021621.mp3 (ID: 1758906991)
+[2025-09-26T17:16:33.250Z] Notified STATUS: type=0x10, fileId=1758906991
+[2025-09-26T17:16:43.247Z] File added: 20250927021631.mp3 (ID: 1758907001)
+[2025-09-26T17:16:43.248Z] Notified STATUS: type=0x10, fileId=1758907001
