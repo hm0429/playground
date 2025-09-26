@@ -18,6 +18,14 @@ class BLEManager: NSObject, ObservableObject {
     private let statusUUID = CBUUID(string: "572542C4-2198-4D1E-9820-1FEAEA1BB9D2")
     private let dataTransferUUID = CBUUID(string: "572542C4-2198-4D1E-9820-1FEAEA1BB9D3")
     
+    // Date formatter for File ID
+    private let fileIdFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyyMMddHHmmss"
+        formatter.timeZone = TimeZone.current
+        return formatter
+    }()
+    
     // Command codes
     private let START_TRANSFER_AUDIO_FILE: UInt8 = 0x01
     private let START_TRANSFER_AUDIO_FILE_AUTO: UInt8 = 0x02
@@ -120,6 +128,12 @@ class BLEManager: NSObject, ObservableObject {
         return packet
     }
     
+    // Convert Unix timestamp to formatted string
+    private func formatFileId(_ fileId: UInt32) -> String {
+        let date = Date(timeIntervalSince1970: TimeInterval(fileId))
+        return fileIdFormatter.string(from: date)
+    }
+    
     private func parsePacket(_ data: Data) -> (type: UInt8, id: UInt32, seq: UInt16, payload: Data?) {
         guard data.count >= 9 else {
             return (0, 0, 0, nil)
@@ -143,17 +157,18 @@ class BLEManager: NSObject, ObservableObject {
         
         if let payload = packet.payload, payload.count >= 4 {
             let fileId = payload.withUnsafeBytes { $0.load(as: UInt32.self).bigEndian }
+            let fileIdString = formatFileId(fileId)
             
             switch packet.type {
             case FILE_ADDED:
-                print("File added on server: \(fileId)")
+                print("File added on server: \(fileIdString)")
                 if !availableFiles.contains(fileId) {
                     availableFiles.append(fileId)
                 }
                 // Auto transfer will be handled by server if enabled
                 
             case FILE_DELETED:
-                print("File deleted on server: \(fileId)")
+                print("File deleted on server: \(fileIdString)")
                 availableFiles.removeAll { $0 == fileId }
                 
             default:
@@ -178,7 +193,7 @@ class BLEManager: NSObject, ObservableObject {
                     totalChunks: totalChunks
                 )
                 
-                print("Starting transfer: fileId=\(fileId), size=\(fileSize), chunks=\(totalChunks)")
+                print("Starting transfer: \(formatFileId(fileId)), size=\(fileSize), chunks=\(totalChunks)")
             }
             
         case CONTINUE_TRANSFER_AUDIO_FILE, END_TRANSFER_AUDIO_FILE:
@@ -201,7 +216,7 @@ class BLEManager: NSObject, ObservableObject {
                         saveFiles()
                         activeTransfer = nil
                         
-                        print("Transfer complete: \(transfer.fileId)")
+                        print("Transfer complete: \(formatFileId(transfer.fileId))")
                         
                         // Send completion acknowledgment
                         requestFileCompletion(fileId: transfer.fileId)

@@ -8,6 +8,20 @@ struct ContentView: View {
     @State private var showingConnectionAlert = false
     @State private var connectionAlertMessage = ""
     
+    // Date formatter for File ID
+    private let fileIdFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyyMMddHHmmss"
+        formatter.timeZone = TimeZone.current
+        return formatter
+    }()
+    
+    // Convert Unix timestamp to formatted string
+    private func formatFileId(_ fileId: UInt32) -> String {
+        let date = Date(timeIntervalSince1970: TimeInterval(fileId))
+        return fileIdFormatter.string(from: date)
+    }
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -60,7 +74,7 @@ struct ContentView: View {
                 // Transfer Status
                 if let transfer = bleManager.activeTransfer {
                     VStack {
-                        Text("Receiving: File ID \(transfer.fileId)")
+                        Text("Receiving: \(formatFileId(transfer.fileId))")
                             .font(.caption)
                         ProgressView(value: Double(transfer.receivedChunks), total: Double(transfer.totalChunks))
                             .padding(.horizontal)
@@ -75,8 +89,9 @@ struct ContentView: View {
                     ForEach(bleManager.audioFiles) { file in
                         HStack {
                             VStack(alignment: .leading) {
-                                Text("File ID: \(file.fileId)")
+                                Text(formatFileId(file.fileId))
                                     .font(.headline)
+                                    .fontDesign(.monospaced)
                                 Text("\(file.fileSize) bytes")
                                     .font(.caption)
                                 Text(file.timestamp, style: .date)
