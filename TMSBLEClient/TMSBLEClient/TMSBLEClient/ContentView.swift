@@ -11,7 +11,7 @@ struct ContentView: View {
     // Date formatter for File ID
     private let fileIdFormatter: DateFormatter = {
         let formatter = DateFormatter()
-        formatter.dateFormat = "yyyyMMddHHmmss"
+        formatter.dateFormat = "yyyy/MM/dd HH:mm:ss"
         formatter.timeZone = TimeZone.current
         return formatter
     }()
