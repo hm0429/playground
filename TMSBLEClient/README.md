@@ -81,11 +81,14 @@ Files are automatically saved when:
 - File is deleted from the list
 - App goes to background or becomes inactive
 
-### Data Safety
-- Atomic file writes prevent corruption
-- Duplicate prevention on file reception
-- Automatic sorting (newest files first)
-- Detailed logging of save/load operations with file sizes
+### Data Safety & Integrity Verification
+- **Hash Verification**: SHA-256 hash comparison between server and client
+- **Sequence Checking**: Validates all chunks received in correct order
+- **Size Validation**: Verifies received data size matches expected size
+- **Duplicate Detection**: Identifies and logs duplicate chunk sequences
+- **Missing Chunk Detection**: Reports any missing sequences
+- **Atomic File Writes**: Prevents file corruption during save
+- **Comprehensive Logging**: Detailed transfer progress and integrity reports
 
 ## Permissions
 

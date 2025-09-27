@@ -193,6 +193,7 @@ class DataTransferCharacteristic extends bleno.Characteristic {
       const totalChunks = Math.ceil(fileSize / chunkSize);
       
       log(`Starting transfer: fileId=${fileId}, size=${fileSize}, chunks=${totalChunks}`);
+      log(`  Hash: ${fileHash.toString('hex').substring(0, 16)}...`);
       
       // Send BEGIN packet with metadata
       const metadataBuffer = Buffer.alloc(266);
@@ -212,11 +213,13 @@ class DataTransferCharacteristic extends bleno.Characteristic {
       await sleep(50); // Small delay between packets
       
       // Send data chunks
+      let sentBytes = 0;
       for (let i = 0; i < totalChunks; i++) {
         const start = i * chunkSize;
         const end = Math.min(start + chunkSize, fileSize);
         const chunk = fileData.slice(start, end);
         const seq = totalChunks - 1 - i; // Decrementing sequence
+        sentBytes += chunk.length;
         
         const flag = (i === totalChunks - 1) 
           ? config.TRANSFER_FLAGS.END_TRANSFER_AUDIO_FILE
@@ -231,14 +234,22 @@ class DataTransferCharacteristic extends bleno.Characteristic {
         
         this.updateValueCallback(dataPacket);
         
-        if (i % 10 === 0) {
-          log(`Transfer progress: ${i + 1}/${totalChunks} chunks`);
+        // Enhanced logging
+        if (i === 0) {
+          log(`  First chunk: seq=${seq}, size=${chunk.length} bytes`);
+        } else if (i === totalChunks - 1) {
+          log(`  Last chunk: seq=${seq}, size=${chunk.length} bytes`);
+          log(`  Total sent: ${sentBytes} bytes (expected: ${fileSize} bytes)`);
+        } else if (i % 10 === 0) {
+          log(`  Progress: ${i + 1}/${totalChunks} chunks, sent: ${sentBytes} bytes`);
         }
         
         await sleep(20); // Delay between chunks to avoid overwhelming
       }
       
       log(`Transfer completed: fileId=${fileId}`);
+      log(`  Final hash: ${fileHash.toString('hex').substring(0, 16)}...`);
+      log(`  Bytes sent: ${sentBytes}/${fileSize}`);
       return true;
       
     } catch (error) {

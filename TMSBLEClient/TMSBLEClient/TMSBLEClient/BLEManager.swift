@@ -1,6 +1,7 @@
 import Foundation
 import CoreBluetooth
 import Combine
+import CryptoKit
 
 // Transfer status
 struct ActiveTransfer {
@@ -9,6 +10,9 @@ struct ActiveTransfer {
     let totalChunks: UInt16
     var receivedChunks: Int = 0
     var data: Data = Data()
+    var expectedHash: Data?
+    var lastSequenceNumber: UInt16?
+    var receivedSequences: Set<UInt16> = []
 }
 
 class BLEManager: NSObject, ObservableObject {
@@ -186,30 +190,98 @@ class BLEManager: NSObject, ObservableObject {
             if let payload = packet.payload, payload.count >= 266 {
                 let fileId = payload.subdata(in: 0..<4).withUnsafeBytes { $0.load(as: UInt32.self).bigEndian }
                 let fileSize = payload.subdata(in: 4..<8).withUnsafeBytes { $0.load(as: UInt32.self).bigEndian }
+                let expectedHash = payload.subdata(in: 8..<40)  // SHA256 hash is 32 bytes
                 let totalChunks = payload.subdata(in: 264..<266).withUnsafeBytes { $0.load(as: UInt16.self).bigEndian }
                 
-                activeTransfer = ActiveTransfer(
+                var transfer = ActiveTransfer(
                     fileId: fileId,
                     fileSize: fileSize,
                     totalChunks: totalChunks
                 )
+                transfer.expectedHash = expectedHash
+                transfer.lastSequenceNumber = packet.seq  // Should be totalChunks-1
+                activeTransfer = transfer
                 
-                print("Starting transfer: \(formatFileId(fileId)), size=\(fileSize), chunks=\(totalChunks)")
+                print("📥 Starting transfer: \(formatFileId(fileId))")
+                print("  Size: \(fileSize) bytes, Chunks: \(totalChunks)")
+                print("  Expected hash: \(expectedHash.map { String(format: "%02x", $0) }.prefix(8).joined())...")
+                print("  Initial sequence: \(packet.seq) (expected: \(totalChunks - 1))")
             }
             
         case CONTINUE_TRANSFER_AUDIO_FILE, END_TRANSFER_AUDIO_FILE:
             if var transfer = activeTransfer {
                 if let payload = packet.payload {
+                    // Check sequence number
+                    let expectedSeq = UInt16(transfer.totalChunks) - 1 - UInt16(transfer.receivedChunks)
+                    if packet.seq != expectedSeq {
+                        print("⚠️ Sequence mismatch! Expected: \(expectedSeq), Received: \(packet.seq)")
+                        print("  Chunk \(transfer.receivedChunks + 1)/\(transfer.totalChunks)")
+                    }
+                    
+                    // Check for duplicate sequences
+                    if transfer.receivedSequences.contains(packet.seq) {
+                        print("⚠️ Duplicate sequence detected: \(packet.seq)")
+                    }
+                    transfer.receivedSequences.insert(packet.seq)
+                    
+                    // Append data
                     transfer.data.append(payload)
                     transfer.receivedChunks += 1
+                    transfer.lastSequenceNumber = packet.seq
                     activeTransfer = transfer
                     
+                    // Log progress every 25%
+                    let progress = Double(transfer.receivedChunks) / Double(transfer.totalChunks)
+                    if transfer.receivedChunks % max(1, Int(transfer.totalChunks) / 4) == 0 {
+                        print("  Progress: \(Int(progress * 100))% (\(transfer.receivedChunks)/\(transfer.totalChunks) chunks)")
+                    }
+                    
                     if packet.type == END_TRANSFER_AUDIO_FILE {
-                        // Transfer complete
+                        // Verify data integrity
+                        print("\n🔍 Verifying transfer integrity...")
+                        
+                        // Check data size
+                        let receivedSize = transfer.data.count
+                        let expectedSize = Int(transfer.fileSize)
+                        if receivedSize != expectedSize {
+                            print("❌ Size mismatch! Expected: \(expectedSize), Received: \(receivedSize)")
+                            print("  Difference: \(receivedSize - expectedSize) bytes")
+                        } else {
+                            print("✅ Size match: \(receivedSize) bytes")
+                        }
+                        
+                        // Verify hash if available
+                        if let expectedHash = transfer.expectedHash {
+                            let receivedHash = SHA256.hash(data: transfer.data)
+                            let receivedHashData = Data(receivedHash)
+                            
+                            if receivedHashData == expectedHash {
+                                print("✅ Hash verification successful")
+                            } else {
+                                print("❌ Hash mismatch!")
+                                print("  Expected: \(expectedHash.map { String(format: "%02x", $0) }.prefix(8).joined())...")
+                                print("  Received: \(receivedHashData.map { String(format: "%02x", $0) }.prefix(8).joined())...")
+                            }
+                        }
+                        
+                        // Check sequence completeness
+                        if transfer.receivedSequences.count != Int(transfer.totalChunks) {
+                            print("⚠️ Missing chunks! Expected: \(transfer.totalChunks), Received unique: \(transfer.receivedSequences.count)")
+                            // Find missing sequences
+                            for i in 0..<transfer.totalChunks {
+                                if !transfer.receivedSequences.contains(i) {
+                                    print("  Missing sequence: \(i)")
+                                }
+                            }
+                        } else {
+                            print("✅ All \(transfer.totalChunks) chunks received")
+                        }
+                        
+                        // Create audio file
                         let audioFile = AudioFile(
                             fileId: transfer.fileId,
                             data: transfer.data,
-                            fileSize: Int(transfer.fileSize),
+                            fileSize: receivedSize,  // Use actual received size
                             timestamp: Date()
                         )
                         
@@ -218,9 +290,9 @@ class BLEManager: NSObject, ObservableObject {
                             audioFiles.append(audioFile)
                             audioFiles.sort { $0.fileId > $1.fileId } // Sort by newest first
                             saveFiles()
-                            print("Transfer complete and saved: \(formatFileId(transfer.fileId))")
+                            print("\n✅ Transfer complete: \(formatFileId(transfer.fileId))")
                         } else {
-                            print("Transfer complete but file already exists: \(formatFileId(transfer.fileId))")
+                            print("\n⚠️ Transfer complete but file already exists: \(formatFileId(transfer.fileId))")
                         }
                         
                         activeTransfer = nil
