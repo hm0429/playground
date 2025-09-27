@@ -73,13 +73,44 @@ struct ContentView: View {
                 
                 // Transfer Status
                 if let transfer = bleManager.activeTransfer {
-                    VStack {
+                    VStack(spacing: 4) {
                         Text("Receiving: \(formatFileId(transfer.fileId))")
                             .font(.caption)
+                        
                         ProgressView(value: Double(transfer.receivedChunks), total: Double(transfer.totalChunks))
                             .padding(.horizontal)
-                        Text("\(transfer.receivedChunks) / \(transfer.totalChunks) chunks")
-                            .font(.caption2)
+                        
+                        HStack {
+                            Text("\(transfer.receivedChunks) / \(transfer.totalChunks) chunks")
+                                .font(.caption2)
+                            
+                            if transfer.transferRate > 0 {
+                                Text("•")
+                                    .font(.caption2)
+                                    .foregroundColor(.secondary)
+                                
+                                Text("\(String(format: "%.1f", transfer.transferRate)) KB/s")
+                                    .font(.caption2)
+                                    .foregroundColor(.blue)
+                                
+                                // ETA
+                                let remainingBytes = Int(transfer.fileSize) - transfer.data.count
+                                let eta = Double(remainingBytes) / (transfer.transferRate * 1024)
+                                Text("•")
+                                    .font(.caption2)
+                                    .foregroundColor(.secondary)
+                                
+                                if eta < 60 {
+                                    Text("ETA: \(Int(eta))s")
+                                        .font(.caption2)
+                                        .foregroundColor(.secondary)
+                                } else {
+                                    Text("ETA: \(String(format: "%.1f", eta / 60))m")
+                                        .font(.caption2)
+                                        .foregroundColor(.secondary)
+                                }
+                            }
+                        }
                     }
                     .padding()
                 }

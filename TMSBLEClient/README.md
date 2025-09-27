@@ -10,6 +10,11 @@ iOS application for receiving and playing audio files from TMS BLE Server via Bl
 - **File Management**: View list of received files with metadata
   - File IDs displayed in YYYYMMDDHHMMSS format (converted from Unix timestamp)
   - File size and timestamp information
+- **Transfer Speed Display**:
+  - Real-time transfer rate in KB/s
+  - ETA (Estimated Time of Arrival) calculation
+  - Average speed and throughput statistics
+  - Progress percentage with chunk counter
 - **Persistent Storage**: Saves received files for offline playback
 
 ## Requirements

@@ -13,6 +13,9 @@ struct ActiveTransfer {
     var expectedHash: Data?
     var lastSequenceNumber: UInt16?
     var receivedSequences: Set<UInt16> = []
+    let startTime: Date = Date()
+    var lastUpdateTime: Date = Date()
+    var transferRate: Double = 0.0  // KB/s
 }
 
 class BLEManager: NSObject, ObservableObject {
@@ -228,17 +231,50 @@ class BLEManager: NSObject, ObservableObject {
                     transfer.data.append(payload)
                     transfer.receivedChunks += 1
                     transfer.lastSequenceNumber = packet.seq
+                    
+                    // Calculate transfer rate
+                    let currentTime = Date()
+                    let elapsedTime = currentTime.timeIntervalSince(transfer.startTime)
+                    if elapsedTime > 0 {
+                        let bytesPerSecond = Double(transfer.data.count) / elapsedTime
+                        transfer.transferRate = bytesPerSecond / 1024.0  // Convert to KB/s
+                    }
+                    transfer.lastUpdateTime = currentTime
+                    
                     activeTransfer = transfer
                     
                     // Log progress every 25%
                     let progress = Double(transfer.receivedChunks) / Double(transfer.totalChunks)
                     if transfer.receivedChunks % max(1, Int(transfer.totalChunks) / 4) == 0 {
                         print("  Progress: \(Int(progress * 100))% (\(transfer.receivedChunks)/\(transfer.totalChunks) chunks)")
+                        print("  Speed: \(String(format: "%.1f", transfer.transferRate)) KB/s")
+                        
+                        // Estimate remaining time
+                        if transfer.transferRate > 0 {
+                            let remainingBytes = Int(transfer.fileSize) - transfer.data.count
+                            let remainingSeconds = Double(remainingBytes) / (transfer.transferRate * 1024)
+                            if remainingSeconds < 60 {
+                                print("  ETA: \(Int(remainingSeconds)) seconds")
+                            } else {
+                                print("  ETA: \(String(format: "%.1f", remainingSeconds / 60)) minutes")
+                            }
+                        }
                     }
                     
                     if packet.type == END_TRANSFER_AUDIO_FILE {
+                        // Calculate final transfer stats
+                        let totalTime = Date().timeIntervalSince(transfer.startTime)
+                        let avgSpeed = totalTime > 0 ? (Double(transfer.data.count) / totalTime / 1024.0) : 0
+                        
                         // Verify data integrity
                         print("\n🔍 Verifying transfer integrity...")
+                        print("📊 Transfer Statistics:")
+                        print("  Duration: \(String(format: "%.1f", totalTime)) seconds")
+                        print("  Average speed: \(String(format: "%.1f", avgSpeed)) KB/s")
+                        if avgSpeed > 0 {
+                            let throughput = avgSpeed * 8  // Convert to Kbps
+                            print("  Throughput: \(String(format: "%.1f", throughput)) Kbps")
+                        }
                         
                         // Check data size
                         let receivedSize = transfer.data.count

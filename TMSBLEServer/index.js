@@ -16,20 +16,6 @@ let connectedCentral = null;
 function log(message) {
   const timestamp = new Date().toISOString();
   console.log(`[${timestamp}] ${message}`);
-  
-  // Append to log file
-  const logEntry = `[${timestamp}] ${message}\n`;
-  fs.appendFileSync(path.join(__dirname, 'AGENT_LOG.md'), logEntry);
-}
-
-// Initialize log file
-function initLogFile() {
-  const logPath = path.join(__dirname, 'AGENT_LOG.md');
-  if (!fs.existsSync(logPath)) {
-    const header = `# TMS BLE Server Agent Log\n\n`;
-    fs.writeFileSync(logPath, header);
-  }
-  log('BLE Server started');
 }
 
 // Generate File ID from timestamp
@@ -210,10 +196,11 @@ class DataTransferCharacteristic extends bleno.Characteristic {
       );
       
       this.updateValueCallback(beginPacket);
-      await sleep(50); // Small delay between packets
+      await sleep(30); // Small delay between packets
       
       // Send data chunks
       let sentBytes = 0;
+      const transferStartTime = Date.now();
       for (let i = 0; i < totalChunks; i++) {
         const start = i * chunkSize;
         const end = Math.min(start + chunkSize, fileSize);
@@ -234,22 +221,46 @@ class DataTransferCharacteristic extends bleno.Characteristic {
         
         this.updateValueCallback(dataPacket);
         
-        // Enhanced logging
+        // Enhanced logging with speed calculation
         if (i === 0) {
           log(`  First chunk: seq=${seq}, size=${chunk.length} bytes`);
         } else if (i === totalChunks - 1) {
           log(`  Last chunk: seq=${seq}, size=${chunk.length} bytes`);
           log(`  Total sent: ${sentBytes} bytes (expected: ${fileSize} bytes)`);
         } else if (i % 10 === 0) {
-          log(`  Progress: ${i + 1}/${totalChunks} chunks, sent: ${sentBytes} bytes`);
+          const elapsedTime = (Date.now() - transferStartTime) / 1000; // seconds
+          const speed = elapsedTime > 0 ? (sentBytes / 1024 / elapsedTime) : 0; // KB/s
+          const progress = ((i + 1) / totalChunks * 100).toFixed(1);
+          log(`  Progress: ${progress}% (${i + 1}/${totalChunks} chunks)`);
+          log(`    Sent: ${(sentBytes / 1024).toFixed(1)} KB, Speed: ${speed.toFixed(1)} KB/s`);
+          
+          // Estimate remaining time
+          if (speed > 0) {
+            const remainingBytes = fileSize - sentBytes;
+            const eta = remainingBytes / (speed * 1024); // seconds
+            if (eta < 60) {
+              log(`    ETA: ${eta.toFixed(0)} seconds`);
+            } else {
+              log(`    ETA: ${(eta / 60).toFixed(1)} minutes`);
+            }
+          }
         }
         
-        await sleep(20); // Delay between chunks to avoid overwhelming
+        await sleep(30); // Delay between chunks to avoid overwhelming
       }
+      
+      // Calculate final transfer statistics
+      const totalTime = (Date.now() - transferStartTime) / 1000; // seconds
+      const avgSpeed = totalTime > 0 ? (sentBytes / 1024 / totalTime) : 0; // KB/s
+      const throughput = avgSpeed * 8; // Kbps
       
       log(`Transfer completed: fileId=${fileId}`);
       log(`  Final hash: ${fileHash.toString('hex').substring(0, 16)}...`);
       log(`  Bytes sent: ${sentBytes}/${fileSize}`);
+      log(`📊 Transfer Statistics:`);
+      log(`  Duration: ${totalTime.toFixed(1)} seconds`);
+      log(`  Average speed: ${avgSpeed.toFixed(1)} KB/s`);
+      log(`  Throughput: ${throughput.toFixed(1)} Kbps`);
       return true;
       
     } catch (error) {
@@ -382,11 +393,6 @@ function setupFileWatcher() {
       
       // Notify Central
       statusCharacteristic.notifyFileStatus(config.STATUS_TYPES.FILE_ADDED, fileId);
-      
-      // Auto transfer if enabled
-      if (autoTransferMode && !activeTransfer) {
-        setTimeout(() => handleStartTransfer(fileId), 1000);
-      }
     })
     .on('unlink', filePath => {
       if (!filePath.endsWith(config.FILE_EXTENSION)) return;
@@ -446,7 +452,6 @@ process.on('SIGINT', () => {
 });
 
 // Start the server
-initLogFile();
 setupFileWatcher();
 log('TMS BLE Server initialized');
 log(`Service UUID: ${config.SERVICE_UUID}`);
