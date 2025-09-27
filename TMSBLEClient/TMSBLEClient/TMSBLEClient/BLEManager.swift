@@ -267,6 +267,9 @@ class BLEManager: NSObject, ObservableObject {
                         let avgSpeed = totalTime > 0 ? (Double(transfer.data.count) / totalTime / 1024.0) : 0
                         
                         // Verify data integrity
+                        var integrityIssues: [String] = []
+                        var hashVerified = true
+                        
                         print("\n🔍 Verifying transfer integrity...")
                         print("📊 Transfer Statistics:")
                         print("  Duration: \(String(format: "%.1f", totalTime)) seconds")
@@ -282,11 +285,13 @@ class BLEManager: NSObject, ObservableObject {
                         if receivedSize != expectedSize {
                             print("❌ Size mismatch! Expected: \(expectedSize), Received: \(receivedSize)")
                             print("  Difference: \(receivedSize - expectedSize) bytes")
+                            integrityIssues.append("Size mismatch: \(receivedSize - expectedSize) bytes")
                         } else {
                             print("✅ Size match: \(receivedSize) bytes")
                         }
                         
                         // Verify hash if available
+                        
                         if let expectedHash = transfer.expectedHash {
                             let receivedHash = SHA256.hash(data: transfer.data)
                             let receivedHashData = Data(receivedHash)
@@ -297,12 +302,16 @@ class BLEManager: NSObject, ObservableObject {
                                 print("❌ Hash mismatch!")
                                 print("  Expected: \(expectedHash.map { String(format: "%02x", $0) }.prefix(8).joined())...")
                                 print("  Received: \(receivedHashData.map { String(format: "%02x", $0) }.prefix(8).joined())...")
+                                hashVerified = false
+                                integrityIssues.append("Hash mismatch")
                             }
                         }
                         
                         // Check sequence completeness
                         if transfer.receivedSequences.count != Int(transfer.totalChunks) {
                             print("⚠️ Missing chunks! Expected: \(transfer.totalChunks), Received unique: \(transfer.receivedSequences.count)")
+                            let missingCount = Int(transfer.totalChunks) - transfer.receivedSequences.count
+                            integrityIssues.append("Missing \(missingCount) chunks")
                             // Find missing sequences
                             for i in 0..<transfer.totalChunks {
                                 if !transfer.receivedSequences.contains(i) {
@@ -320,6 +329,13 @@ class BLEManager: NSObject, ObservableObject {
                             fileSize: receivedSize,  // Use actual received size
                             timestamp: Date()
                         )
+                        
+                        // Set integrity status
+                        if !integrityIssues.isEmpty {
+                            audioFile.hasIntegrityIssue = true
+                            audioFile.integrityMessage = integrityIssues.joined(separator: ", ")
+                            print("⚠️ File has integrity issues: \(audioFile.integrityMessage ?? "")")
+                        }
                         
                         // Check for duplicates before adding
                         if !audioFiles.contains(where: { $0.fileId == transfer.fileId }) {

@@ -22,6 +22,14 @@ struct ContentView: View {
         return fileIdFormatter.string(from: date)
     }
     
+    // Format file size
+    private func formatFileSize(_ bytes: Int) -> String {
+        let formatter = ByteCountFormatter()
+        formatter.allowedUnits = [.useMB, .useKB, .useBytes]
+        formatter.countStyle = .file
+        return formatter.string(fromByteCount: Int64(bytes))
+    }
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -120,15 +128,36 @@ struct ContentView: View {
                     ForEach(bleManager.audioFiles) { file in
                         HStack {
                             VStack(alignment: .leading) {
-                                Text(formatFileId(file.fileId))
-                                    .font(.headline)
-                                    .fontDesign(.monospaced)
-                                Text("\(file.fileSize) bytes")
+                                HStack(spacing: 4) {
+                                    Text(formatFileId(file.fileId))
+                                        .font(.headline)
+                                        .fontDesign(.monospaced)
+                                    
+                                    if file.hasIntegrityIssue {
+                                        Image(systemName: "exclamationmark.triangle.fill")
+                                            .foregroundColor(.orange)
+                                            .font(.caption)
+                                    }
+                                }
+                                
+                                Text("\(formatFileSize(file.fileSize))")
                                     .font(.caption)
-                                Text(file.timestamp, style: .date)
-                                    .font(.caption2)
-                                Text(file.timestamp, style: .time)
-                                    .font(.caption2)
+                                
+                                if file.hasIntegrityIssue, let message = file.integrityMessage {
+                                    Text(message)
+                                        .font(.caption2)
+                                        .foregroundColor(.orange)
+                                        .lineLimit(1)
+                                }
+                                
+                                HStack {
+                                    Text(file.timestamp, style: .date)
+                                        .font(.caption2)
+                                    Text("•")
+                                        .font(.caption2)
+                                    Text(file.timestamp, style: .time)
+                                        .font(.caption2)
+                                }
                             }
                             
                             Spacer()

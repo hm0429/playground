@@ -94,6 +94,10 @@ Files are automatically saved when:
 - **Missing Chunk Detection**: Reports any missing sequences
 - **Atomic File Writes**: Prevents file corruption during save
 - **Comprehensive Logging**: Detailed transfer progress and integrity reports
+- **Visual Integrity Indicators**: 
+  - ⚠️ Orange warning icon for files with integrity issues
+  - Displays specific issue details (hash mismatch, size difference, missing chunks)
+  - Issues persist across app restarts
 
 ## Permissions
 
