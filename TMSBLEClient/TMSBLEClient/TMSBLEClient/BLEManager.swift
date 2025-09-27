@@ -202,20 +202,20 @@ class BLEManager: NSObject, ObservableObject {
                     totalChunks: totalChunks
                 )
                 transfer.expectedHash = expectedHash
-                transfer.lastSequenceNumber = packet.seq  // Should be totalChunks-1
+                transfer.lastSequenceNumber = packet.seq  // Should be 0
                 activeTransfer = transfer
                 
                 print("📥 Starting transfer: \(formatFileId(fileId))")
                 print("  Size: \(fileSize) bytes, Chunks: \(totalChunks)")
                 print("  Expected hash: \(expectedHash.map { String(format: "%02x", $0) }.prefix(8).joined())...")
-                print("  Initial sequence: \(packet.seq) (expected: \(totalChunks - 1))")
+                print("  Initial sequence: \(packet.seq) (expected: 0)")
             }
             
         case CONTINUE_TRANSFER_AUDIO_FILE, END_TRANSFER_AUDIO_FILE:
             if var transfer = activeTransfer {
                 if let payload = packet.payload {
-                    // Check sequence number
-                    let expectedSeq = UInt16(transfer.totalChunks) - 1 - UInt16(transfer.receivedChunks)
+                    // Check sequence number (incrementing from 0)
+                    let expectedSeq = UInt16(transfer.receivedChunks)
                     if packet.seq != expectedSeq {
                         print("⚠️ Sequence mismatch! Expected: \(expectedSeq), Received: \(packet.seq)")
                         print("  Chunk \(transfer.receivedChunks + 1)/\(transfer.totalChunks)")
@@ -307,19 +307,19 @@ class BLEManager: NSObject, ObservableObject {
                             }
                         }
                         
-                        // Check sequence completeness
+                        // Check sequence completeness (sequences 0 to totalChunks-1)
                         if transfer.receivedSequences.count != Int(transfer.totalChunks) {
                             print("⚠️ Missing chunks! Expected: \(transfer.totalChunks), Received unique: \(transfer.receivedSequences.count)")
                             let missingCount = Int(transfer.totalChunks) - transfer.receivedSequences.count
                             integrityIssues.append("Missing \(missingCount) chunks")
-                            // Find missing sequences
+                            // Find missing sequences (0 to totalChunks-1)
                             for i in 0..<transfer.totalChunks {
-                                if !transfer.receivedSequences.contains(i) {
+                                if !transfer.receivedSequences.contains(UInt16(i)) {
                                     print("  Missing sequence: \(i)")
                                 }
                             }
                         } else {
-                            print("✅ All \(transfer.totalChunks) chunks received")
+                            print("✅ All \(transfer.totalChunks) chunks received (sequences 0-\(transfer.totalChunks-1))")
                         }
                         
                         // Create audio file

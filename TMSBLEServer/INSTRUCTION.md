@@ -83,7 +83,7 @@ Service UUID: 572542C4-2198-4D1E-9820-1FEAEA1BB9D0
 | フィールド | サイズ | 説明 |
 |-----------|--------|------|
 | Flag | 1 byte | 転送フラグ |
-| ID | 4 bytes (BE) | シーケンス番号（デクリメント方式） |
+| ID | 4 bytes (BE) | シーケンス番号 |
 | Payload Length | 2 bytes (BE) | ペイロードのバイト数 |
 | Payload | 可変 | データ内容 |
 

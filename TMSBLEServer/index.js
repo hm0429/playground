@@ -191,7 +191,7 @@ class DataTransferCharacteristic extends bleno.Characteristic {
       const beginPacket = createPacket(
         config.TRANSFER_FLAGS.BEGIN_TRANSFER_AUDIO_FILE,
         ++currentTransferId,
-        totalChunks - 1, // SEQ starts from totalChunks-1 and decrements
+        0, // SEQ starts from 0 and increments
         metadataBuffer
       );
       
@@ -205,7 +205,7 @@ class DataTransferCharacteristic extends bleno.Characteristic {
         const start = i * chunkSize;
         const end = Math.min(start + chunkSize, fileSize);
         const chunk = fileData.slice(start, end);
-        const seq = totalChunks - 1 - i; // Decrementing sequence
+        const seq = i; // Incrementing sequence (0, 1, 2, ...)
         sentBytes += chunk.length;
         
         const flag = (i === totalChunks - 1) 

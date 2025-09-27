@@ -88,7 +88,7 @@ Files are automatically saved when:
 
 ### Data Safety & Integrity Verification
 - **Hash Verification**: SHA-256 hash comparison between server and client
-- **Sequence Checking**: Validates all chunks received in correct order
+- **Sequence Checking**: Validates all chunks received in correct order (0, 1, 2, ...)
 - **Size Validation**: Verifies received data size matches expected size
 - **Duplicate Detection**: Identifies and logs duplicate chunk sequences
 - **Missing Chunk Detection**: Reports any missing sequences
