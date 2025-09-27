@@ -17,33 +17,23 @@ OUT_DIR     = "recordings"   # 録音ファイルの保存先
 MP3_BITRATE = "128k"         # MP3 のビットレート
 
 # ====== 内部計算 ======
-FRAME_BYTES = int(SAMPLE_RATE * FRAME_MS / 1000) * SAMPLE_WIDTH
+FRAME_SAMPLES = SAMPLE_RATE * FRAME_MS // 1000
+FRAME_BYTES = FRAME_SAMPLES * SAMPLE_WIDTH
 PRE_FRAMES  = int(PRE_ROLL_S * 1000 / FRAME_MS)
 HANG_FRAMES = int(POST_ROLL_S * 1000 / FRAME_MS)
 MIN_FRAMES  = int(MIN_SEG_S * 1000 / FRAME_MS)
 MAX_FRAMES  = int(MAX_SEG_S * 1000 / FRAME_MS)
 
-os.makedirs(OUT_DIR, exist_ok=True)
-
-def now_ts():
-    return datetime.datetime.now(datetime.UTC)
-
+def get_unique_filepath(timestamp):
+    ts = timestamp.strftime("%Y%m%d%H%M%S")
+    path = os.path.join(OUT_DIR, f"{ts}.mp3")
+    return path
+    
 def save_as_mp3(path, raw_pcm: bytes):
-    """
-    RAW PCM(s16le, mono, 16kHz) を ffmpeg にパイプで渡して MP3 に変換・保存。
-    """
-    proc = subprocess.Popen(
-        [
-            "ffmpeg",
-            "-f", "s16le", "-ar", str(SAMPLE_RATE), "-ac", str(CHANNELS), "-i", "pipe:0",
-            "-acodec", "libmp3lame", "-b:a", MP3_BITRATE,
-            "-y",  # 上書き
-            path
-        ],
-        stdin=subprocess.PIPE,
-        stdout=subprocess.DEVNULL,
-        stderr=subprocess.DEVNULL
-    )
+    cmd = ["ffmpeg", "-f", "s16le", "-ar", str(SAMPLE_RATE), "-ac", str(CHANNELS),
+           "-i", "pipe:0", "-acodec", "libmp3lame", "-b:a", MP3_BITRATE, "-y", path]
+    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE,
+                          stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     try:
         proc.stdin.write(raw_pcm)
         proc.stdin.close()
@@ -51,62 +41,59 @@ def save_as_mp3(path, raw_pcm: bytes):
     except BrokenPipeError:
         pass
 
+def reset_state():
+    return {
+        'collecting': False,
+        'seg_frames': [],
+        'silence_run': 0,
+        'seg_start_ts': None,
+        'prebuffer': collections.deque(maxlen=PRE_FRAMES),
+        'recent_flags': collections.deque(maxlen=START_N)
+    }
+
 def main():
+    os.makedirs(OUT_DIR, exist_ok=True)
+    
     p = pyaudio.PyAudio()
     stream = p.open(format=p.get_format_from_width(SAMPLE_WIDTH),
                     channels=CHANNELS,
                     rate=SAMPLE_RATE,
                     input=True,
-                    frames_per_buffer=int(SAMPLE_RATE*FRAME_MS/1000),
-                    stream_callback=None)
+                    frames_per_buffer=FRAME_SAMPLES)
 
     vad = webrtcvad.Vad(VAD_MODE)
-    prebuffer = collections.deque(maxlen=PRE_FRAMES)
-    recent_flags = collections.deque(maxlen=START_N)
-
-    collecting = False
-    seg_frames = []
-    silence_run = 0
-    seg_start_ts = None
+    state = reset_state()
 
     print("Listening… Ctrl+C to stop.")
     try:
         while True:
-            data = stream.read(int(SAMPLE_RATE*FRAME_MS/1000), exception_on_overflow=False)
+            data = stream.read(FRAME_SAMPLES, exception_on_overflow=False)
             if len(data) != FRAME_BYTES:
                 continue
 
             is_voiced = vad.is_speech(data, SAMPLE_RATE)
-            recent_flags.append(1 if is_voiced else 0)
+            state['recent_flags'].append(1 if is_voiced else 0)
 
-            if not collecting:
-                prebuffer.append(data)
-                if sum(recent_flags) >= START_K:
-                    collecting = True
-                    seg_frames = list(prebuffer)  # プレロール
-                    silence_run = 0
-                    seg_start_ts = now_ts()
+            if not state['collecting']:
+                state['prebuffer'].append(data)
+                if sum(state['recent_flags']) >= START_K:
+                    state['collecting'] = True
+                    state['seg_frames'] = list(state['prebuffer'])  # プレロール
+                    state['silence_run'] = 0
+                    state['seg_start_ts'] = datetime.datetime.now(datetime.UTC)
                     print("Recording started.")
             else:
-                seg_frames.append(data)
-                silence_run = 0 if is_voiced else silence_run + 1
+                state['seg_frames'].append(data)
+                state['silence_run'] = 0 if is_voiced else state['silence_run'] + 1
 
                 # 終了判定
-                if silence_run >= HANG_FRAMES or len(seg_frames) >= MAX_FRAMES:
-                    if len(seg_frames) >= MIN_FRAMES:
-                        ts = seg_start_ts.strftime("%Y%m%d%H%M%S")
-                        outpath = os.path.join(OUT_DIR, f"{ts}.mp3")
-                        while os.path.exists(outpath):
-                            seg_start_ts += datetime.timedelta(seconds=1)
-                            ts = seg_start_ts.strftime("%Y%m%d%H%M%S")
-                            outpath = os.path.join(OUT_DIR, f"{ts}.mp3")
-                        save_as_mp3(outpath, b"".join(seg_frames))
+                if state['silence_run'] >= HANG_FRAMES or len(state['seg_frames']) >= MAX_FRAMES:
+                    if len(state['seg_frames']) >= MIN_FRAMES:
+                        outpath = get_unique_filepath(state['seg_start_ts'])
+                        save_as_mp3(outpath, b"".join(state['seg_frames']))
                         print("Recording stopped. Saved:", outpath)
-                    # リセット
-                    collecting = False
-                    seg_frames = []
-                    prebuffer.clear()
-                    recent_flags.clear()
+                    state = reset_state()
+                    
     except KeyboardInterrupt:
         pass
     finally:
