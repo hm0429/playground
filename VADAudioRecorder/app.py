@@ -1,22 +1,22 @@
 import collections, datetime, os, subprocess
 import pyaudio, webrtcvad
 
-# ====== 設定 ======
-SAMPLE_RATE = 16000          # 8000/16000/32000/48000 のいずれか
-FRAME_MS    = 30             # 10/20/30 ms のみ
-CHANNELS    = 1              # モノラル
-SAMPLE_WIDTH= 2              # 16bit
-VAD_MODE    = 2              # 0...3 (感度高...低)
-PRE_ROLL_S  = 2.0            # 録音開始判定前に付加する秒数
-POST_ROLL_S = 2.0            # 録音終了判定後に付加する秒数
-START_K     = 10             # 直近 N 中 K 以上の発話があれば開始
-START_N     = 15             # 録音開始判定のための直近 N フレーム
-MIN_SEG_S   = 1.0            # 最小録音秒数
-MAX_SEG_S   = 300            # 最大録音秒数
-OUT_DIR     = "recordings"   # 録音ファイルの保存先
-MP3_BITRATE = "128k"         # MP3 のビットレート
+# ====== Configuration ======
+SAMPLE_RATE = 16000          # WebRTC VAD supports: 8000/16000/32000/48000 Hz
+FRAME_MS    = 30             # Frame duration: 10/20/30 ms only
+CHANNELS    = 1              # Mono audio
+SAMPLE_WIDTH= 2              # 16-bit PCM
+VAD_MODE    = 2              # Aggressiveness: 0 (least) to 3 (most)
+PRE_ROLL_S  = 2.0            # Seconds to include before speech detection
+POST_ROLL_S = 2.0            # Seconds to include after speech ends
+START_K     = 10             # Start recording if K out of N recent frames have speech
+START_N     = 15             # Number of recent frames to check for speech
+MIN_SEG_S   = 1.0            # Minimum recording duration in seconds
+MAX_SEG_S   = 300            # Maximum recording duration in seconds
+OUT_DIR     = "recordings"   # Output directory for recordings
+MP3_BITRATE = "128k"         # MP3 encoding bitrate
 
-# ====== 内部計算 ======
+# ====== Calculated Constants ======
 FRAME_SAMPLES = SAMPLE_RATE * FRAME_MS // 1000
 FRAME_BYTES = FRAME_SAMPLES * SAMPLE_WIDTH
 PRE_FRAMES  = int(PRE_ROLL_S * 1000 / FRAME_MS)
@@ -25,11 +25,13 @@ MIN_FRAMES  = int(MIN_SEG_S * 1000 / FRAME_MS)
 MAX_FRAMES  = int(MAX_SEG_S * 1000 / FRAME_MS)
 
 def get_unique_filepath(timestamp):
+    """Generate a filepath from timestamp in YYYYMMDDHHMMSS format"""
     ts = timestamp.strftime("%Y%m%d%H%M%S")
     path = os.path.join(OUT_DIR, f"{ts}.mp3")
     return path
     
 def save_as_mp3(path, raw_pcm: bytes):
+    """Convert raw PCM data to MP3 using ffmpeg and save to file"""
     cmd = ["ffmpeg", "-f", "s16le", "-ar", str(SAMPLE_RATE), "-ac", str(CHANNELS),
            "-i", "pipe:0", "-acodec", "libmp3lame", "-b:a", MP3_BITRATE, "-y", path]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE,
@@ -42,18 +44,20 @@ def save_as_mp3(path, raw_pcm: bytes):
         pass
 
 def reset_state():
+    """Initialize or reset the recording state"""
     return {
-        'collecting': False,
-        'seg_frames': [],
-        'silence_run': 0,
-        'seg_start_ts': None,
-        'prebuffer': collections.deque(maxlen=PRE_FRAMES),
-        'recent_flags': collections.deque(maxlen=START_N)
+        'collecting': False,  # Whether currently recording
+        'seg_frames': [],     # Audio frames for current segment
+        'silence_run': 0,     # Consecutive silent frames counter
+        'seg_start_ts': None, # Timestamp when recording started
+        'prebuffer': collections.deque(maxlen=PRE_FRAMES),  # Pre-roll buffer
+        'recent_flags': collections.deque(maxlen=START_N)   # Recent voice activity flags
     }
 
 def main():
     os.makedirs(OUT_DIR, exist_ok=True)
     
+    # Initialize audio stream
     p = pyaudio.PyAudio()
     stream = p.open(format=p.get_format_from_width(SAMPLE_WIDTH),
                     channels=CHANNELS,
@@ -61,34 +65,41 @@ def main():
                     input=True,
                     frames_per_buffer=FRAME_SAMPLES)
 
+    # Initialize VAD and state
     vad = webrtcvad.Vad(VAD_MODE)
     state = reset_state()
 
     print("Listening… Ctrl+C to stop.")
     try:
         while True:
+            # Read audio frame
             data = stream.read(FRAME_SAMPLES, exception_on_overflow=False)
             if len(data) != FRAME_BYTES:
                 continue
 
+            # Check if frame contains speech
             is_voiced = vad.is_speech(data, SAMPLE_RATE)
             state['recent_flags'].append(1 if is_voiced else 0)
 
             if not state['collecting']:
+                # Not recording: maintain pre-roll buffer and check for speech start
                 state['prebuffer'].append(data)
                 if sum(state['recent_flags']) >= START_K:
+                    # Speech detected: start recording with pre-roll
                     state['collecting'] = True
-                    state['seg_frames'] = list(state['prebuffer'])  # プレロール
+                    state['seg_frames'] = list(state['prebuffer'])
                     state['silence_run'] = 0
                     state['seg_start_ts'] = datetime.datetime.now(datetime.UTC)
                     print("Recording started.")
             else:
+                # Recording: accumulate frames and track silence
                 state['seg_frames'].append(data)
                 state['silence_run'] = 0 if is_voiced else state['silence_run'] + 1
 
-                # 終了判定
+                # Check if recording should stop (silence exceeded or max duration reached)
                 if state['silence_run'] >= HANG_FRAMES or len(state['seg_frames']) >= MAX_FRAMES:
                     if len(state['seg_frames']) >= MIN_FRAMES:
+                        # Save recording if it meets minimum duration
                         outpath = get_unique_filepath(state['seg_start_ts'])
                         save_as_mp3(outpath, b"".join(state['seg_frames']))
                         print("Recording stopped. Saved:", outpath)
