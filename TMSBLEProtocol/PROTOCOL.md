@@ -14,18 +14,18 @@ Service UUID: 572542C4-2198-4D1E-9820-1FEAEA1BB9D0
 
 | Characteristic | UUID | Properties | Description |
 |---------------|------|------------|------|
-| CONTROL | 572542C4-2198-4D1E-9820-1FEAEA1BB9D1 | Write | 操作命令の送受信 |
+| CONTROL | 572542C4-2198-4D1E-9820-1FEAEA1BB9D1 | Write with Response | 操作命令の送受信 |
 | STATUS | 572542C4-2198-4D1E-9820-1FEAEA1BB9D2 | Notify | ステータス通知 |
-| DATA_TRANSFER | 572542C4-2198-4D1E-9820-1FEAEA1BB9D3 | Notify | データ転送 |
+| DATA_TRANSFER | 572542C4-2198-4D1E-9820-1FEAEA1BB9D3 | Notify, Indicate | データ転送 |
 
 ## データ転送フロー
 
 ### 最新の音声ファイルを取得
 | 1. Peripheral: 新たなファイルが追加されたことを通知 | STATUS:FILE_ADDED(File ID) |
 | 2. Central: Peripheral にファイルの送信指示 | CONTROL:START_TRANSFER_AUDIO_FILE(File ID) |
-| 3. Peripheral: Central にファイルの転送を開始 | DATA_TRANSFER:BEGIN_TRANSFER_AUDIO_FILE(Metadata) |
-| 4. Peripheral: Central にファイルのデータを転送 | DATA_TRANSFER:CONTINUE_TRANSFER_AUDIO_FILE(Chunk) |
-| 5. Peripheral: Central にファイルのデータを完了 | DATA_TRANSFER:END_TRANSFER_AUDIO_FILE(Chunk) |
+| 3. Peripheral: Central にファイルの転送を開始 | DATA_TRANSFER:TRANSFER_AUDIO_FILE(Metadata) |
+| 4. Peripheral: Central にファイルのデータを転送 | DATA_TRANSFER:TRANSFER_AUDIO_FILE(Chunk) |
+| 5. Peripheral: Central にファイルのデータを完了 | DATA_TRANSFER:TRANSFER_AUDIO_FILE(Chunk) |
 | 6. Central: Peripheral にファイルの転送完了通知 | CONTROL:COMPLETE_TRANSFER_AUDIO_FILE(File ID) |
 | 7. Peripheral: 転送済みのファイルを削除・通知 | STATUS:FILE_DELETED(File ID) |
 
@@ -65,9 +65,9 @@ Service UUID: 572542C4-2198-4D1E-9820-1FEAEA1BB9D0
 ### DATA_TRANSFER Characteristic
 | 名前 | 値 | ペイロード | 説明 |
 |---------|-----|-----------|------|
-| BEGIN_TRANSFER_AUDIO_FILE | 0x80 | Metadata | 転送開始 |
-| CONTINUE_TRANSFER_AUDIO_FILE | 0x81 | 音声データ（バイナリ） | 転送継続 |
-| END_TRANSFER_AUDIO_FILE | 0x82 | 音声データ（バイナリ） |  転送終了 |
+| BEGIN_TRANSFER_AUDIO_FILE (Indicate) | 0x80 | Metadata | 転送開始  |
+| TRANSFER_AUDIO_FILE (Notify) | 0x81 | 音声データ（バイナリ） | 転送継続 |
+| END_TRANSFER_AUDIO_FILE (Indicate) | 0x82 | 音声データ（バイナリ） | 転送終了 |
 
 **BEGIN_TRANSFER_AUDIO_FILE のペイロード（メタデータ）の構造**
 | フィールド | サイズ | 説明 |
