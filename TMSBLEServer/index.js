@@ -6,7 +6,6 @@ const crypto = require('crypto');
 const config = require('./config');
 
 // Global state
-let autoTransferMode = false;
 let currentTransferId = 0;
 let fileMap = new Map(); // Map of File ID to file path
 let activeTransfer = null;
@@ -34,11 +33,11 @@ function calculateFileHash(filePath) {
 
 // Create buffer with common header (Type, ID, SEQ, Payload Length)
 function createPacket(type, id, seq, payload) {
-  const header = Buffer.alloc(9);
+  const header = Buffer.alloc(7);
   header.writeUInt8(type, 0);
-  header.writeUInt32BE(id, 1);
-  header.writeUInt16BE(seq, 5);
-  header.writeUInt16BE(payload ? payload.length : 0, 7);
+  header.writeUInt16BE(id, 1);
+  header.writeUInt16BE(seq, 3);
+  header.writeUInt16BE(payload ? payload.length : 0, 5);
   
   if (payload) {
     return Buffer.concat([header, payload]);
@@ -57,41 +56,33 @@ class ControlCharacteristic extends bleno.Characteristic {
 
   onWriteRequest(data, offset, withoutResponse, callback) {
     try {
-      if (data.length < 9) {
+      if (data.length < 7) {
         log('Invalid CONTROL command: insufficient data');
         callback(bleno.Characteristic.RESULT_INVALID_ATTRIBUTE_LENGTH);
         return;
       }
 
       const command = data.readUInt8(0);
-      const id = data.readUInt32BE(1);
-      const seq = data.readUInt16BE(5);
-      const payloadLength = data.readUInt16BE(7);
+      const id = data.readUInt16BE(1);
+      const seq = data.readUInt16BE(3);
+      const payloadLength = data.readUInt16BE(5);
       
       log(`Received CONTROL command: 0x${command.toString(16)}, ID: ${id}, SEQ: ${seq}`);
 
       switch (command) {
         case config.COMMANDS.START_TRANSFER_AUDIO_FILE:
           if (payloadLength >= 4) {
-            const fileId = data.readUInt32BE(9);
+            const fileId = data.readUInt32BE(7);
             handleStartTransfer(fileId);
+          } else {
+            // If no file ID specified, transfer the oldest file
+            handleStartTransfer(null);
           }
-          break;
-          
-        case config.COMMANDS.START_TRANSFER_AUDIO_FILE_AUTO:
-          autoTransferMode = true;
-          log('Auto transfer mode enabled');
-          checkAndTransferPendingFiles();
-          break;
-          
-        case config.COMMANDS.STOP_TRANSFER_AUDIO_FILE_AUTO:
-          autoTransferMode = false;
-          log('Auto transfer mode disabled');
           break;
           
         case config.COMMANDS.COMPLETE_TRANSFER_AUDIO_FILE:
           if (payloadLength >= 4) {
-            const fileId = data.readUInt32BE(9);
+            const fileId = data.readUInt32BE(7);
             handleCompleteTransfer(fileId);
           }
           break;
@@ -178,7 +169,10 @@ class DataTransferCharacteristic extends bleno.Characteristic {
       const chunkSize = config.DATA_CHUNK_SIZE;
       const totalChunks = Math.ceil(fileSize / chunkSize);
       
-      log(`Starting transfer: fileId=${fileId}, size=${fileSize}, chunks=${totalChunks}`);
+      // Use a single transfer ID for the entire transfer
+      const transferId = ++currentTransferId;
+      
+      log(`Starting transfer: fileId=${fileId}, transferId=${transferId}, size=${fileSize}, chunks=${totalChunks}`);
       log(`  Hash: ${fileHash.toString('hex').substring(0, 16)}...`);
       
       // Send BEGIN packet with metadata
@@ -190,8 +184,8 @@ class DataTransferCharacteristic extends bleno.Characteristic {
       
       const beginPacket = createPacket(
         config.TRANSFER_FLAGS.BEGIN_TRANSFER_AUDIO_FILE,
-        ++currentTransferId,
-        0, // SEQ starts from 0 and increments
+        transferId,
+        0, // SEQ 0 for BEGIN packet
         metadataBuffer
       );
       
@@ -205,7 +199,7 @@ class DataTransferCharacteristic extends bleno.Characteristic {
         const start = i * chunkSize;
         const end = Math.min(start + chunkSize, fileSize);
         const chunk = fileData.slice(start, end);
-        const seq = i; // Incrementing sequence (0, 1, 2, ...)
+        const seq = i + 1; // SEQ starts from 1 for data chunks
         sentBytes += chunk.length;
         
         const flag = (i === totalChunks - 1) 
@@ -214,7 +208,7 @@ class DataTransferCharacteristic extends bleno.Characteristic {
         
         const dataPacket = createPacket(
           flag,
-          ++currentTransferId,
+          transferId,
           seq,
           chunk
         );
@@ -296,10 +290,25 @@ class TMSAudioService extends bleno.PrimaryService {
 
 // File handling functions
 function handleStartTransfer(fileId) {
-  const filePath = fileMap.get(fileId);
-  if (!filePath) {
-    log(`File not found for ID: ${fileId}`);
-    return;
+  let targetFileId = fileId;
+  let filePath;
+  
+  if (fileId === null) {
+    // If no file ID specified, get the oldest file
+    const fileIds = Array.from(fileMap.keys()).sort((a, b) => a - b);
+    if (fileIds.length === 0) {
+      log('No files available for transfer');
+      return;
+    }
+    targetFileId = fileIds[0];
+    filePath = fileMap.get(targetFileId);
+    log(`No file ID specified, transferring oldest file: ${targetFileId}`);
+  } else {
+    filePath = fileMap.get(fileId);
+    if (!filePath) {
+      log(`File not found for ID: ${fileId}`);
+      return;
+    }
   }
   
   if (activeTransfer) {
@@ -307,19 +316,14 @@ function handleStartTransfer(fileId) {
     return;
   }
   
-  activeTransfer = { fileId, filePath };
+  activeTransfer = { fileId: targetFileId, filePath };
   
   // Start transfer asynchronously
-  dataTransferCharacteristic.transferFile(fileId, filePath).then(success => {
+  dataTransferCharacteristic.transferFile(targetFileId, filePath).then(success => {
     if (success) {
-      log(`Transfer successful: ${fileId}`);
+      log(`Transfer successful: ${targetFileId}`);
     }
     activeTransfer = null;
-    
-    // Check for more files in auto mode
-    if (autoTransferMode) {
-      setTimeout(() => checkAndTransferPendingFiles(), 1000);
-    }
   });
 }
 
@@ -340,17 +344,6 @@ function handleCompleteTransfer(fileId) {
   }
 }
 
-function checkAndTransferPendingFiles() {
-  if (!autoTransferMode || activeTransfer) return;
-  
-  // Find oldest file not yet transferred
-  const fileIds = Array.from(fileMap.keys()).sort((a, b) => a - b);
-  if (fileIds.length > 0) {
-    const fileId = fileIds[0];
-    log(`Auto-transferring file: ${fileId}`);
-    handleStartTransfer(fileId);
-  }
-}
 
 // File monitoring
 function setupFileWatcher() {
@@ -441,7 +434,6 @@ bleno.on('disconnect', clientAddress => {
   log(`Central disconnected: ${clientAddress}`);
   connectedCentral = null;
   activeTransfer = null;
-  autoTransferMode = false;
 });
 
 // Graceful shutdown

@@ -17,22 +17,20 @@ module.exports = {
   // Command codes for CONTROL characteristic
   COMMANDS: {
     START_TRANSFER_AUDIO_FILE: 0x01,
-    START_TRANSFER_AUDIO_FILE_AUTO: 0x02,
-    STOP_TRANSFER_AUDIO_FILE_AUTO: 0x03,
     COMPLETE_TRANSFER_AUDIO_FILE: 0x04
   },
   
   // Status codes for STATUS characteristic
   STATUS_TYPES: {
-    FILE_ADDED: 0x10,
-    FILE_DELETED: 0x11
+    FILE_ADDED: 0x40,
+    FILE_DELETED: 0x41
   },
   
   // Transfer flags for DATA_TRANSFER characteristic
   TRANSFER_FLAGS: {
-    BEGIN_TRANSFER_AUDIO_FILE: 0x20,
-    CONTINUE_TRANSFER_AUDIO_FILE: 0x21,
-    END_TRANSFER_AUDIO_FILE: 0x22
+    BEGIN_TRANSFER_AUDIO_FILE: 0x80,
+    CONTINUE_TRANSFER_AUDIO_FILE: 0x81,
+    END_TRANSFER_AUDIO_FILE: 0x82
   },
   
   // Server settings
