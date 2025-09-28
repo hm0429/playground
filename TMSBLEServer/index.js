@@ -9,10 +9,15 @@ const FileWatcher = require('./fileWatcher');
 let fileWatcher = null;
 let statusUpdateCallback = null;
 let dataTransferUpdateCallback = null;
-let dataTransferIndicateCallback = null;
 let currentTransfer = null;
 let isConnected = false;
-let nextTransferId = 1; // Transfer ID counter (increments for each transfer)
+
+// Message ID counters per Characteristic
+const messageIdCounters = {
+    CONTROL: 1,      // CONTROL Characteristic message IDs
+    STATUS: 1,       // STATUS Characteristic message IDs  
+    DATA_TRANSFER: 1 // DATA_TRANSFER Characteristic message IDs (transfer sessions)
+};
 
 // Initialize file watcher
 fileWatcher = new FileWatcher(config.AUDIO_DIR);
@@ -35,14 +40,58 @@ fileWatcher.on('ready', (files) => {
 });
 
 // Helper functions for protocol data formatting
-function createPacket(type, id = 0, seq = 0, payload = Buffer.alloc(0)) {
+function createPacket(type, id = 0, seq = 0, payload = Buffer.alloc(0), hasMore = false) {
     const header = Buffer.alloc(7);
     header.writeUInt8(type, 0);              // TYPE (1 byte)
     header.writeUInt16BE(id, 1);             // ID (2 bytes)
-    header.writeUInt16BE(seq, 3);            // SEQ (2 bytes)
+    
+    // SEQ field: bit 15 = MORE flag, bits 0-14 = fragment number
+    const seqValue = hasMore ? (seq | 0x8000) : (seq & 0x7FFF);
+    header.writeUInt16BE(seqValue, 3);       // SEQ (2 bytes)
+    
     header.writeUInt16BE(payload.length, 5); // LENGTH (2 bytes)
     
     return Buffer.concat([header, payload]);
+}
+
+// Fragment large payloads based on MTU
+function createFragmentedPackets(type, id, payload) {
+    const maxPayloadSize = config.MTU_SIZE - 7; // MTU minus header size
+    const packets = [];
+    
+    if (payload.length <= maxPayloadSize) {
+        // Single packet - no fragmentation needed
+        packets.push(createPacket(type, id, 0, payload, false));
+    } else {
+        // Fragment into multiple packets with same ID
+        let offset = 0;
+        let fragmentNum = 0;
+        
+        while (offset < payload.length) {
+            const remaining = payload.length - offset;
+            const chunkSize = Math.min(maxPayloadSize, remaining);
+            const chunk = payload.slice(offset, offset + chunkSize);
+            const hasMore = (offset + chunkSize) < payload.length;
+            
+            packets.push(createPacket(type, id, fragmentNum, chunk, hasMore));
+            
+            offset += chunkSize;
+            fragmentNum++;
+        }
+    }
+    
+    return packets;
+}
+
+// Get next message ID for a specific Characteristic and increment counter
+function getNextMessageId(characteristic) {
+    if (!messageIdCounters.hasOwnProperty(characteristic)) {
+        throw new Error(`Unknown characteristic: ${characteristic}`);
+    }
+    
+    const id = messageIdCounters[characteristic];
+    messageIdCounters[characteristic] = (messageIdCounters[characteristic] + 1) % 65536; // Wrap at 16-bit limit
+    return id;
 }
 
 function parsePacket(data) {
@@ -50,10 +99,15 @@ function parsePacket(data) {
         throw new Error('Invalid packet: too short');
     }
     
+    const seqField = data.readUInt16BE(3);
+    const hasMore = (seqField & 0x8000) !== 0;
+    const fragmentNum = seqField & 0x7FFF;
+    
     return {
         type: data.readUInt8(0),
         id: data.readUInt16BE(1),
-        seq: data.readUInt16BE(3),
+        seq: fragmentNum,
+        hasMore: hasMore,
         length: data.readUInt16BE(5),
         payload: data.slice(7)
     };
@@ -66,9 +120,10 @@ function notifyFileAdded(fileId) {
     const payload = Buffer.alloc(4);
     payload.writeUInt32BE(fileId, 0);
     
-    const packet = createPacket(config.STATUS_TYPES.FILE_ADDED, 0, 0, payload);
+    const messageId = getNextMessageId('STATUS');
+    const packet = createPacket(config.STATUS_TYPES.FILE_ADDED, messageId, 0, payload, false);
     statusUpdateCallback(packet);
-    console.log(`[STATUS] Notified file added: ${fileId}`);
+    console.log(`[STATUS] Notified file added: ${fileId} (STATUS Message ID: ${messageId})`);
 }
 
 function notifyFileDeleted(fileId) {
@@ -77,9 +132,10 @@ function notifyFileDeleted(fileId) {
     const payload = Buffer.alloc(4);
     payload.writeUInt32BE(fileId, 0);
     
-    const packet = createPacket(config.STATUS_TYPES.FILE_DELETED, 0, 0, payload);
+    const messageId = getNextMessageId('STATUS');
+    const packet = createPacket(config.STATUS_TYPES.FILE_DELETED, messageId, 0, payload, false);
     statusUpdateCallback(packet);
-    console.log(`[STATUS] Notified file deleted: ${fileId}`);
+    console.log(`[STATUS] Notified file deleted: ${fileId} (STATUS Message ID: ${messageId})`);
 }
 
 // File transfer functions
@@ -95,16 +151,15 @@ async function startFileTransfer(fileId) {
         return false;
     }
     
-    console.log(`[Transfer] Starting transfer #${nextTransferId} for file: ${fileInfo.name} (${fileInfo.size} bytes)`);
-    console.log(`[Transfer] Using chunk size: ${config.CHUNK_SIZE} bytes (MTU: ${config.MTU_SIZE}, Header: ${config.HEADER_SIZE})`);
+    // Get transfer ID from DATA_TRANSFER characteristic counter
+    const transferId = getNextMessageId('DATA_TRANSFER');
+    
+    console.log(`[Transfer] Starting transfer for file: ${fileInfo.name} (${fileInfo.size} bytes)`);
+    console.log(`[Transfer] DATA_TRANSFER ID: ${transferId}, Chunk size: ${config.CHUNK_SIZE} bytes (MTU: ${config.MTU_SIZE})`);
     
     // Read file data
     const fileData = fs.readFileSync(fileInfo.path);
     const totalChunks = Math.ceil(fileData.length / config.CHUNK_SIZE);
-    
-    // Use incremental transfer ID and wrap around at 16-bit limit
-    const transferId = nextTransferId;
-    nextTransferId = (nextTransferId + 1) % 65536; // Wrap around at 2^16
     
     currentTransfer = {
         fileInfo: fileInfo,
@@ -114,7 +169,7 @@ async function startFileTransfer(fileId) {
         transferId: transferId
     };
     
-    // Send BEGIN_TRANSFER_AUDIO_FILE with metadata (using indicate)
+    // Send BEGIN_TRANSFER_AUDIO_FILE with metadata
     // Metadata structure: FileID(4) + FileSize(4) + Hash(32) + TotalChunks(2) = 42 bytes
     const metadata = Buffer.alloc(4 + 4 + 32 + 2);
     metadata.writeUInt32BE(fileInfo.id, 0);
@@ -125,11 +180,13 @@ async function startFileTransfer(fileId) {
     
     metadata.writeUInt16BE(totalChunks, 40);
     
+    // Use transfer ID for all packets in this transfer session
     const beginPacket = createPacket(
         config.DATA_TRANSFER_TYPES.BEGIN_TRANSFER_AUDIO_FILE,
         currentTransfer.transferId,
-        0,
-        metadata
+        0,  // SEQ=0 for BEGIN packet (single packet, no fragmentation)
+        metadata,
+        false
     );
     
     // Verify packet size doesn't exceed MTU
@@ -139,17 +196,16 @@ async function startFileTransfer(fileId) {
         return false;
     }
     
-    if (dataTransferIndicateCallback) {
-        dataTransferIndicateCallback(beginPacket, (error) => {
-            if (!error) {
-                console.log(`[Transfer] BEGIN packet indicated successfully (Transfer ID: ${transferId})`);
-                // Start sending chunks
-                sendNextChunk();
-            } else {
-                console.error('[Transfer] Failed to indicate BEGIN packet:', error);
-                currentTransfer = null;
-            }
-        });
+    // Send using notify
+    if (dataTransferUpdateCallback) {
+        dataTransferUpdateCallback(beginPacket);
+        console.log(`[Transfer] BEGIN packet sent (DATA_TRANSFER ID: ${transferId})`);
+        // Start sending chunks after a small delay
+        setTimeout(sendNextChunk, 50);
+    } else {
+        console.error('[Transfer] No callback available for sending BEGIN packet');
+        currentTransfer = null;
+        return false;
     }
     
     return true;
@@ -163,7 +219,8 @@ function sendNextChunk() {
     const { fileData, totalChunks, currentChunk, transferId } = currentTransfer;
     
     if (currentChunk >= totalChunks) {
-        console.log('[Transfer] All chunks sent');
+        // All data chunks sent, now send END_TRANSFER_AUDIO_FILE without data
+        sendEndTransfer();
         return;
     }
     
@@ -171,16 +228,14 @@ function sendNextChunk() {
     const end = Math.min(start + config.CHUNK_SIZE, fileData.length);
     const chunk = fileData.slice(start, end);
     
-    const isLastChunk = (currentChunk === totalChunks - 1);
-    const packetType = isLastChunk 
-        ? config.DATA_TRANSFER_TYPES.END_TRANSFER_AUDIO_FILE
-        : config.DATA_TRANSFER_TYPES.TRANSFER_AUDIO_FILE;
-    
+    // Use chunk number as sequence for data transfer packets
+    // This maintains the chunk ordering information
     const packet = createPacket(
-        packetType,
+        config.DATA_TRANSFER_TYPES.TRANSFER_AUDIO_FILE,
         transferId,
-        currentChunk,
-        chunk
+        currentChunk,  // Use chunk number as SEQ for ordering
+        chunk,
+        false  // No MORE flag needed - chunks are already sized for MTU
     );
     
     // Verify packet size doesn't exceed MTU
@@ -190,27 +245,36 @@ function sendNextChunk() {
         return;
     }
     
-    if (isLastChunk && dataTransferIndicateCallback) {
-        // Use indicate for last chunk
-        dataTransferIndicateCallback(packet, (error) => {
-            if (!error) {
-                console.log(`[Transfer] END packet indicated successfully (chunk ${currentChunk + 1}/${totalChunks}, size: ${chunk.length} bytes)`);
-            } else {
-                console.error('[Transfer] Failed to indicate END packet:', error);
-            }
-        });
-    } else {
-        // Use notify for intermediate chunks
-        dataTransferUpdateCallback(packet);
-        console.log(`[Transfer] Sent chunk ${currentChunk + 1}/${totalChunks} (size: ${chunk.length} bytes)`);
-    }
+    // Use notify for all data chunks
+    dataTransferUpdateCallback(packet);
+    console.log(`[Transfer] Sent chunk ${currentChunk + 1}/${totalChunks} (size: ${chunk.length} bytes, SEQ: ${currentChunk})`);
     
     currentTransfer.currentChunk++;
     
-    // Schedule next chunk
-    if (!isLastChunk) {
-        setTimeout(sendNextChunk, 10); // Small delay to avoid overwhelming the connection
+    // Schedule next chunk or end transfer
+    setTimeout(sendNextChunk, 40); // Small delay to avoid overwhelming the connection
+}
+
+function sendEndTransfer() {
+    if (!currentTransfer || !dataTransferUpdateCallback) {
+        return;
     }
+    
+    const { transferId, totalChunks } = currentTransfer;
+    
+    // Send END_TRANSFER_AUDIO_FILE with no payload
+    // Use the same transfer ID, SEQ=0 as it's a single packet
+    const packet = createPacket(
+        config.DATA_TRANSFER_TYPES.END_TRANSFER_AUDIO_FILE,
+        transferId,
+        0,  // SEQ=0 for END packet (single packet)
+        Buffer.alloc(0), // Empty payload
+        false  // No MORE flag
+    );
+    
+    // Send using notify
+    dataTransferUpdateCallback(packet);
+    console.log(`[Transfer] END packet sent (DATA_TRANSFER ID: ${transferId}, Total chunks: ${totalChunks})`);
 }
 
 function completeFileTransfer(fileId) {
@@ -285,18 +349,14 @@ const statusCharacteristic = new bleno.Characteristic({
 
 const dataTransferCharacteristic = new bleno.Characteristic({
     uuid: config.CHARACTERISTICS.DATA_TRANSFER,
-    properties: ['notify', 'indicate'],
+    properties: ['notify'],
     onSubscribe: (maxValueSize, updateValueCallback) => {
-        console.log(`[DATA_TRANSFER] Client subscribed for notify (max value size: ${maxValueSize})`);
+        console.log(`[DATA_TRANSFER] Client subscribed (max value size: ${maxValueSize})`);
         dataTransferUpdateCallback = updateValueCallback;
     },
     onUnsubscribe: () => {
-        console.log('[DATA_TRANSFER] Client unsubscribed from notify');
+        console.log('[DATA_TRANSFER] Client unsubscribed');
         dataTransferUpdateCallback = null;
-    },
-    onIndicate: (updateValueCallback) => {
-        console.log('[DATA_TRANSFER] Client subscribed for indicate');
-        dataTransferIndicateCallback = updateValueCallback;
     }
 });
 
@@ -349,9 +409,11 @@ bleno.on('disconnect', (clientAddress) => {
     currentTransfer = null;
     statusUpdateCallback = null;
     dataTransferUpdateCallback = null;
-    dataTransferIndicateCallback = null;
-    // Optionally reset transfer ID on disconnect (comment out to keep incrementing across sessions)
-    // nextTransferId = 1;
+    
+    // Reset message ID counters on disconnect (optional - comment out to persist across connections)
+    // messageIdCounters.CONTROL = 1;
+    // messageIdCounters.STATUS = 1;
+    // messageIdCounters.DATA_TRANSFER = 1;
 });
 
 // Graceful shutdown
@@ -366,3 +428,4 @@ console.log('[BLE Server] TMS BLE Server starting...');
 console.log(`[BLE Server] Audio directory: ${config.AUDIO_DIR.replace(/^~/, os.homedir())}`);
 console.log(`[BLE Server] Service UUID: ${config.SERVICE_UUID}`);
 console.log(`[BLE Server] MTU: ${config.MTU_SIZE} bytes, Chunk size: ${config.CHUNK_SIZE} bytes`);
+console.log(`[BLE Server] ID Counters - CONTROL: ${messageIdCounters.CONTROL}, STATUS: ${messageIdCounters.STATUS}, DATA_TRANSFER: ${messageIdCounters.DATA_TRANSFER}`);

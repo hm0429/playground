@@ -1,0 +1,38 @@
+[
+  {
+    "action": "add",
+    "keyword": "PROJECT",
+    "value": "Sample Project",
+    "comment": "Project name"
+  },
+  {
+    "action": "add",
+    "keyword": "VERSION",
+    "value": "1.0",
+    "comment": "Data version"
+  },
+  {
+    "action": "update",
+    "keyword": "OBSERVER",
+    "value": "Updated Observer",
+    "comment": "Updated via batch"
+  },
+  {
+    "action": "add",
+    "keyword": "PROCDATE",
+    "value": "2024-01-15",
+    "comment": "Processing date"
+  },
+  {
+    "action": "add",
+    "keyword": "QUALITY",
+    "value": 1,
+    "comment": "Quality flag (1=good)"
+  },
+  {
+    "action": "add",
+    "keyword": "VERIFIED",
+    "value": true,
+    "comment": "Data verification status"
+  }
+]

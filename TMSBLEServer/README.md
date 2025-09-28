@@ -84,6 +84,21 @@ The server uses an MTU (Maximum Transmission Unit) of 512 bytes by default. The 
 
 This ensures that each BLE packet, including the protocol header, fits within the MTU limit.
 
+### Message ID Management
+
+- Each Characteristic maintains its own ID counter (1-65535)
+- ID counters are independent between Characteristics:
+  - CONTROL: Separate ID space for control messages
+  - STATUS: Separate ID space for status notifications  
+  - DATA_TRANSFER: Separate ID space for file transfers
+- Fragmented messages share the same ID with different SEQ numbers
+- ID field usage:
+  - STATUS/CONTROL: New ID for each message
+  - DATA_TRANSFER: Same ID throughout the entire transfer session
+- SEQ field format: bit 15 = MORE flag, bits 0-14 = fragment number
+- For TRANSFER_AUDIO_FILE packets, SEQ contains the chunk number
+- Single-packet messages use SEQ=0 with MORE=0
+
 ## Requirements
 
 - Node.js 14 or higher
@@ -114,8 +129,8 @@ sudo setcap cap_net_raw+eip $(eval readlink -f $(which node))
 
 1. Server detects new audio file → STATUS: FILE_ADDED
 2. Client requests transfer → CONTROL: START_TRANSFER
-3. Server sends metadata → DATA_TRANSFER: BEGIN
+3. Server sends metadata → DATA_TRANSFER: BEGIN (with hash)
 4. Server sends chunks → DATA_TRANSFER: TRANSFER
-5. Server sends final chunk → DATA_TRANSFER: END
-6. Client confirms completion → CONTROL: COMPLETE
+5. Server sends end signal → DATA_TRANSFER: END (no payload)
+6. Client verifies hash and confirms → CONTROL: COMPLETE
 7. Server deletes file → STATUS: FILE_DELETED

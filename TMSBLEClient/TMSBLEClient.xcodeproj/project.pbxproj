@@ -7,29 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F1234561234567890123456 /* TMSBLEClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1234551234567890123456 /* TMSBLEClientApp.swift */; };
-		8F1234581234567890123456 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1234571234567890123456 /* ContentView.swift */; };
-		8F12345A1234567890123456 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1234591234567890123456 /* BLEManager.swift */; };
-		8F12345C1234567890123456 /* AudioFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F12345B1234567890123456 /* AudioFile.swift */; };
-		8F12345E1234567890123456 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F12345D1234567890123456 /* AudioPlayer.swift */; };
-		8F1234621234567890123456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1234611234567890123456 /* Assets.xcassets */; };
-		8F1234651234567890123456 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1234641234567890123456 /* Preview Assets.xcassets */; };
+		A1A1A1A12C000000000000001 /* TMSBLEClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1A02C000000000000001 /* TMSBLEClientApp.swift */; };
+		A1A1A1A22C000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1A02C000000000000002 /* ContentView.swift */; };
+		A1A1A1A32C000000000000003 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1A02C000000000000003 /* BLEManager.swift */; };
+		A1A1A1A42C000000000000004 /* AudioFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1A02C000000000000004 /* AudioFile.swift */; };
+		A1A1A1A52C000000000000005 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1A02C000000000000005 /* AudioPlayer.swift */; };
+		A1A1A1A62C000000000000006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A1A1A02C000000000000006 /* Assets.xcassets */; };
+		A1A1A1A72C000000000000007 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A1A1A02C000000000000007 /* Preview Assets.xcassets */; };
+		A1A1A1A82C000000000000008 /* TransferManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1A02C000000000000008 /* TransferManager.swift */; };
+		A1A1A1A92C000000000000009 /* PacketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1A02C000000000000009 /* PacketParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8F1234521234567890123456 /* TMSBLEClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMSBLEClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F1234551234567890123456 /* TMSBLEClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMSBLEClientApp.swift; sourceTree = "<group>"; };
-		8F1234571234567890123456 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8F1234591234567890123456 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
-		8F12345B1234567890123456 /* AudioFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioFile.swift; sourceTree = "<group>"; };
-		8F12345D1234567890123456 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
-		8F1234611234567890123456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8F1234641234567890123456 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8F1234661234567890123456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1A1A1A02C000000000000000 /* TMSBLEClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMSBLEClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A1A1A02C000000000000001 /* TMSBLEClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMSBLEClientApp.swift; sourceTree = "<group>"; };
+		A1A1A1A02C000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1A1A1A02C000000000000003 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		A1A1A1A02C000000000000004 /* AudioFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioFile.swift; sourceTree = "<group>"; };
+		A1A1A1A02C000000000000005 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		A1A1A1A02C000000000000006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1A1A1A02C000000000000007 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1A1A1A02C000000000000008 /* TransferManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferManager.swift; sourceTree = "<group>"; };
+		A1A1A1A02C000000000000009 /* PacketParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketParser.swift; sourceTree = "<group>"; };
+		A1A1A1A02C00000000000000A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8F12344F1234567890123456 /* Frameworks */ = {
+		A1A1A1A12C00000000000000B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,41 +43,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8F1234491234567890123456 = {
+		A1A1A1A02C00000000000000C = {
 			isa = PBXGroup;
 			children = (
-				8F1234541234567890123456 /* TMSBLEClient */,
-				8F1234531234567890123456 /* Products */,
+				A1A1A1A02C00000000000000D /* TMSBLEClient */,
+				A1A1A1A02C00000000000000E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8F1234531234567890123456 /* Products */ = {
+		A1A1A1A02C00000000000000D /* TMSBLEClient */ = {
 			isa = PBXGroup;
 			children = (
-				8F1234521234567890123456 /* TMSBLEClient.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8F1234541234567890123456 /* TMSBLEClient */ = {
-			isa = PBXGroup;
-			children = (
-				8F1234551234567890123456 /* TMSBLEClientApp.swift */,
-				8F1234571234567890123456 /* ContentView.swift */,
-				8F1234591234567890123456 /* BLEManager.swift */,
-				8F12345B1234567890123456 /* AudioFile.swift */,
-				8F12345D1234567890123456 /* AudioPlayer.swift */,
-				8F1234611234567890123456 /* Assets.xcassets */,
-				8F1234661234567890123456 /* Info.plist */,
-				8F1234631234567890123456 /* Preview Content */,
+				A1A1A1A02C000000000000001 /* TMSBLEClientApp.swift */,
+				A1A1A1A02C000000000000002 /* ContentView.swift */,
+				A1A1A1A02C000000000000003 /* BLEManager.swift */,
+				A1A1A1A02C000000000000008 /* TransferManager.swift */,
+				A1A1A1A02C000000000000009 /* PacketParser.swift */,
+				A1A1A1A02C000000000000004 /* AudioFile.swift */,
+				A1A1A1A02C000000000000005 /* AudioPlayer.swift */,
+				A1A1A1A02C000000000000006 /* Assets.xcassets */,
+				A1A1A1A02C00000000000000A /* Info.plist */,
+				A1A1A1A02C00000000000000F /* Preview Content */,
 			);
 			path = TMSBLEClient;
 			sourceTree = "<group>";
 		};
-		8F1234631234567890123456 /* Preview Content */ = {
+		A1A1A1A02C00000000000000E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8F1234641234567890123456 /* Preview Assets.xcassets */,
+				A1A1A1A02C000000000000000 /* TMSBLEClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1A1A1A02C00000000000000F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1A1A1A02C000000000000007 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -81,13 +87,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8F1234511234567890123456 /* TMSBLEClient */ = {
+		A1A1A1A02C000000000000010 /* TMSBLEClient */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F1234691234567890123456 /* Build configuration list for PBXNativeTarget "TMSBLEClient" */;
+			buildConfigurationList = A1A1A1A02C000000000000011 /* Build configuration list for PBXNativeTarget "TMSBLEClient" */;
 			buildPhases = (
-				8F12344E1234567890123456 /* Sources */,
-				8F12344F1234567890123456 /* Frameworks */,
-				8F1234501234567890123456 /* Resources */,
+				A1A1A1A12C00000000000000B /* Frameworks */,
+				A1A1A1A12C000000000000012 /* Sources */,
+				A1A1A1A12C000000000000013 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -95,25 +101,25 @@
 			);
 			name = TMSBLEClient;
 			productName = TMSBLEClient;
-			productReference = 8F1234521234567890123456 /* TMSBLEClient.app */;
+			productReference = A1A1A1A02C000000000000000 /* TMSBLEClient.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8F12344A1234567890123456 /* Project object */ = {
+		A1A1A1A02C000000000000014 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					8F1234511234567890123456 = {
-						CreatedOnToolsVersion = 15.0;
+					A1A1A1A02C000000000000010 = {
+						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = 8F12344D1234567890123456 /* Build configuration list for PBXProject "TMSBLEClient" */;
+			buildConfigurationList = A1A1A1A02C000000000000015 /* Build configuration list for PBXProject "TMSBLEClient" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,49 +127,50 @@
 				en,
 				Base,
 			);
-			mainGroup = 8F1234491234567890123456;
-			productRefGroup = 8F1234531234567890123456 /* Products */;
+			mainGroup = A1A1A1A02C00000000000000C;
+			productRefGroup = A1A1A1A02C00000000000000E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8F1234511234567890123456 /* TMSBLEClient */,
+				A1A1A1A02C000000000000010 /* TMSBLEClient */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8F1234501234567890123456 /* Resources */ = {
+		A1A1A1A12C000000000000013 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F1234651234567890123456 /* Preview Assets.xcassets in Resources */,
-				8F1234621234567890123456 /* Assets.xcassets in Resources */,
+				A1A1A1A62C000000000000006 /* Assets.xcassets in Resources */,
+				A1A1A1A72C000000000000007 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8F12344E1234567890123456 /* Sources */ = {
+		A1A1A1A12C000000000000012 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F1234581234567890123456 /* ContentView.swift in Sources */,
-				8F12345A1234567890123456 /* BLEManager.swift in Sources */,
-				8F12345C1234567890123456 /* AudioFile.swift in Sources */,
-				8F12345E1234567890123456 /* AudioPlayer.swift in Sources */,
-				8F1234561234567890123456 /* TMSBLEClientApp.swift in Sources */,
+				A1A1A1A12C000000000000001 /* TMSBLEClientApp.swift in Sources */,
+				A1A1A1A22C000000000000002 /* ContentView.swift in Sources */,
+				A1A1A1A32C000000000000003 /* BLEManager.swift in Sources */,
+				A1A1A1A42C000000000000004 /* AudioFile.swift in Sources */,
+				A1A1A1A52C000000000000005 /* AudioPlayer.swift in Sources */,
+				A1A1A1A82C000000000000008 /* TransferManager.swift in Sources */,
+				A1A1A1A92C000000000000009 /* PacketParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8F1234671234567890123456 /* Debug */ = {
+		A1A1A1A02C000000000000016 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -196,8 +203,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -212,21 +218,19 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		8F1234681234567890123456 /* Release */ = {
+		A1A1A1A02C000000000000017 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -259,8 +263,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -269,16 +272,16 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		8F12346A1234567890123456 /* Debug */ = {
+		A1A1A1A02C000000000000018 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -295,7 +298,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,7 +312,7 @@
 			};
 			name = Debug;
 		};
-		8F12346B1234567890123456 /* Release */ = {
+		A1A1A1A02C000000000000019 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -326,7 +329,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -343,25 +346,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8F12344D1234567890123456 /* Build configuration list for PBXProject "TMSBLEClient" */ = {
+		A1A1A1A02C000000000000011 /* Build configuration list for PBXNativeTarget "TMSBLEClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F1234671234567890123456 /* Debug */,
-				8F1234681234567890123456 /* Release */,
+				A1A1A1A02C000000000000018 /* Debug */,
+				A1A1A1A02C000000000000019 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F1234691234567890123456 /* Build configuration list for PBXNativeTarget "TMSBLEClient" */ = {
+		A1A1A1A02C000000000000015 /* Build configuration list for PBXProject "TMSBLEClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F12346A1234567890123456 /* Debug */,
-				8F12346B1234567890123456 /* Release */,
+				A1A1A1A02C000000000000016 /* Debug */,
+				A1A1A1A02C000000000000017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8F12344A1234567890123456 /* Project object */;
+	rootObject = A1A1A1A02C000000000000014 /* Project object */;
 }
