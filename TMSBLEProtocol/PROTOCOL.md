@@ -47,7 +47,7 @@ Service UUID: 572542C4-2198-4D1E-9820-1FEAEA1BB9D0
 | 名前 | 値 | ペイロード | 説明 |
 |---------|-----|-----------|------|
 | START_TRANSFER_AUDIO_FILE | 0x01 | File ID (4 bytes) | 音声ファイルの転送開始指示 |
-| COMPLETE_TRANSFER_AUDIO_FILE | 0x04 | File ID (4 bytes) | 転送完了通知（ファイル削除） |
+| COMPLETE_TRANSFER_AUDIO_FILE | 0x02 | File ID (4 bytes) | 転送完了通知（ファイル削除） |
 
 **File ID**
 - 音声ファイルの ID
