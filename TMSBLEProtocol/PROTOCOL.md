@@ -14,7 +14,7 @@ Service UUID: 572542C4-2198-4D1E-9820-1FEAEA1BB9D0
 
 | Characteristic | UUID | Properties | Description |
 |---------------|------|------------|------|
-| CONTROL | 572542C4-2198-4D1E-9820-1FEAEA1BB9D1 | Write with Response | 操作命令の送受信 |
+| CONTROL | 572542C4-2198-4D1E-9820-1FEAEA1BB9D1 | Write with Response, Indicate | 操作命令の送受信 |
 | STATUS | 572542C4-2198-4D1E-9820-1FEAEA1BB9D2 | Notify | ステータス通知 |
 | DATA_TRANSFER | 572542C4-2198-4D1E-9820-1FEAEA1BB9D3 | Notify | データ転送 |
 
