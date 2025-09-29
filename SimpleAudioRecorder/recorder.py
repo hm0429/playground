@@ -83,7 +83,6 @@ class RotatingWavWriter:
         self.current_file = sf.SoundFile(fpath, mode="w", samplerate=self.samplerate,
                                          channels=self.channels, subtype="PCM_16")
         self.samples_written_this_segment = 0
-        # print(f"[INFO] 開始: {fpath}")
 
     def _close_current_file(self):
         if self.current_file is None:
@@ -97,6 +96,9 @@ class RotatingWavWriter:
             mp3_path = os.path.splitext(wav_path)[0] + ".mp3"
             # 非同期エンコード
             self.encode_q.put((wav_path, mp3_path))
+            print(f"[INFO] Saved MP3: {mp3_path}")
+        else:
+            print(f"[INFO] Saved WAV: {wav_path}")
 
         self.current_file = None
 
