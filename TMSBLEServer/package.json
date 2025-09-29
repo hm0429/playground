@@ -1,0 +1,16 @@
+{
+  "name": "tms-ble-server",
+  "version": "1.0.0",
+  "description": "TMS BLE Server implementation following TMSBLEProtocol",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@abandonware/bleno": "^0.6.2",
+    "chokidar": "^3.5.3"
+  }
+}
