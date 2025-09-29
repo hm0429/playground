@@ -12,3 +12,4 @@ BLEServer の実装には、BLETDataTransferExample/Peripheral/index.js を参�
 
 BLE のコネクションが切れたら、各種ステートをリセットするようにしてください。
 
+データの転送状況がわかるように、コンソールへのログ出力を丁寧に行ってください。
